@@ -1,0 +1,17 @@
+{
+  "id": "gbg-gyotaejeon",
+  "name_ko": "교태전",
+  "name_en": "Gyotaejeon",
+  "palace": "gyeongbokgung",
+  "aliases": [],
+  "status": "unresearched",
+  "source_ids": [],
+  "states": [],
+  "elements": [],
+  "observations": [],
+  "gaps": [
+    "Find and retain a primary measured/restoration source; verify its actual contents.",
+    "Identify the documented state of each relevant plan/section before combining observations.",
+    "Locate dimensioned room/partition plans, openings, floor and ceiling levels, and useful sections."
+  ]
+}

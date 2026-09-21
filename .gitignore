@@ -1,0 +1,12 @@
+# Local scratch, not source preservation.
+.cache/
+.venv/
+__pycache__/
+*.pyc
+*.tmp
+*.part
+.DS_Store
+Thumbs.db
+
+# Keep source records, originals, and useful derivatives visible to Git.
+# Binary handling is declared in .gitattributes; do not ignore acquired originals.
