@@ -1,16 +1,6 @@
 * text=auto
 *.md text eol=lf
 *.json text eol=lf
+*.svg text eol=lf
 
-# Originals remain unmodified and are stored via Git LFS.
-sources/**/originals/** filter=lfs diff=lfs merge=lfs -text
-
-# Selected binary drawing derivatives; derived text/SVG remain ordinary Git.
-sources/**/derived/**/*.png filter=lfs diff=lfs merge=lfs -text
-sources/**/derived/**/*.jpg filter=lfs diff=lfs merge=lfs -text
-sources/**/derived/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
-sources/**/derived/**/*.tif filter=lfs diff=lfs merge=lfs -text
-sources/**/derived/**/*.tiff filter=lfs diff=lfs merge=lfs -text
-sources/**/derived/**/*.pdf filter=lfs diff=lfs merge=lfs -text
-sources/**/derived/**/*.dwg filter=lfs diff=lfs merge=lfs -text
-sources/**/derived/**/*.dxf filter=lfs diff=lfs merge=lfs -text
+# Research binaries live in Dropbox PalaceData, not Git or Git LFS.

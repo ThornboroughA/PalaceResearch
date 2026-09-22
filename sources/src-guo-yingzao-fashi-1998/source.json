@@ -1,0 +1,64 @@
+{
+  "id": "src-guo-yingzao-fashi-1998",
+  "title_ko": null,
+  "title_en": "Yingzao Fashi: Twelfth-Century Chinese Building Manual",
+  "creators": ["Qinghua Guo"],
+  "publisher": "SAHGB Publications Limited",
+  "publication_date": "1998",
+  "journal": {"title": "Architectural History", "volume": "41", "printed_pages": "1-13"},
+  "evidence_kind": "academic_analysis",
+  "catalog_url": "https://www.jstor.org/stable/1568644",
+  "identifiers": {"jstor": "1568644"},
+  "building_ids": [],
+  "coverage_names_ko": [],
+  "topics": ["comparative-context", "timber-grading", "proportions"],
+  "scope": "Modern article about the Yingzao Fashi and Song Chinese building standards; the supplied PDF is not the historical manual itself.",
+  "relevance": "Useful comparative explanation of an explicitly described timber grading system. It supplies no established construction rule or dimension for a Joseon building.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-21",
+    "note": "Acquired by copying the owner's supplied EastAsia_ArchitectureCorpus PDF. The stable JSTOR URL is printed on PDF page 1; use that article record for authorized reacquisition if needed. Online access was not tested in this batch. The retained PDF includes the JSTOR wrapper as page 1."
+  },
+  "rights": {
+    "statement": "The JSTOR wrapper on PDF page 1 refers to JSTOR Terms and Conditions of Use. No broader reuse grant was established from the inspected pages.",
+    "url": "https://about.jstor.org/terms",
+    "redistribution": "unknown"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-guo-yingzao-fashi-1998/originals/article.pdf",
+      "original_filename": "1998 Yingzao Fashi - Twelgth-Century Chinese Building Manual -- Qinghua Guo.pdf",
+      "retrieved_from": "Owner-supplied local folder EastAsia_ArchitectureCorpus; JSTOR article 1568644 identified in the PDF wrapper",
+      "retrieved_on": "2026-09-21",
+      "media_type": "application/pdf",
+      "pdf_page_count": 14,
+      "bytes": 822231,
+      "sha256": "b2b9bf71c7802d01f388622039679d0725e8ed76a89a5c09d5936569e4b80ba6",
+      "storage": "dropbox",
+      "verification_note": "Checked %PDF- header, 14-page pypdf parse and readable native text; inspected complete Poppler renders of PDF pages 7 and 8. Dropbox copy size and SHA-256 match the supplied original. No file content was changed."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "Guo describes the Yingzao Fashi's cai-fen system as a modular system with eight timber grades related to building scale, illustrated in figure 2. The discussion places this system within Song Chinese state building standards.",
+      "topics": ["comparative-context", "timber-grading", "proportions"],
+      "scope": "Guo's account of the historical Chinese manual. Its application to Joseon construction has not been established, and none of its units or dimensions has been adopted for this project's buildings.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {"source_id": "src-guo-yingzao-fashi-1998", "artifact_id": "original-01", "pdf_page": 7, "printed_page": "6", "locator_note": "The Cai-fen System and Classified State Building Standards"},
+        {"source_id": "src-guo-yingzao-fashi-1998", "artifact_id": "original-01", "pdf_page": 8, "printed_page": "7", "locator_note": "Figure 2 and continuation of the cai-fen discussion"}
+      ],
+      "review_note": "Agent read the native text and visually inspected both complete pages on 2026-09-21, checking the eight-grade wording and figure caption. This is verification of the article's statement, not a check against the historical manual or Korean architectural evidence."
+    }
+  ],
+  "work": {
+    "next_action": "Retain as comparative background. Revisit when a specific Korean source raises a timber grading or dimensional-system question; no further general extraction is required now.",
+    "blocker": null,
+    "retry_when": null
+  }
+}

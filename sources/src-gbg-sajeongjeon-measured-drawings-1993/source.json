@@ -1,0 +1,719 @@
+{
+  "id": "src-gbg-sajeongjeon-measured-drawings-1993",
+  "title_ko": "경복궁 사정전 실측설계",
+  "title_en": null,
+  "creators": [
+    "銀河建築士事務所 / EUN HA ARCHITECTS & ENGINEERS"
+  ],
+  "publisher": null,
+  "publication_date": null,
+  "evidence_kind": "measured_survey_and_repair_drawings",
+  "catalog_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121117590000&pageNo=1_1_1_1&sngl=Y",
+  "building_ids": [
+    "gbg-sajeongjeon"
+  ],
+  "coverage_names_ko": [
+    "사정전"
+  ],
+  "topics": [
+    "column-grid",
+    "interior-layout",
+    "openings",
+    "floor-assembly",
+    "ceilings",
+    "roof-structure"
+  ],
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-21",
+    "note": "Ten selected public raster sheets retained: two earlier originals plus eight acquired in the inspection batch. Use the portal drawing list or the recorded file_seq viewer URLs. Similar catalogue entries not selected here remain untested for duplication.",
+    "download_route": "Public drawing viewer > displayed JPEG image / 파일 다운로드; retained the displayed full-resolution JPEG assets.",
+    "coverage_note": "Selected existing plan, two central sections and one side-bay section, ceiling plan, measured bay/level diagrams, south/north opening details, and repair plan/section. All ten inspected; five contain annotated measurements. East/west opening details and general measurement conventions remain outstanding."
+  },
+  "rights": {
+    "statement": "Each of the ten retained image viewers identifies 국가유산청 as copyright holder and links its attribution badge to KOGL Type 1. Attribute 국가유산청 / 국가유산원형기록정보시스템 and the drawing author. Retained bytes are unchanged.",
+    "url": "https://www.kogl.or.kr/open/info/license_info/by.do",
+    "redistribution": "permitted_under_stated_KOGL_Type_1_conditions",
+    "checked_on": "2026-09-21"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2221033005.jpg",
+      "original_filename": "2221033005.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2221033005.jpg",
+      "retrieved_on": "2026-09-21",
+      "media_type": "image/jpeg",
+      "bytes": 1817083,
+      "sha256": "836e6ab430b14a0ecabe61242b1ed7cb76b3a2febe29a97565e4b171cd4d644a",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        6292,
+        4563
+      ],
+      "verification_note": "JPEG FF D8 FF signature; Pillow verify and full pixel decode succeeded at the recorded Dropbox path. SHA-256 matches the downloaded image. Agent visually inspected the full drawing and title block. Original means the unchanged portal-delivered JPEG, not native CAD or an original paper sheet."
+    },
+    {
+      "id": "original-02",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2221033011.jpg",
+      "original_filename": "2221033011.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2221033011.jpg",
+      "retrieved_on": "2026-09-21",
+      "media_type": "image/jpeg",
+      "bytes": 1500895,
+      "sha256": "9a95384b9c61f392289fe62fe51691cf953cb25e96e2690feba5b92a5e2a7383",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        6276,
+        4574
+      ],
+      "verification_note": "JPEG FF D8 FF signature; Pillow verify and full pixel decode succeeded at the recorded Dropbox path. SHA-256 matches the downloaded image. Agent visually inspected the full drawing and title block. Original means the unchanged portal-delivered JPEG, not native CAD or an original paper sheet."
+    },
+    {
+      "id": "original-03",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2221033037.jpg",
+      "original_filename": "2221033037.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2221033037.jpg",
+      "retrieved_on": "2026-09-21",
+      "media_type": "image/jpeg",
+      "bytes": 962908,
+      "sha256": "373b16e7148076536f56f8d38a01ba6e857460d2f2fa36b554d7299af9d102bc",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        6299,
+        4602
+      ],
+      "verification_note": "Unchanged public portal JPEG exported via browser page-assets. JPEG FF D8 FF signature, Pillow verify/full pixel decode, byte count and SHA-256 checked at the recorded Dropbox path against the downloaded file. Agent inspected the full sheet and title block; not native CAD."
+    },
+    {
+      "id": "original-04",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2221033010.jpg",
+      "original_filename": "2221033010.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2221033010.jpg",
+      "retrieved_on": "2026-09-21",
+      "media_type": "image/jpeg",
+      "bytes": 1276263,
+      "sha256": "9d64b15b9c3668a8b49f06b30bb3bc2d6280cec7b44bb634527162ad71065963",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        6270,
+        4608
+      ],
+      "verification_note": "Unchanged public portal JPEG exported via browser page-assets. JPEG FF D8 FF signature, Pillow verify/full pixel decode, byte count and SHA-256 checked at the recorded Dropbox path against the downloaded file. Agent inspected the full sheet and title block; not native CAD."
+    },
+    {
+      "id": "original-05",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2221033012.jpg",
+      "original_filename": "2221033012.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2221033012.jpg",
+      "retrieved_on": "2026-09-21",
+      "media_type": "image/jpeg",
+      "bytes": 1545218,
+      "sha256": "938ed0f53d5a4fcdffdc3add04197b8561160c77eafdc5013735f901c359a395",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        6207,
+        4554
+      ],
+      "verification_note": "Unchanged public portal JPEG exported via browser page-assets. JPEG FF D8 FF signature, Pillow verify/full pixel decode, byte count and SHA-256 checked at the recorded Dropbox path against the downloaded file. Agent inspected the full sheet and title block; not native CAD."
+    },
+    {
+      "id": "original-06",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2220784015.jpg",
+      "original_filename": "2220784015.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0094/2220784015.jpg",
+      "retrieved_on": "2026-09-21",
+      "media_type": "image/jpeg",
+      "bytes": 641340,
+      "sha256": "757309e3140187cabd20dbbb0e22ea73e9b2b703f2726119cb176305e00c6b83",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        2252,
+        1669
+      ],
+      "verification_note": "Unchanged public portal JPEG exported via browser page-assets. JPEG FF D8 FF signature, Pillow verify/full pixel decode, byte count and SHA-256 checked at the recorded Dropbox path against the downloaded file. Agent inspected the full sheet and title block; not native CAD."
+    },
+    {
+      "id": "original-07",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2221033021.jpg",
+      "original_filename": "2221033021.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2221033021.jpg",
+      "retrieved_on": "2026-09-21",
+      "media_type": "image/jpeg",
+      "bytes": 1891125,
+      "sha256": "9ba61beab1367d9fdaedb328c0ffce78bdd5a869263ada59d1826ef9f5934925",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        6297,
+        4558
+      ],
+      "verification_note": "Unchanged public portal JPEG exported via browser page-assets. JPEG FF D8 FF signature, Pillow verify/full pixel decode, byte count and SHA-256 checked at the recorded Dropbox path against the downloaded file. Agent inspected the full sheet and title block; not native CAD."
+    },
+    {
+      "id": "original-08",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2221033023.jpg",
+      "original_filename": "2221033023.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2221033023.jpg",
+      "retrieved_on": "2026-09-21",
+      "media_type": "image/jpeg",
+      "bytes": 2062701,
+      "sha256": "d3c2b3841d282879d983fb241530caabefd19dfa30a1aee9fc750cbab9d8a004",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        6284,
+        4596
+      ],
+      "verification_note": "Unchanged public portal JPEG exported via browser page-assets. JPEG FF D8 FF signature, Pillow verify/full pixel decode, byte count and SHA-256 checked at the recorded Dropbox path against the downloaded file. Agent inspected the full sheet and title block; not native CAD."
+    },
+    {
+      "id": "original-09",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2220784050.jpg",
+      "original_filename": "2220784050.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2220784050.jpg",
+      "retrieved_on": "2026-09-21",
+      "media_type": "image/jpeg",
+      "bytes": 484650,
+      "sha256": "eeb5b5d6a5b90bd3dc70bbe5ceab81b73adbb717c74f0fa09614ddab39ffc364",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        2284,
+        1669
+      ],
+      "verification_note": "Unchanged public portal JPEG exported via browser page-assets. JPEG FF D8 FF signature, Pillow verify/full pixel decode, byte count and SHA-256 checked at the recorded Dropbox path against the downloaded file. Agent inspected the full sheet and title block; not native CAD."
+    },
+    {
+      "id": "original-10",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2220784055.jpg",
+      "original_filename": "2220784055.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2220784055.jpg",
+      "retrieved_on": "2026-09-21",
+      "media_type": "image/jpeg",
+      "bytes": 358544,
+      "sha256": "7c86d21fc33b11a727b07370380a8b8dcaa983228996c87d81c13bcb9b5a9bc8",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        2304,
+        1655
+      ],
+      "verification_note": "Unchanged public portal JPEG exported via browser page-assets. JPEG FF D8 FF signature, Pillow verify/full pixel decode, byte count and SHA-256 checked at the recorded Dropbox path against the downloaded file. Agent inspected the full sheet and title block; not native CAD."
+    }
+  ],
+  "sheets": [
+    {
+      "id": "sheet-001",
+      "artifact_id": "original-01",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "001",
+      "title_ko": "현황평면도",
+      "kind": "plan",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "column-grid",
+        "interior-layout",
+        "floor-assembly"
+      ],
+      "has_dimensions": false,
+      "documented_state": "Title block identifies 경복궁사정전실측설계, dated 1993.12. The plan is labelled 현황평면도. Exact survey dates and relation to repair/restoration work are unresolved; do not equate this set with the 2014 survey or an untouched 1867 state.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": null,
+      "inspection_note": "Agent visually inspected on 2026-09-21 using the downloaded full-sheet image. Title, sheet number and month read from the bottom title block. No annotated building dimensions seen; a graphic scale and 1/30 title-block scale are present. No scan-based measurements were calculated.",
+      "catalogue_file_seq": "2868193"
+    },
+    {
+      "id": "sheet-002",
+      "artifact_id": "original-02",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "007",
+      "title_ko": "협칸종단면도",
+      "kind": "section",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "openings",
+        "floor-assembly",
+        "ceilings",
+        "roof-structure"
+      ],
+      "has_dimensions": false,
+      "documented_state": "Title block identifies 경복궁사정전실측설계, 1993.12, and 협칸종단면도 (sheet 007). Exact survey date and relation to repair/restoration work are unresolved; this is separate from the 2014 survey and is not an untouched 1867 state.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": null,
+      "inspection_note": "Agent visually inspected on 2026-09-21 using the downloaded full-sheet image. Title, sheet number and month read from the bottom title block. No annotated building dimensions seen; a graphic scale and 1/30 title-block scale are present. No scan-based measurements were calculated.",
+      "catalogue_file_seq": "2868195"
+    },
+    {
+      "id": "sheet-003",
+      "artifact_id": "original-03",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "033",
+      "title_ko": "평면주칸,포간격,기둥레벨,안쏠림 실측도",
+      "kind": "measured-diagrams",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "column-grid",
+        "levels",
+        "measurement-basis"
+      ],
+      "has_dimensions": true,
+      "documented_state": "Measured/existing-condition drawing group within the 1993.12 set; exact field-survey date and relation to executed repairs remain unresolved.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": null,
+      "inspection_note": "Agent visual inspection, 2026-09-21. Four measured diagrams: bay spacing, bracket spacing, column-top levels and inclination. Full sheet, title block and enlarged upper-left/lower-left captions checked. Parentheses in the bay diagram explicitly denote upper bay measurements. No general linear-unit declaration, surveyed datum location, or cardinal orientation was established; these must be settled before numerical extraction.",
+      "catalogue_file_seq": "2868184"
+    },
+    {
+      "id": "sheet-004",
+      "artifact_id": "original-04",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "006",
+      "title_ko": "어칸종단면도",
+      "kind": "section",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "interior-layout",
+        "floor-assembly",
+        "ceilings",
+        "roof-structure"
+      ],
+      "has_dimensions": false,
+      "documented_state": "Measured/existing-condition drawing group within the 1993.12 set; exact field-survey date and relation to executed repairs remain unresolved.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": null,
+      "inspection_note": "Agent visual inspection, 2026-09-21. Full central longitudinal section and its cut-location key inspected. It links the raised timber floor, tall internal supports, ceiling planes and roof frame; graphic/title-block scales are not building dimensions.",
+      "catalogue_file_seq": "2868152"
+    },
+    {
+      "id": "sheet-005",
+      "artifact_id": "original-05",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "008",
+      "title_ko": "어칸횡단면도",
+      "kind": "section",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "interior-layout",
+        "ceilings",
+        "roof-structure",
+        "partitions"
+      ],
+      "has_dimensions": false,
+      "documented_state": "Measured/existing-condition drawing group within the 1993.12 set; exact field-survey date and relation to executed repairs remain unresolved.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": null,
+      "inspection_note": "Agent visual inspection, 2026-09-21. Full central transverse section and cut-location key inspected. The central framed assembly is visible between tall supports; this sheet alone does not name its painted contents or establish the chronology of every component.",
+      "catalogue_file_seq": "2868153"
+    },
+    {
+      "id": "sheet-006",
+      "artifact_id": "original-06",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "010",
+      "title_ko": "앙시도(반자)",
+      "kind": "reflected-ceiling plan",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "ceilings",
+        "column-grid",
+        "roof-structure"
+      ],
+      "has_dimensions": false,
+      "documented_state": "Measured/existing-condition drawing group within the 1993.12 set; exact field-survey date and relation to executed repairs remain unresolved.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": null,
+      "inspection_note": "Agent visual inspection, 2026-09-21. Full reflected-ceiling drawing and title block inspected. Ceiling panel zones and perimeter bracket/rafter structure can be related to the plan and sections. This lower-resolution portal scan supports arrangement reading; no dimensions transcribed.",
+      "catalogue_file_seq": "2868148"
+    },
+    {
+      "id": "sheet-007",
+      "artifact_id": "original-07",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "017",
+      "title_ko": "창호상세도(남측)",
+      "kind": "detail",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "openings",
+        "interior-layout"
+      ],
+      "has_dimensions": true,
+      "documented_state": "Measured/existing-condition drawing group within the 1993.12 set; exact field-survey date and relation to executed repairs remain unresolved.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": null,
+      "inspection_note": "Agent visual inspection, 2026-09-21. Full sheet and enlarged key inspected. South opening details numbered 1–5 have elevations, horizontal cuts and side sections; the key locates them around the hall. Sizes and lower-panel configurations vary. Operation and measurement endpoints need detail-level checking before extraction.",
+      "catalogue_file_seq": "2868174"
+    },
+    {
+      "id": "sheet-008",
+      "artifact_id": "original-08",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "019",
+      "title_ko": "창호상세도(북측)",
+      "kind": "detail",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "openings",
+        "interior-layout"
+      ],
+      "has_dimensions": true,
+      "documented_state": "Measured/existing-condition drawing group within the 1993.12 set; exact field-survey date and relation to executed repairs remain unresolved.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": null,
+      "inspection_note": "Agent visual inspection, 2026-09-21. Full sheet inspected. North opening details numbered 9–13 have elevations, horizontal cuts and side sections, plus an enlarged component detail. Use the key on sheet 017 to relate numbers to bays; no assumption of equivalence with the south side.",
+      "catalogue_file_seq": "2868176"
+    },
+    {
+      "id": "sheet-009",
+      "artifact_id": "original-09",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "045",
+      "title_ko": "보수평면도",
+      "kind": "plan",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "column-grid",
+        "floor-assembly",
+        "repair-state"
+      ],
+      "has_dimensions": true,
+      "documented_state": "Repair drawing (보수) within the 1993.12 set; design intent is distinguished from measured condition and completed work.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": null,
+      "inspection_note": "Agent visual inspection, 2026-09-21. Full repair plan and title block inspected beside existing-condition sheet 001 and measured diagram 033. This sheet supplies dimension chains and member sizes, with a more regular drawn floor arrangement. Its repair designation is not proof of executed work or measured existing sizes.",
+      "catalogue_file_seq": "2868130"
+    },
+    {
+      "id": "sheet-010",
+      "artifact_id": "original-10",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "050",
+      "title_ko": "보수종단면도",
+      "kind": "section",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "floor-assembly",
+        "ceilings",
+        "roof-structure",
+        "repair-state"
+      ],
+      "has_dimensions": true,
+      "documented_state": "Repair drawing (보수) within the 1993.12 set; design intent is distinguished from measured condition and completed work.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": null,
+      "inspection_note": "Agent visual inspection, 2026-09-21. Full repair longitudinal section and title block inspected beside section 006. Dimensions, member sizes and foundation details supplement the broadly corresponding section; the repair label does not establish completion or the precise survey chronology.",
+      "catalogue_file_seq": "2868126"
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "Sheet 033 separates bay spacing, bracket spacing, column-top levels and inward inclination. Its bay caption identifies parenthesized figures as upper bay measurements; the level caption refers to a horizontal reference line. These are distinct measurement bases, not interchangeable floor heights or a single ideal grid.",
+      "topics": [
+        "column-grid",
+        "levels",
+        "measurement-basis"
+      ],
+      "scope": "Reading of the measured diagrams. Non-parenthesized endpoint height, linear units and physical datum still need explicit confirmation.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "locator_note": "Sheet 033, upper-left caption and dimension chains; lower-left caption and signed level annotations."
+        }
+      ],
+      "review_note": "Agent compared the complete original JPEG sheets, labels and relevant detail crops on 2026-09-21. Checked means the source reading was verified; no numerical building observation or executed-repair conclusion is claimed."
+    },
+    {
+      "id": "note-002",
+      "statement": "Existing-condition plan 001 and repair plan 045 depict the same broad column/floor arrangement, but repair plan 045 adds dimension chains and member sizes. Measured diagram 033 preserves varying bay readings, while repair plan 045 uses repeated nominal bay annotations. Section 050 likewise adds dimensions and foundation details to the form shown in central section 006.",
+      "topics": [
+        "column-grid",
+        "floor-assembly",
+        "repair-state"
+      ],
+      "scope": "Comparison of drawings within one set. Do not average their dimensions or infer that the repair was executed; exact differences await extraction.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-01",
+          "sheet_id": "sheet-001",
+          "locator_note": "Sheet 001, complete plan and title."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "locator_note": "Sheet 033, upper-left bay survey."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-04",
+          "sheet_id": "sheet-004",
+          "locator_note": "Sheet 006, complete section and title."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-09",
+          "sheet_id": "sheet-009",
+          "locator_note": "Sheet 045, complete repair plan and dimension chains."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-10",
+          "sheet_id": "sheet-010",
+          "locator_note": "Sheet 050, complete repair section and title."
+        }
+      ],
+      "review_note": "Agent compared the complete original JPEG sheets, labels and relevant detail crops on 2026-09-21. Checked means the source reading was verified; no numerical building observation or executed-repair conclusion is claimed."
+    },
+    {
+      "id": "note-003",
+      "statement": "The south opening sheet locates numbered details around the hall in a plan key. South details 1–5 and north details 9–13 show varying widths and lower-panel arrangements. Preserving these number-to-bay relationships is necessary before assigning an opening type or dimension to an element.",
+      "topics": [
+        "openings",
+        "interior-layout"
+      ],
+      "scope": "Selected north/south details only; east/west details and operation have not been checked.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-07",
+          "sheet_id": "sheet-007",
+          "locator_note": "Sheet 017, numbered details 1–5 and lower-right plan key."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-08",
+          "sheet_id": "sheet-008",
+          "locator_note": "Sheet 019, numbered details 9–13."
+        }
+      ],
+      "review_note": "Agent compared the complete original JPEG sheets, labels and relevant detail crops on 2026-09-21. Checked means the source reading was verified; no numerical building observation or executed-repair conclusion is claimed."
+    },
+    {
+      "id": "note-004",
+      "statement": "Central sections 006 and 008 include cut-location keys. Read them with the ceiling plan 010 and floor plan 001 to connect internal supports, ceiling zones and the framed central assembly. Identifying that assembly with a particular mural/support state requires the separate historical evidence.",
+      "topics": [
+        "interior-layout",
+        "partitions",
+        "ceilings",
+        "roof-structure"
+      ],
+      "scope": "A reading route across this drawing set, not confirmation of a Gojong-period throne setting.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-04",
+          "sheet_id": "sheet-004",
+          "locator_note": "Sheet 006, complete section and upper-right cut key."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-05",
+          "sheet_id": "sheet-005",
+          "locator_note": "Sheet 008, complete section and upper-right cut key."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-06",
+          "sheet_id": "sheet-006",
+          "locator_note": "Sheet 010, full ceiling plan."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-01",
+          "sheet_id": "sheet-001",
+          "locator_note": "Sheet 001, floor plan."
+        }
+      ],
+      "review_note": "Agent compared the complete original JPEG sheets, labels and relevant detail crops on 2026-09-21. Checked means the source reading was verified; no numerical building observation or executed-repair conclusion is claimed."
+    }
+  ],
+  "catalogue_checks": [
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868193",
+      "checked_on": "2026-09-21",
+      "locator": "Drawing viewer metadata, public image and attribution notice",
+      "method": "agent_read_live_browser_and_download_public_image",
+      "findings": "Catalogue title: 도면_보물_경복궁 사정전_실측설계 현황 평면도6. Source: 국가유산원형기록정보시스템; copyright holder: 국가유산청. JPEG, 6292x4563; date field 촬영일자 = 1993-12-01. This day-specific catalogue date is not treated as publication or survey date. The sheet itself gives 1993.12. Attribution badge links to KOGL Type 1. No login was needed to acquire the public image."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868195",
+      "checked_on": "2026-09-21",
+      "locator": "Drawing viewer metadata, public image and attribution notice",
+      "method": "agent_read_live_browser_and_download_public_image",
+      "findings": "Catalogue title: 도면_보물_경복궁 사정전_실측설계 협칸 종단면도8. Source: 국가유산원형기록정보시스템; copyright holder: 국가유산청. JPEG, 6276x4574; date field 촬영일자 = 1993-12-01. This day-specific catalogue date is not treated as publication or survey date. The sheet itself gives 1993.12. Attribution badge links to KOGL Type 1. No login was needed to acquire the public image."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121117590000&pageNo=1_1_1_1&sngl=Y",
+      "checked_on": "2026-09-21",
+      "locator": "도면 > 더보기; expanded visible drawing-link list",
+      "method": "agent_read_live_browser_catalogue_links",
+      "findings": "110 drawing links listed. This is not a deduplicated sheet count. Entries include measured column-spacing/level surveys, ceiling plans, central sections, opening details and explicitly labelled repair drawings. Only the previously retained two images have been visually inspected; the remaining entry dates, title blocks, dimensions and states are unverified.",
+      "drawing_leads": [
+        {
+          "file_seq": [
+            "2868184",
+            "2868185"
+          ],
+          "title_group_ko": "평면주칸 / 포간격 / 기둥레벨 / 안쏠림 실측도",
+          "purpose": "Read annotated measurements and datums; compare potential duplicate entries."
+        },
+        {
+          "file_seq": [
+            "2868152",
+            "2868153"
+          ],
+          "title_group_ko": "어칸 종단면도 / 어칸 횡단면도",
+          "purpose": "Relate central interior structure to plan and throne-wall evidence."
+        },
+        {
+          "file_seq": [
+            "2868148",
+            "2868149"
+          ],
+          "title_group_ko": "앙시도(반자)",
+          "purpose": "Map ceiling boundaries; verify duplicate/state differences."
+        },
+        {
+          "file_seq": [
+            "2868174",
+            "2868175",
+            "2868176",
+            "2868171",
+            "2868172",
+            "2868173"
+          ],
+          "title_group_ko": "창호 상세도 (남측 / 동측·서측 / 북측)",
+          "purpose": "Inspect frame, leaf and operation evidence; compare similarly named entries."
+        },
+        {
+          "file_seq": [
+            "2868130",
+            "2868131",
+            "2868126",
+            "2868127"
+          ],
+          "title_group_ko": "보수 평면도 / 보수 종단면도",
+          "purpose": "Distinguish intended repair from surveyed condition and completed work."
+        }
+      ]
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868184",
+      "checked_on": "2026-09-21",
+      "locator": "Public image viewer, metadata and attribution link",
+      "method": "agent_read_live_browser_and_inspect_downloaded_image",
+      "findings": "Viewer identified 국가유산원형기록정보시스템, copyright holder 국가유산청, catalogue date 1993-12-01 and KOGL Type 1 link. Title block read as 경복궁사정전실측설계, 1993.12, 銀河建築士事務所 / EUN HA ARCHITECTS & ENGINEERS, sheet 033. The viewer heading was blank when accessed directly; Korean sheet title is transcribed from the image. Day-specific catalogue date is not adopted as the actual survey/publication date."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868152",
+      "checked_on": "2026-09-21",
+      "locator": "Public image viewer, metadata and attribution link",
+      "method": "agent_read_live_browser_and_inspect_downloaded_image",
+      "findings": "Viewer identified 국가유산원형기록정보시스템, copyright holder 국가유산청, catalogue date 1993-12-01 and KOGL Type 1 link. Title block read as 경복궁사정전실측설계, 1993.12, 銀河建築士事務所 / EUN HA ARCHITECTS & ENGINEERS, sheet 006. The viewer heading was blank when accessed directly; Korean sheet title is transcribed from the image. Day-specific catalogue date is not adopted as the actual survey/publication date."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868153",
+      "checked_on": "2026-09-21",
+      "locator": "Public image viewer, metadata and attribution link",
+      "method": "agent_read_live_browser_and_inspect_downloaded_image",
+      "findings": "Viewer identified 국가유산원형기록정보시스템, copyright holder 국가유산청, catalogue date 1993-12-01 and KOGL Type 1 link. Title block read as 경복궁사정전실측설계, 1993.12, 銀河建築士事務所 / EUN HA ARCHITECTS & ENGINEERS, sheet 008. The viewer heading was blank when accessed directly; Korean sheet title is transcribed from the image. Day-specific catalogue date is not adopted as the actual survey/publication date."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868148",
+      "checked_on": "2026-09-21",
+      "locator": "Public image viewer, metadata and attribution link",
+      "method": "agent_read_live_browser_and_inspect_downloaded_image",
+      "findings": "Viewer identified 국가유산원형기록정보시스템, copyright holder 국가유산청, catalogue date 1993-12-01 and KOGL Type 1 link. Title block read as 경복궁사정전실측설계, 1993.12, 銀河建築士事務所 / EUN HA ARCHITECTS & ENGINEERS, sheet 010. The viewer heading was blank when accessed directly; Korean sheet title is transcribed from the image. Day-specific catalogue date is not adopted as the actual survey/publication date."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868174",
+      "checked_on": "2026-09-21",
+      "locator": "Public image viewer, metadata and attribution link",
+      "method": "agent_read_live_browser_and_inspect_downloaded_image",
+      "findings": "Viewer identified 국가유산원형기록정보시스템, copyright holder 국가유산청, catalogue date 1993-12-01 and KOGL Type 1 link. Title block read as 경복궁사정전실측설계, 1993.12, 銀河建築士事務所 / EUN HA ARCHITECTS & ENGINEERS, sheet 017. The viewer heading was blank when accessed directly; Korean sheet title is transcribed from the image. Day-specific catalogue date is not adopted as the actual survey/publication date."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868176",
+      "checked_on": "2026-09-21",
+      "locator": "Public image viewer, metadata and attribution link",
+      "method": "agent_read_live_browser_and_inspect_downloaded_image",
+      "findings": "Viewer identified 국가유산원형기록정보시스템, copyright holder 국가유산청, catalogue date 1993-12-01 and KOGL Type 1 link. Title block read as 경복궁사정전실측설계, 1993.12, 銀河建築士事務所 / EUN HA ARCHITECTS & ENGINEERS, sheet 019. The viewer heading was blank when accessed directly; Korean sheet title is transcribed from the image. Day-specific catalogue date is not adopted as the actual survey/publication date."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868130",
+      "checked_on": "2026-09-21",
+      "locator": "Public image viewer, metadata and attribution link",
+      "method": "agent_read_live_browser_and_inspect_downloaded_image",
+      "findings": "Viewer identified 국가유산원형기록정보시스템, copyright holder 국가유산청, catalogue date 1993-12-01 and KOGL Type 1 link. Title block read as 경복궁사정전실측설계, 1993.12, 銀河建築士事務所 / EUN HA ARCHITECTS & ENGINEERS, sheet 045. The viewer heading was blank when accessed directly; Korean sheet title is transcribed from the image. Day-specific catalogue date is not adopted as the actual survey/publication date."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868126",
+      "checked_on": "2026-09-21",
+      "locator": "Public image viewer, metadata and attribution link",
+      "method": "agent_read_live_browser_and_inspect_downloaded_image",
+      "findings": "Viewer identified 국가유산원형기록정보시스템, copyright holder 국가유산청, catalogue date 1993-12-01 and KOGL Type 1 link. Title block read as 경복궁사정전실측설계, 1993.12, 銀河建築士事務所 / EUN HA ARCHITECTS & ENGINEERS, sheet 050. The viewer heading was blank when accessed directly; Korean sheet title is transcribed from the image. Day-specific catalogue date is not adopted as the actual survey/publication date."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868185",
+      "checked_on": "2026-09-22",
+      "locator": "Targeted attempt to inspect the alternate bay/level sheet and catalogue for measurement conventions",
+      "method": "agent_attempted_public_web_access",
+      "findings": "Alternate viewer was inaccessible through the web tool; the official catalogue returned HTTP 403 and the delegated browser fallback was unavailable. No new image or unit declaration was inspected. This is a tool-route failure, not proof that public access requires login; retry with a working public browser or another legitimate copy."
+    }
+  ],
+  "work": {
+    "next_action": "Continue from gbg-sajeongjeon obs-001–009. First resolve sheet 033 units, field measuring heights and the obs-007 chain/total discrepancy through general notes, another scan or the primary survey. Then extract one floor/ceiling or opening relationship with an explicit datum/operation basis. Compare the northern interior frame (obs-004) with Park note-001/note-002 before assigning historical fabric.",
+    "blocker": "No blocker to reading the ten local images. Explicit linear-unit and field-height conventions, physical level datum, exact survey/repair chronology and opening operation remain unresolved. Alternate 2868185 was not inspected because the current public web/browser routes failed.",
+    "retry_when": null
+  },
+  "scope_note": "Ten unchanged JPEGs locally verified and visually inspected; four checked source-reading notes. First building extraction on 2026-09-22: gbg-sajeongjeon contains five checked layout/opening observations and four pending perimeter-dimension records. Their transcriptions and arithmetic were checked; unresolved units/heights and one printed-total conflict prevent promoting them to verified full-scale dimensions. No new binaries acquired in this extraction, no native CAD or primary report PDF held; the other catalogue entries remain uninspected."
+}

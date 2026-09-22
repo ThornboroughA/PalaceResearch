@@ -1,0 +1,534 @@
+{
+  "source_input_id": "context-deep-research-pdf",
+  "method": "pypdf 6.10.0: native PDF URI annotation extraction; grouped exact URLs, retained one-based page occurrences; normalized URLs remove utm_* parameters only. No OCR.",
+  "extracted_on": "2026-09-21",
+  "pdf_pages": 21,
+  "uri_annotation_count": 246,
+  "unique_url_count": 43,
+  "note": "Extraction does not verify targets or their claims. Active verified catalogue findings belong in source records.",
+  "links": [
+    {
+      "id": "report-link-001",
+      "embedded_url": "https://chatgpt.com/?utm_src=deep-research-pdf",
+      "url": "https://chatgpt.com/",
+      "pdf_pages": [
+        1
+      ],
+      "kind": "publisher_link",
+      "status": "not_a_research_source"
+    },
+    {
+      "id": "report-link-002",
+      "embedded_url": "https://digital.khs.go.kr/service/instructionsForUse1.do?utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/service/instructionsForUse1.do",
+      "pdf_pages": [
+        1,
+        2,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-003",
+      "embedded_url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859674500300738&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859674500300738",
+      "pdf_pages": [
+        1,
+        4,
+        5,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-004",
+      "embedded_url": "https://dl.nanet.go.kr/detail/MONO1201532060?utm_source=chatgpt.com",
+      "url": "https://dl.nanet.go.kr/detail/MONO1201532060",
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        15,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-005",
+      "embedded_url": "https://drive.google.com/file/d/1bylU5LMNJR6TkJftWVbQqmttLkd6GZ9b/view?usp=drivesdk",
+      "url": "https://drive.google.com/file/d/1bylU5LMNJR6TkJftWVbQqmttLkd6GZ9b/view?usp=drivesdk",
+      "pdf_pages": [
+        2,
+        8,
+        9,
+        12,
+        17,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-006",
+      "embedded_url": "https://drive.google.com/file/d/1pKoz6Xb-Sx0Ek512YPOFccicfkVH7ma9/view?usp=drivesdk",
+      "url": "https://drive.google.com/file/d/1pKoz6Xb-Sx0Ek512YPOFccicfkVH7ma9/view?usp=drivesdk",
+      "pdf_pages": [
+        2,
+        8,
+        11,
+        16,
+        17,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-007",
+      "embedded_url": "https://drive.google.com/file/d/1IVslbF3qacr8PVE_FYBhQFeoUqbrohRb/view?usp=drivesdk",
+      "url": "https://drive.google.com/file/d/1IVslbF3qacr8PVE_FYBhQFeoUqbrohRb/view?usp=drivesdk",
+      "pdf_pages": [
+        2,
+        9,
+        12,
+        17,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-008",
+      "embedded_url": "https://digital.khs.go.kr/service/instructionsForUse.do?utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/service/instructionsForUse.do",
+      "pdf_pages": [
+        2,
+        15,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-009",
+      "embedded_url": "https://digital.khs.go.kr/service/notice.do?utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/service/notice.do",
+      "pdf_pages": [
+        2,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-010",
+      "embedded_url": "https://digital.khs.go.kr/service/instructionsForUse3.do?utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/service/instructionsForUse3.do",
+      "pdf_pages": [
+        2,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-011",
+      "embedded_url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748265076900312&ctptNo=1121117590000&ctptUid=13898859672764200589&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748265076900312&ctptNo=1121117590000&ctptUid=13898859672764200589",
+      "pdf_pages": [
+        3,
+        4,
+        15,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-012",
+      "embedded_url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748265076900312&ctptNo=1121117590000&ctptUid=13898859672764200589&nation=&page=50&stakeholdersSes=&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748265076900312&ctptNo=1121117590000&ctptUid=13898859672764200589&nation=&page=50&stakeholdersSes=",
+      "pdf_pages": [
+        3,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-013",
+      "embedded_url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200041118871&rc_ritem_no=&sitePage=&utm_source=chatgpt.com",
+      "url": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200041118871&rc_ritem_no=&sitePage=",
+      "pdf_pages": [
+        3,
+        15,
+        18
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-014",
+      "embedded_url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859672764200589&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859672764200589",
+      "pdf_pages": [
+        4,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-015",
+      "embedded_url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EC%B2%9C%EC%B6%94%EC%A0%84%28%E5%8D%83%E7%A7%8B%E6%AE%BF%29?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EC%B2%9C%EC%B6%94%EC%A0%84%28%E5%8D%83%E7%A7%8B%E6%AE%BF%29",
+      "pdf_pages": [
+        4,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-016",
+      "embedded_url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859666526200071&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859666526200071",
+      "pdf_pages": [
+        4,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-017",
+      "embedded_url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748263068900131&ctptNo=1111102230000&ctptUid=13898859666526200071&page=7&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748263068900131&ctptNo=1111102230000&ctptUid=13898859666526200071&page=7",
+      "pdf_pages": [
+        4,
+        15,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-018",
+      "embedded_url": "https://dl.nanet.go.kr/detail/MONO12023000059797?utm_source=chatgpt.com",
+      "url": "https://dl.nanet.go.kr/detail/MONO12023000059797",
+      "pdf_pages": [
+        5,
+        16,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-019",
+      "embedded_url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EA%B0%95%EB%85%95%EC%A0%84%28%E5%BA%B7%E5%AF%A7%E6%AE%BF%29?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EA%B0%95%EB%85%95%EC%A0%84%28%E5%BA%B7%E5%AF%A7%E6%AE%BF%29",
+      "pdf_pages": [
+        5,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-020",
+      "embedded_url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EA%B5%90%ED%83%9C%EC%A0%84%28%E4%BA%A4%E6%B3%B0%E6%AE%BF%29?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EA%B5%90%ED%83%9C%EC%A0%84%28%E4%BA%A4%E6%B3%B0%E6%AE%BF%29",
+      "pdf_pages": [
+        5,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-021",
+      "embedded_url": "https://dh.aks.ac.kr/hanyang/wiki/index.php/%EB%B6%81%EA%B6%90%EB%8F%84%ED%98%95?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/hanyang/wiki/index.php/%EB%B6%81%EA%B6%90%EB%8F%84%ED%98%95",
+      "pdf_pages": [
+        6,
+        10,
+        16,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-022",
+      "embedded_url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EA%B2%BD%EB%B3%B5%EA%B6%81%28%E6%99%AF%E7%A6%8F%E5%AE%AE%29?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EA%B2%BD%EB%B3%B5%EA%B6%81%28%E6%99%AF%E7%A6%8F%E5%AE%AE%29",
+      "pdf_pages": [
+        6,
+        13,
+        16,
+        17,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-023",
+      "embedded_url": "https://dh.aks.ac.kr/hanyang/wiki/index.php/%ED%95%9C%EC%96%91%EB%8F%84%EC%84%B1_%EC%9E%90%EB%A3%8C_%ED%98%84%ED%99%A9?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/hanyang/wiki/index.php/%ED%95%9C%EC%96%91%EB%8F%84%EC%84%B1_%EC%9E%90%EB%A3%8C_%ED%98%84%ED%99%A9",
+      "pdf_pages": [
+        6,
+        12,
+        13,
+        16,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-024",
+      "embedded_url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptNo=1121108100000&ctptUid=13898859671256200462&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptNo=1121108100000&ctptUid=13898859671256200462",
+      "pdf_pages": [
+        6,
+        16,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-025",
+      "embedded_url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EC%A7%91%EC%98%A5%EC%9E%AC%28%E9%9B%86%E7%8E%89%E9%BD%8B%29?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EC%A7%91%EC%98%A5%EC%9E%AC%28%E9%9B%86%E7%8E%89%E9%BD%8B%29",
+      "pdf_pages": [
+        6,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-026",
+      "embedded_url": "https://dl.nanet.go.kr/detail/MONO1201636868?utm_source=chatgpt.com",
+      "url": "https://dl.nanet.go.kr/detail/MONO1201636868",
+      "pdf_pages": [
+        7,
+        14,
+        15,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-027",
+      "embedded_url": "https://www.riss.kr/search/detail/DetailView.do?control_no=af8973da0dba23d6c85d2949c297615a&p_mat_type=1a0202e37d52c72d&utm_source=chatgpt.com",
+      "url": "https://www.riss.kr/search/detail/DetailView.do?control_no=af8973da0dba23d6c85d2949c297615a&p_mat_type=1a0202e37d52c72d",
+      "pdf_pages": [
+        8,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-028",
+      "embedded_url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptNo=1111102250000&ctptUid=13898859666551200073&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptNo=1111102250000&ctptUid=13898859666551200073",
+      "pdf_pages": [
+        8,
+        19
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-029",
+      "embedded_url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748265505900350&ctptNo=1121108130000&ctptUid=13898859671292200465&nation=&page=2&stakeholdersSes=&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748265505900350&ctptNo=1121108130000&ctptUid=13898859671292200465&nation=&page=2&stakeholdersSes=",
+      "pdf_pages": [
+        8,
+        15,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-030",
+      "embedded_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121108160000&pageNo=1_1_2_0",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121108160000&pageNo=1_1_2_0",
+      "pdf_pages": [
+        9,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-031",
+      "embedded_url": "https://dh.aks.ac.kr/~my9univ/wiki/index.php/%ED%95%9C%EC%96%91%EB%8F%84%EC%84%B1_2022_%EC%B0%B8%EA%B3%A0%EB%AC%B8%ED%97%8C?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/~my9univ/wiki/index.php/%ED%95%9C%EC%96%91%EB%8F%84%EC%84%B1_2022_%EC%B0%B8%EA%B3%A0%EB%AC%B8%ED%97%8C",
+      "pdf_pages": [
+        9,
+        15,
+        17,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-032",
+      "embedded_url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748265505900350&ctptNo=1121117690000&ctptUid=13898859672834200595&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748265505900350&ctptNo=1121117690000&ctptUid=13898859672834200595",
+      "pdf_pages": [
+        10,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-033",
+      "embedded_url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748261687900004&ctptNo=1121118810000&ctptUid=13898859673069200615&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748261687900004&ctptNo=1121118810000&ctptUid=13898859673069200615",
+      "pdf_pages": [
+        10,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-034",
+      "embedded_url": "https://dh.aks.ac.kr/sillokwiki/index.php/%ED%9A%8C%EC%95%88%EC%A0%84%28%E6%9C%83%E5%AE%89%E6%AE%BF%29?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/sillokwiki/index.php/%ED%9A%8C%EC%95%88%EC%A0%84%28%E6%9C%83%E5%AE%89%E6%AE%BF%29",
+      "pdf_pages": [
+        10,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-035",
+      "embedded_url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748261687900004&ctptNo=1111100010000&ctptUid=13898859665657200002&nation=&stakeholdersSes=&utm_source=chatgpt.com",
+      "url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748261687900004&ctptNo=1111100010000&ctptUid=13898859665657200002&nation=&stakeholdersSes=",
+      "pdf_pages": [
+        11,
+        16,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-036",
+      "embedded_url": "https://dh.aks.ac.kr/hanyang2/wiki/index.php/%EB%AC%B8%ED%97%8C%3A%EC%B0%B8%EA%B3%A0%EB%AC%B8%ED%97%8C?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/hanyang2/wiki/index.php/%EB%AC%B8%ED%97%8C%3A%EC%B0%B8%EA%B3%A0%EB%AC%B8%ED%97%8C",
+      "pdf_pages": [
+        11,
+        15,
+        16,
+        17,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-037",
+      "embedded_url": "https://www.riss4u.net/search/detail/DetailView.do?control_no=c412e70346c30919d18150b21a227875&keyword=&p_mat_type=1a0202e37d52c72d&utm_source=chatgpt.com",
+      "url": "https://www.riss4u.net/search/detail/DetailView.do?control_no=c412e70346c30919d18150b21a227875&keyword=&p_mat_type=1a0202e37d52c72d",
+      "pdf_pages": [
+        12,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-038",
+      "embedded_url": "https://m.riss.kr/search/detail/DetailView.do?control_no=82da5a826d3a4173d18150b21a227875&p_mat_type=1a0202e37d52c72d&utm_source=chatgpt.com",
+      "url": "https://m.riss.kr/search/detail/DetailView.do?control_no=82da5a826d3a4173d18150b21a227875&p_mat_type=1a0202e37d52c72d",
+      "pdf_pages": [
+        12,
+        13,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-039",
+      "embedded_url": "https://www.riss.kr/search/detail/DetailView.do?control_no=e1e30221af89670347de9c1710b0298d&p_mat_type=1a0202e37d52c72d&utm_source=chatgpt.com",
+      "url": "https://www.riss.kr/search/detail/DetailView.do?control_no=e1e30221af89670347de9c1710b0298d&p_mat_type=1a0202e37d52c72d",
+      "pdf_pages": [
+        13,
+        17,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-040",
+      "embedded_url": "https://riss.kr/search/Search.do?colName=bib_t&isDetailSearch=Y&queryText=znMajor%2C%EC%9C%A0%EC%82%B0%EA%B8%B0%EC%88%A0%ED%95%99%EA%B3%BC+%EA%B1%B4%EC%B6%95+%EC%A1%B0%EA%B2%BD+%EB%8F%84%EC%8B%9C+%EC%A0%84%EA%B3%B5&searchGubun=true&utm_source=chatgpt.com",
+      "url": "https://riss.kr/search/Search.do?colName=bib_t&isDetailSearch=Y&queryText=znMajor%2C%EC%9C%A0%EC%82%B0%EA%B8%B0%EC%88%A0%ED%95%99%EA%B3%BC+%EA%B1%B4%EC%B6%95+%EC%A1%B0%EA%B2%BD+%EB%8F%84%EC%8B%9C+%EC%A0%84%EA%B3%B5&searchGubun=true",
+      "pdf_pages": [
+        13,
+        17,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-041",
+      "embedded_url": "https://m.riss.kr/search/detail/DetailView.do?control_no=a310c331bb78bf9a4884a65323211ff0&p_mat_type=1a0202e37d52c72d&utm_source=chatgpt.com",
+      "url": "https://m.riss.kr/search/detail/DetailView.do?control_no=a310c331bb78bf9a4884a65323211ff0&p_mat_type=1a0202e37d52c72d",
+      "pdf_pages": [
+        14,
+        17,
+        20
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-042",
+      "embedded_url": "https://dh.aks.ac.kr/hanyang2/wiki/index.php/%EC%B0%BD%EB%8D%95%EA%B6%81_%EC%84%9D%EB%B3%B5%ED%97%8C?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/hanyang2/wiki/index.php/%EC%B0%BD%EB%8D%95%EA%B6%81_%EC%84%9D%EB%B3%B5%ED%97%8C",
+      "pdf_pages": [
+        14,
+        17,
+        21
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    },
+    {
+      "id": "report-link-043",
+      "embedded_url": "https://dh.aks.ac.kr/hanyang/wiki/index.php/%ED%8E%B8%EC%B0%AC%ED%95%AD%EB%AA%A9%3A%EC%9D%B4%EC%B0%BD%EC%84%AD?utm_source=chatgpt.com",
+      "url": "https://dh.aks.ac.kr/hanyang/wiki/index.php/%ED%8E%B8%EC%B0%AC%ED%95%AD%EB%AA%A9%3A%EC%9D%B4%EC%B0%BD%EC%84%AD",
+      "pdf_pages": [
+        16,
+        21
+      ],
+      "kind": "discovery_link",
+      "status": "unverified_lead"
+    }
+  ]
+}

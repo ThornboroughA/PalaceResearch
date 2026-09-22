@@ -8,5 +8,25 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Keep source records, originals, and useful derivatives visible to Git.
-# Binary handling is declared in .gitattributes; do not ignore acquired originals.
+# Machine-local pointer to the existing Dropbox collection.
+archive.local.json
+
+# Prevent accidental research-binary commits; retain these in Dropbox.
+sources/**/originals/
+*.pdf
+*.dwg
+*.dxf
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.7z
+*.rar
+*.las
+*.laz
+*.e57
+*.pts
+*.ply
+*.obj

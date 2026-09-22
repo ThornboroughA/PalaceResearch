@@ -1,0 +1,511 @@
+{
+  "id": "gbg-sajeongjeon",
+  "name_ko": "사정전",
+  "name_en": "Sajeongjeon",
+  "palace": "gyeongbokgung",
+  "aliases": [],
+  "status": "initial_extraction",
+  "source_ids": [
+    "src-gbg-sajeongjeon-measured-drawings-1993",
+    "src-park-sajeongjeon-mural-2022",
+    "src-cho-sajeongjeon-throne-2022",
+    "src-gbg-sajeongjeon-furnishing-2024",
+    "src-gbg-sajeongjeon-survey-2014"
+  ],
+  "scope_note": "First bounded extraction, 2026-09-22. Observations describe the retained 1993 drawing set. Other source_ids provide historical context or acquisition leads, not corroboration of these measurements. Numerical chains remain in unspecified source units and are not ready for full-scale geometry.",
+  "states": [
+    {
+      "id": "state-1993-drawings-existing",
+      "description": "Existing-condition/measured drawing group in 경복궁 사정전 실측설계, whose title blocks are dated 1993.12. Shared layouts support reading plan, survey diagram, sections and opening details together; exact field dates and their sequence remain unknown.",
+      "date": null,
+      "drawing_date_as_recorded": "1993.12",
+      "notes": "This groups documented drawing evidence, not a claim that every sheet was surveyed on the same date. The title-block month is not the construction date. Explicit repair sheets 045/050 and the 2024 furnishing display are excluded; split this state if further evidence establishes different survey conditions.",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-01",
+          "sheet_id": "sheet-001",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 001, 현황평면도 and title block dated 1993.12."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 033, measured-diagram captions and title block dated 1993.12."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-04",
+          "sheet_id": "sheet-004",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 006, central section and title block."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-07",
+          "sheet_id": "sheet-007",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 017, south opening details and title block."
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "id": "interior-frame-north",
+      "label": "Framed assembly between the northern pair of interior columns",
+      "source_label": null,
+      "notes": "Analyst-assigned ID; location from the plan/section keys. No historical identity assigned."
+    },
+    {
+      "id": "opening-south-03",
+      "label": "Central south opening",
+      "source_label": "③",
+      "notes": "Analyst-assigned ID preserving source detail number 3 on printed sheet 017."
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs-001",
+      "subject": "building",
+      "topics": [
+        "column-grid"
+      ],
+      "property": "perimeter_bay_count",
+      "value": {
+        "page_horizontal": 5,
+        "page_vertical": 3
+      },
+      "unit": "count",
+      "as_recorded": "Five intervals across the top/bottom perimeter runs; three down the left/right perimeter runs.",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Count intervals between perimeter column symbols. Interior floor-board divisions are not additional bays or room boundaries.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-01",
+          "sheet_id": "sheet-001",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 001, complete plan: six perimeter columns along each horizontal edge and four along each vertical edge."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 033, upper-left bay survey, complete column diagram."
+        }
+      ],
+      "review_note": "Agent visually counted both axes on sheets 001 and 033 on 2026-09-22 and compared the column patterns.",
+      "notes": null
+    },
+    {
+      "id": "obs-002",
+      "subject": "building",
+      "topics": [
+        "column-grid",
+        "interior-layout"
+      ],
+      "property": "column_layout",
+      "value": {
+        "perimeter_columns": 16,
+        "interior_columns": 4,
+        "total_columns": 20,
+        "interior_arrangement": "Four columns form the corners of the central rectangle; the intermediate positions on the two side strips have no matching interior column symbols."
+      },
+      "unit": "count",
+      "as_recorded": "Six column symbols on each long edge, two additional on each short edge, four inside.",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Count the circular column symbols once, excluding foundation outlines and floor members. Counts describe the depicted plan.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-01",
+          "sheet_id": "sheet-001",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 001, whole floor plan."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 033, upper-left column diagram."
+        }
+      ],
+      "review_note": "Agent recounted perimeter corners without duplication (6 + 6 + 2 + 2) and the four interior symbols on 2026-09-22; both sheets agree.",
+      "notes": "This is not a complete six-by-four array of 24 columns, and the bay count does not establish a room count."
+    },
+    {
+      "id": "obs-003",
+      "subject": "building",
+      "topics": [
+        "openings",
+        "interior-layout",
+        "orientation"
+      ],
+      "property": "opening_key_to_plan_edges",
+      "value": {
+        "south_page_bottom_left_to_right": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "north_page_top_left_to_right": [
+          13,
+          12,
+          11,
+          10,
+          9
+        ]
+      },
+      "unit": null,
+      "as_recorded": "창호상세도(남측): 1–5; 창호상세도(북측): 9–13; numbered plan key on sheet 017.",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Orientation is inferred from the south/north detail titles and their numbered plan key, matched to the same 5-by-3 perimeter and northern inner-column connection on sheet 033. No surveyed azimuth or north arrow was identified.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-07",
+          "sheet_id": "sheet-007",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 017, title, detail numbers 1–5 and lower-right plan key; key pixel region x=4350–5150, y=3050–3800 in original image."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-08",
+          "sheet_id": "sheet-008",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 019, title and detail numbers 9–13."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 033, upper-left diagram and the connection between its two page-top interior columns."
+        }
+      ],
+      "review_note": "Agent read both facade labels and followed every north/south detail number in the key on 2026-09-22. The north sequence reverses across the page; detail 11 is central.",
+      "notes": "Page-left/right orders are retained to avoid confusing a facade elevation with a plan. Side details 6–8 and 14–16 are keyed but their detail sheets have not been inspected."
+    },
+    {
+      "id": "obs-004",
+      "subject": "interior-frame-north",
+      "topics": [
+        "interior-layout",
+        "partitions",
+        "column-grid"
+      ],
+      "property": "position_relative_to_columns",
+      "value": "A framed assembly spans the two interior columns nearest the north/page-top perimeter, across the central horizontal bay.",
+      "unit": null,
+      "as_recorded": "Unlabelled connection in the plan keys; central framed assembly in 어칸횡단면도.",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Match the connection in the plan keys of sheets 006/008 to the upper pair of interior columns in sheet 033; use the two sections to read its position and vertical extent.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 033, upper-left diagram: horizontal connection between the page-top interior columns."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-04",
+          "sheet_id": "sheet-004",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 006, upper-right cut key and narrow vertical assembly immediately beside the right-hand inner support in the central section."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-05",
+          "sheet_id": "sheet-005",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 008, upper-right cut key and central framed assembly between the two inner supports, below the ceiling."
+        }
+      ],
+      "review_note": "Agent compared both section keys, the perpendicular views and the measured diagram on 2026-09-22. Recorded the support relationship without assigning a painting or historical furnishing identity.",
+      "notes": "The drawing does not identify the depicted painted surface or prove an operating partition. Compare Park 2022 note-001/note-002 before linking this to the mural/support history; the 2024 furnishing display is a separate state."
+    },
+    {
+      "id": "obs-005",
+      "subject": "opening-south-03",
+      "topics": [
+        "openings",
+        "interior-layout"
+      ],
+      "property": "depicted_panel_arrangement",
+      "value": {
+        "host": "Central bay of the south perimeter, numbered 3 in the source key",
+        "tall_panels": 4,
+        "upper_lattice_panels": 4
+      },
+      "unit": "count",
+      "as_recorded": "Detail ③ on 창호상세도(남측).",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Count the four tall panel divisions below the horizontal separator and the four lattice divisions in the upper band. Counted visible divisions, without inferring how they open.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-07",
+          "sheet_id": "sheet-007",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 017, upper-right detail ③ (plan strip, front view and side section) and lower-right numbered plan key."
+        }
+      ],
+      "review_note": "Agent followed key 3 to the central south bay and counted both groups in the corresponding front view on 2026-09-22.",
+      "notes": "Hinge/handle symbols are retained in the source, but swing, folding/lifting sequence and which parts are fixed remain unverified. No clear-opening width is extracted here."
+    },
+    {
+      "id": "obs-006",
+      "subject": "building",
+      "topics": [
+        "column-grid",
+        "measurement-basis"
+      ],
+      "property": "annotated_perimeter_bay_chain",
+      "value": {
+        "plan_edge": "page_top",
+        "reading_order": "left_to_right",
+        "plain": {
+          "components": [
+            3080,
+            3070,
+            5510,
+            3090,
+            3130
+          ],
+          "printed_total": 17880,
+          "calculated_sum": 17880,
+          "printed_total_minus_sum": 0
+        },
+        "parenthesized_upper": {
+          "components": [
+            3090,
+            3070,
+            5500,
+            3100,
+            3120
+          ],
+          "printed_total": 17880,
+          "calculated_sum": 17880,
+          "printed_total_minus_sum": 0
+        }
+      },
+      "unit": null,
+      "as_recorded": "Plain: 3,080; 3,070; 5,510; 3,090; 3,130; total 17,880. Parenthesized: (3,090); (3,070); (5,500); (3,100); (3,120); total (17,880). Caption: ( )내의 치수는 상부주칸실측치.",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Witness lines align with the centres of the circular column symbols as drawn. Actual field measuring points/heights are not specified. Parenthesized values are upper bay measurements; the plain measuring height and modern linear unit are unresolved. Calculated sums use only the transcribed components.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 033, upper-left 평면 주칸 실측치 diagram, page_top chain and its outer total line; original-pixel inspection region x=620–2450, y=450–2150. Caption below diagram."
+        }
+      ],
+      "review_note": "Two agents independently read the original sheet and its upper-left crop on 2026-09-22. The main agent checked the saved numbers and calculated both chain sums. Transcription and arithmetic are checked; the dimensional observation remains pending because the linear unit and exact measurement heights are unconfirmed.",
+      "notes": "No conversion or geometry measured from pixels. Parentheses explicitly indicate upper bay readings; the plain readings are not labelled as base, floor-level or lower measurements."
+    },
+    {
+      "id": "obs-007",
+      "subject": "building",
+      "topics": [
+        "column-grid",
+        "measurement-basis"
+      ],
+      "property": "annotated_perimeter_bay_chain",
+      "value": {
+        "plan_edge": "page_bottom",
+        "reading_order": "left_to_right",
+        "plain": {
+          "components": [
+            3090,
+            3060,
+            5530,
+            3090,
+            3100
+          ],
+          "printed_total": 17870,
+          "calculated_sum": 17870,
+          "printed_total_minus_sum": 0
+        },
+        "parenthesized_upper": {
+          "components": [
+            3080,
+            3060,
+            5510,
+            3090,
+            3090
+          ],
+          "printed_total": 17855,
+          "calculated_sum": 17830,
+          "printed_total_minus_sum": 25
+        }
+      },
+      "unit": null,
+      "as_recorded": "Plain: 3,090; 3,060; 5,530; 3,090; 3,100; total 17,870. Parenthesized: (3,080); (3,060); (5,510); (3,090); (3,090); total (17,855). Caption: ( )내의 치수는 상부주칸실측치.",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Witness lines align with the centres of the circular column symbols as drawn. Actual field measuring points/heights are not specified. Parenthesized values are upper bay measurements; the plain measuring height and modern linear unit are unresolved. Calculated sums use only the transcribed components.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 033, upper-left 평면 주칸 실측치 diagram, page_bottom chain and its outer total line; original-pixel inspection region x=620–2450, y=450–2150. Caption below diagram."
+        }
+      ],
+      "review_note": "Two agents independently read the original sheet and its upper-left crop on 2026-09-22. The main agent checked the saved numbers and calculated both chain sums. Transcription and arithmetic are checked; the dimensional observation remains pending because the linear unit and exact measurement heights are unconfirmed. The parenthesized total is legibly 17,855, while the five legible components sum to 17,830. Neither has been corrected.",
+      "notes": "No conversion or geometry measured from pixels. Parentheses explicitly indicate upper bay readings; the plain readings are not labelled as base, floor-level or lower measurements. The discrepancy is 25 in unspecified source units. Resolve against another scan or the underlying survey before using a reconciled total; arithmetic alone does not establish which printed value is wrong."
+    },
+    {
+      "id": "obs-008",
+      "subject": "building",
+      "topics": [
+        "column-grid",
+        "measurement-basis"
+      ],
+      "property": "annotated_perimeter_bay_chain",
+      "value": {
+        "plan_edge": "page_left",
+        "reading_order": "top_to_bottom",
+        "plain": {
+          "components": [
+            3090,
+            5540,
+            3080
+          ],
+          "printed_total": 11710,
+          "calculated_sum": 11710,
+          "printed_total_minus_sum": 0
+        },
+        "parenthesized_upper": {
+          "components": [
+            3100,
+            5510,
+            3090
+          ],
+          "printed_total": 11700,
+          "calculated_sum": 11700,
+          "printed_total_minus_sum": 0
+        }
+      },
+      "unit": null,
+      "as_recorded": "Plain: 3,090; 5,540; 3,080; total 11,710. Parenthesized: (3,100); (5,510); (3,090); total (11,700). Caption: ( )내의 치수는 상부주칸실측치.",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Witness lines align with the centres of the circular column symbols as drawn. Actual field measuring points/heights are not specified. Parenthesized values are upper bay measurements; the plain measuring height and modern linear unit are unresolved. Calculated sums use only the transcribed components.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 033, upper-left 평면 주칸 실측치 diagram, page_left chain and its outer total line; original-pixel inspection region x=620–2450, y=450–2150. Caption below diagram."
+        }
+      ],
+      "review_note": "Two agents independently read the original sheet and its upper-left crop on 2026-09-22. The main agent checked the saved numbers and calculated both chain sums. Transcription and arithmetic are checked; the dimensional observation remains pending because the linear unit and exact measurement heights are unconfirmed.",
+      "notes": "No conversion or geometry measured from pixels. Parentheses explicitly indicate upper bay readings; the plain readings are not labelled as base, floor-level or lower measurements."
+    },
+    {
+      "id": "obs-009",
+      "subject": "building",
+      "topics": [
+        "column-grid",
+        "measurement-basis"
+      ],
+      "property": "annotated_perimeter_bay_chain",
+      "value": {
+        "plan_edge": "page_right",
+        "reading_order": "top_to_bottom",
+        "plain": {
+          "components": [
+            3120,
+            5500,
+            3085
+          ],
+          "printed_total": 11705,
+          "calculated_sum": 11705,
+          "printed_total_minus_sum": 0
+        },
+        "parenthesized_upper": {
+          "components": [
+            3110,
+            5490,
+            3090
+          ],
+          "printed_total": 11690,
+          "calculated_sum": 11690,
+          "printed_total_minus_sum": 0
+        }
+      },
+      "unit": null,
+      "as_recorded": "Plain: 3,120; 5,500; 3,085; total 11,705. Parenthesized: (3,110); (5,490); (3,090); total (11,690). Caption: ( )내의 치수는 상부주칸실측치.",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Witness lines align with the centres of the circular column symbols as drawn. Actual field measuring points/heights are not specified. Parenthesized values are upper bay measurements; the plain measuring height and modern linear unit are unresolved. Calculated sums use only the transcribed components.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-03",
+          "sheet_id": "sheet-003",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed sheet 033, upper-left 평면 주칸 실측치 diagram, page_right chain and its outer total line; original-pixel inspection region x=620–2450, y=450–2150. Caption below diagram."
+        }
+      ],
+      "review_note": "Two agents independently read the original sheet and its upper-left crop on 2026-09-22. The main agent checked the saved numbers and calculated both chain sums. Transcription and arithmetic are checked; the dimensional observation remains pending because the linear unit and exact measurement heights are unconfirmed.",
+      "notes": "No conversion or geometry measured from pixels. Parentheses explicitly indicate upper bay readings; the plain readings are not labelled as base, floor-level or lower measurements."
+    }
+  ],
+  "gaps": [
+    "Confirm the modern linear unit and actual field endpoints/heights for sheet 033. Parentheses identify upper bay readings; plain height is unspecified. The lower-left level diagram also needs its physical horizontal reference line before any floor/ceiling height is inferred.",
+    "Resolve the page-bottom upper-chain conflict in obs-007 against another scan or primary survey record. Do not replace the printed total with the computed sum.",
+    "Establish exact survey dates and repair chronology. The 1993.12 title blocks and repair labels do not prove when work was measured or executed.",
+    "Inspect east/west opening details and verify operation, clear openings, thresholds and enclosure boundaries. The panel counts in obs-005 do not establish a movement mechanism.",
+    "Extract floor/ceiling assemblies and levels in a later connected set. Identify the north interior frame against Park note-001/note-002 and dated conservation evidence before assigning painting, support or movable-furnishing states.",
+    "Primary measured/repair report and native CAD remain unacquired; the 2014 report is access-blocked and Cho 2022 remains preview-only. Follow existing source retry conditions."
+  ]
+}

@@ -1,52 +1,46 @@
-# Next task and checkpoint
+# Research checkpoint and next work
 
 ## Current checkpoint
 
-- Focus: Gyeongbokgung, one building at a time; interior evidence matters as much as exterior geometry.
-- Present: repository instructions and an empty `gbg-gyotaejeon` target record.
-- Acquired originals: none. Extracted architectural observations: none.
-- Binary storage: LFS attributes supplied; the actual working environment and remote still need checking. No archive/upload has been tested by this starter.
-- Next: one bounded acquisition trial. Gyotaejeon is the provisional target because the owner used it as an example; substitute another building when explicitly selected.
+- Owner's direction, 2026-09-22: prioritize **Sajeongjeon's dimensional attributes**, then build up a researched generic Korean palace hall reference for modeling fallbacks. Every commissioned building must be complete and sensibly assembled; missing evidence becomes an explicit modeling assumption. The broader modeling workflow will be discussed separately. [Brainstorming notes](brainstorming/complete-halls-and-fallbacks.md) preserve proposals without adopting them as defaults.
+- Focus: Gyeongbokgung plans, sections and interiors. The first bounded Sajeongjeon extraction is recorded in [gbg-sajeongjeon](buildings/gbg-sajeongjeon.json), dated **2026-09-22**: **five checked observations and four pending dimension records**. Checked findings cover the 5-by-3 perimeter bays, 20 depicted columns including four inside, north/south opening numbering, northern interior frame location, and central south opening panel arrangement. This is an initial drawing-based record, not a complete building or historical reconstruction.
+- The four perimeter dimension records preserve all eight plain/parenthesized chains on printed sheet 033. Two agents checked the transcription; seven chains match their printed totals. **Obs-007** preserves a discrepancy between the page-bottom upper chain and its total. Linear units and actual field measuring heights remain unconfirmed, so these numbers are not verified full-scale dimensions. Orientation follows the south/north detail labels and plan key; no surveyed azimuth is established.
+- The [1993 drawing record](sources/src-gbg-sajeongjeon-measured-drawings-1993/source.json) still holds **ten unchanged, locally verified JPEG sheets**, with four checked reading notes. This extraction used plan 001, measured diagram 033, sections 006/008 and openings 017/019; repair 045/050 remain separate. No new originals or derivatives acquired. An attempted alternate 033 viewer/catalogue check failed through the current web/browser routes; no additional unit evidence was inspected. Physical level datum, floor/ceiling details, east/west openings, operation and exact survey/repair chronology remain gaps.
+- Interior context is linked to the building: [Park 2022](sources/src-park-sajeongjeon-mural-2022/source.json) is a complete article with selected pages and four notes checked; [Cho 2022](sources/src-cho-sajeongjeon-throne-2022/source.json) is a **one-page preview**, with one checked note. The [2024 furnishing release and photo PDF](sources/src-gbg-sajeongjeon-furnishing-2024/source.json) have three checked notes covering the modern display. Their historical arguments have not been used to assign a mural or throne identity to the drawn interior frame.
+- The **2014 precinct report remains blocked** at the previously checked library/KHS login routes; KHS also described a provision request. The owner declined the library login flow after a bank-details prompt. No external request submitted or unchanged login route retried. No primary measured/repair report PDF or native CAD acquired; Cho's full-text gap is separate.
+- Reusable guidance remains in [AGENTS.md](AGENTS.md), [DATA.md](DATA.md) and the [baseline](ARCHITECTURAL_BASELINE.md). DATA now explains how to retain a checked transcription with unresolved dimensional basis and how to preserve conflicting chain totals. The [source map](LEADS.md#sajeongjeon-broader-source-pass-2026-09-21) retains broader candidates. Gyotaejeon remains unresearched; no cross-building dimension comparison or modeling geometry has been authored.
 
-Replace this checkpoint after a batch. Keep it brief and accurate; do not accumulate an activity diary.
+Replace this checkpoint as work advances. Keep the queue below short; it is not an activity diary or an inventory of every possible source.
 
-## Source entry points
+Consult [LEADS.md](LEADS.md) before choosing a batch: it maps the wider report leads, supplied local corpus, and both Drive collections. Items outside this queue remain available possibilities; check their existing source records and access status before acquisition.
 
-These are discovery routes supplied by the owner, **not verified claims about the contents of a specific report**:
+## Prioritized queue
 
-- Research folder: <https://drive.google.com/drive/folders/1ptj5lfQdVq7s3tii98QkX5hSXWByGJck?usp=sharing>
-- Heritage Portal record: <https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121108160000&pageNo=1_1_2_0>
+| Priority | Work item | Current evidence and useful stopping point |
+| --- | --- | --- |
+| 1 | Sajeongjeon dimensional attributes | Start from obs-006–009 and the 1993 drawing record. Resolve units, measuring heights and the obs-007 conflict through a working public route or supplied copy; continue with a small connected set of floor/platform levels, column heights/sections, opening frame dimensions or roof heights/profile. Keep surveyed and repair-intent dimensions separate. Stop after one verified set or a precise unresolved reading; an unchanged access failure should redirect work to another useful dimension, not consume the session. |
+| 2 | Research a generic Korean palace hall reference | After the initial Sajeongjeon dimensional pass, identify one useful structural or spatial relationship from inspected Korean palace examples. Record its source, scope, differences and gaps in source notes/comparisons; refine the baseline when warranted. Use the [brainstorming note](brainstorming/complete-halls-and-fallbacks.md) as a question list. Build this knowledge incrementally; a complete fallback hierarchy, numerical defaults and modeling adoption remain to be developed. |
+| 3 | Supporting comparative or historical evidence | Choose a residential-core report or historical plan when it answers a specific dimensional, type or state question. The [residential report lead](https://dh.aks.ac.kr/hanyang/wiki/index.php/한양도성_자료_현황) and [북궐도형 lead](https://dh.aks.ac.kr/hanyang/wiki/index.php/북궐도형) remain in the broader source map; verify the actual publication/reproduction before use. |
+| 4 (blocked) | Acquire the 2014 Sajeongjeon precinct report | [Source record](sources/src-gbg-sajeongjeon-survey-2014/source.json) retains catalogue and access details. Resume only with a new public route, owner-supplied original, or owner-reopened access. Any provision request needs owner submission or explicit authorization. Do not repeat unchanged signed-out attempts. |
 
-Use the connected Drive tools when available for the folder. Otherwise record the access limitation and continue with public institutional sources; do not bypass authorization. Inventory only what is relevant to the chosen building/task. Verify which building the portal record actually concerns rather than assuming it is Gyotaejeon.
+The generic hall reference is a new research direction, not an established historical standard. Supporting report/plan candidates are discovery leads until their contents are inspected. Other report links remain in [context/report-links.json](context/report-links.json); admitting a useful source does not require a building record first. Keep unrelated future-palace leads there until they serve a current question.
 
-No deep-research report or source PDFs are bundled here. Earlier conversational examples of report titles, dates, drawing numbers, and measurements are **not** verified records. Check actual catalogues/documents before ingesting them.
+Search exact Korean titles under both current and former institutional names, including 국가유산청/문화재청 and 국립문화유산연구원/국립문화재연구소. An accessible measured PDF can be a useful acquisition without an indefinite hunt for its native CAD.
 
-Useful initial search queries—not asserted publication titles:
+## Run one useful batch
 
-```text
-"경복궁 교태전" 실측
-"경복궁 교태전" 수리보고서
-"경복궁 침전" 복원 보고서 도면
-"교태전" 평면도 단면도 창호
-```
+Read the current records and choose the highest-value unblocked queue item. For a new building or a narrow source map, follow [Initial source discovery](AGENTS.md#initial-source-discovery) before choosing the basis for substantial extraction. Default acquisition to **one source package**, with up to three relevant documents if they naturally belong together; this does not limit discovery to the first source found. Name the intended result before starting. Discovery, acquisition, indexing, extraction, or comparison can each be the session's whole task.
 
-Search institutional catalogues, including records under both 국가유산청/문화재청 and 국립문화유산연구원/국립문화재연구소 names. Prefer a relevant dimensioned report over an indefinite hunt for native CAD. A comparative source belongs in the batch only when it helps the current building/interior question.
+Use effort bounds rather than the old fixed file-size cap. Start with at most ten selected drawing-page previews when inspection is needed; retain whole originals, but avoid full-report OCR, bulk CAD conversion, or a site-wide crawl. Check available disk space and reported file size before unusually large transfers. A user-supplied session budget overrides these defaults. Do not buy storage or install software as a side effect.
 
-## First acquisition batch
+For acquisition, verify the file type/header, readable content, size, and SHA-256; save it in the configured Dropbox folder and record its catalogue and download route. Add a brief coverage/relevance note and a next action. A successful acquisition batch does not owe a quota of building measurements.
 
-This is a small trial of the capture process, not a pilot reconstruction or a survey of ten buildings.
+For indexing or extraction, inspect the selected drawings and keep one-based PDF positions distinct from printed page and sheet labels. Add checked observations only after an actual verification action. Track missing interior evidence and historical-state ambiguity explicitly.
 
-**Default bounds:** at most three relevant source documents; at most 250 MiB of new original downloads and ten selected drawing-page derivatives. These are conservative project defaults, not platform limits. Do not attempt full-report OCR or bulk CAD conversion. Limit repeated failed access attempts to two per source before recording the blocker and moving on. A user-specified budget can replace these bounds for later batches.
+Limit repeated failed access attempts to two per source in one batch. Record the blocker and what would make a retry useful, then move to another relevant item. On a later run, do not repeat an unchanged failure without a new route or changed access. The [KHS download instructions](https://digital.khs.go.kr/service/instructionsForUse2.do), checked 2026-09-21, require login and describe an additional request process for large files. Catalogue visibility does not establish download access. Record request-needed items for the owner; do not submit external requests without authorization.
 
-1. Check existing records and the original-retention route. Identify the best accessible primary source for Gyotaejeon's dimensions and interiors. Catalogue a small number of genuine alternatives where useful.
-2. Acquire at least one relevant original when access and storage permit. Preserve bytes, retrieval details, checksum, and stated rights. Mark local-only retention honestly until a remote/archive copy is confirmed.
-3. Inspect and index the most useful plan, section, and interior/opening sheets. Include exact locators and which state each appears to document. Extract only useful page previews/text; keep the rest of the report intact for future work.
-4. Record a small checked subset of observations in the building JSON—roughly 5–15 *only when supported*. Prefer column/room arrangement, interior openings, floor/ceiling levels, and measured dimensions. Do not force a quota or substitute decorative minutiae for missing geometry.
-5. Record significant gaps. Capture an evidence-backed cross-building comparison only if one naturally appears in the chosen material; otherwise leave `COMPARISONS.md` unchanged.
-6. Validate records/references and the diff. Update this checkpoint and name one next useful task. Follow the authorized branch/commit workflow; do not change repository settings or publish unasked.
-
-A useful result can be one retained report, a handful of well-located sheets, several checked observations, and a clear next step. If acquisition is blocked, a genuine catalogue record plus precise blocker and alternative route is still useful. Do not describe that result as an acquired source or a finished building.
+Finish by checking JSON, references, changed file paths/hashes, and the diff. Update this checkpoint and the affected source's next action. Report sources found versus originals acquired, pages actually inspected, observations checked, and the most important remaining gap. Stop after the bounded result.
 
 ## Reusable prompt
 
-> Read README.md, AGENTS.md, DATA.md, and NEXT.md. Run one bounded acquisition batch for the current Gyeongbokgung building, using NEXT.md's bounds unless I provide another budget. Prioritize measured geometry and interiors. Preserve originals, index selected useful sheets, and add only traceable observations. Keep unresolved states/units/readings explicit. Do not build models, infer a universal kit, expand the folder hierarchy speculatively, or broaden to other palaces. Update NEXT.md with what actually exists, storage/access blockers, and one next useful task. Report acquired versus merely located sources and checked versus pending observations.
+> Read README.md, PROJECT.md, AGENTS.md, DATA.md, NEXT.md, and the relevant part of LEADS.md. Complete one useful research batch from the current queue. For a new building or a narrow source map, begin with the bounded discovery pass in AGENTS.md. Otherwise choose an unblocked source package or a focused indexing/extraction task; research is not limited to completing one building. Save research binaries under the configured Dropbox PalaceData root, keep recoverable provenance and checksums in Git, and prioritize plans, sections, and interiors. No fixed 250 MiB cap or Dropbox upload audit is required. Preserve historical states and uncertainties, avoid repeated blocked routes, update the small checkpoint, and report exactly what was retained and inspected. Do not start modeling or build a collection framework.

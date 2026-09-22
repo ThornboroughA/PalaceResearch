@@ -1,0 +1,83 @@
+{
+  "id": "src-gbg-sajeongjeon-survey-2014",
+  "title_ko": "경복궁 사정전 일곽 : 정밀실측조사보고서",
+  "title_en": null,
+  "creators": ["문화재청"],
+  "publisher": "문화재청",
+  "publication_date": "2014",
+  "evidence_kind": "measured_survey",
+  "related_source_ids": ["src-gbg-sajeongjeon-measured-drawings-1993"],
+  "related_source_note": "A public 1993 Sajeongjeon drawing pair was acquired separately on 2026-09-21 from heritage.go.kr. It provides an unblocked research path, not a copy of this 2014 report; dates and states must remain separate.",
+  "catalog_url": "https://dl.nanet.go.kr/detail/MONO1201532060",
+  "identifiers": {"isbn": "9788929905088", "national_assembly_library": "MONO1201532060"},
+  "building_ids": ["gbg-sajeongjeon"],
+  "coverage_names_ko": ["사정전", "천추전", "만춘전", "사정문", "향오문", "동행각", "서행각", "남행각", "북행각"],
+  "topics": ["column-grid", "interior-layout", "openings", "floor-assembly", "roof-structure"],
+  "access": {
+    "status": "blocked",
+    "last_attempt": "2026-09-21",
+    "note": "Two official download routes attempted in a signed-out browser. The National Assembly Library download button displayed '로그인 후 이용 가능합니다.' The KHS provided-file download button displayed '로그인 후 이용하실 수 있습니다.' The KHS PDF detail also states that the material is not supplied on the website and offers 대용량파일 제공신청. No application was submitted and no original was acquired; authenticated availability remains untested.",
+    "download_route": "National Assembly Library catalogue > 다운로드 after login, or KHS project > 보고서 > PDF record 13903059545386100936 > permitted download/provision process after login. Prefer the PDF; the related ZIP is a separate, uninspected 5.9 GB catalogue lead.",
+    "file_record_url": "https://digital.khs.go.kr/record/recordDetailReport.do?ichDataUid=13903059545386100936&bizId=BIZ201400002177&pageSe=bizDetail&bizUid=13898748265076900312&ctptNo=1121117590000&ctptUid=13898859672764200589&bizId=BIZ201400002177&ctptNo=1121117590000",
+    "instructions_url": "https://digital.khs.go.kr/service/instructionsForUse2.do",
+    "listed_original_filename": "보물1759_경복궁사정전_보물_제1759호_경복궁_사정전_정밀실측조사보고서.pdf",
+    "listed_file_size": "164.5 MB",
+    "listed_page_count": 759,
+    "metadata_note": "Size and page count are KHS catalogue claims, not file verification. The library's 727-page physical description, its contents labels extending to 754, and the KHS count of 759 are unreconciled. No PDF-page offset is established.",
+    "owner_access_preference": "On 2026-09-21 the owner reported that manual library login asked for bank details and declined that route. The agent did not inspect the form or establish its purpose. Prefer a lawful public download or an already-obtained original; do not direct the owner back through this login process."
+  },
+  "rights": {
+    "statement": "The KHS PDF detail displays 공공누리 제 1유형 : 출처 표시 and 출처표시 조건 하에 자유이용 가능. This is the stated condition for this listed PDF; embedded third-party material and any delivered-file notices remain uninspected.",
+    "url": "https://www.kogl.or.kr/info/licenseType1.do",
+    "redistribution": "permitted_under_stated_KOGL_Type_1_conditions",
+    "checked_on": "2026-09-21",
+    "statement_locator": "KHS PDF record 13903059545386100936, licence panel below the preview"
+  },
+  "artifacts": [],
+  "sheets": [],
+  "notes": [],
+  "catalogue_checks": [
+    {
+      "url": "https://dl.nanet.go.kr/detail/MONO1201532060",
+      "checked_on": "2026-09-21",
+      "locator": "Bibliographic record and 목차보기",
+      "method": "agent_read_catalogue",
+      "findings": "Title, institutional author/publisher, 2014 publication, ISBN, and 727-page physical description verified in the catalogue. Contents identify separate Sajeongjeon and Cheonchujeon measurement sections. Catalogue page labels have not been mapped to PDF pages."
+    },
+    {
+      "url": "https://digital.khs.go.kr/buis/buisDetail.do?bizUid=13898748265076900312&ctptNo=1121117590000&ctptUid=13898859672764200589",
+      "checked_on": "2026-09-21",
+      "locator": "2014 project listing",
+      "method": "agent_read_catalogue",
+      "findings": "Related survey project provides a discovery route to individual records. Project records are not all one document and should not be counted as acquired files."
+    },
+    {
+      "url": "https://digital.khs.go.kr/record/recordDetailReport.do?ichDataUid=13903059545386100936&bizId=BIZ201400002177&pageSe=bizDetail&bizUid=13898748265076900312&ctptNo=1121117590000&ctptUid=13898859672764200589&bizId=BIZ201400002177&ctptNo=1121117590000",
+      "checked_on": "2026-09-21",
+      "locator": "Project report filter and PDF detail: file metadata, licence panel, provision notice and provided-file download control",
+      "method": "agent_read_live_browser_and_attempt_download",
+      "findings": "Identified the PDF record, original filename, stated size/page count and KOGL Type 1 notice. The project distinguishes detailed surveys of 사정전 and 천추전 from simpler surveys of 만춘전 and the surrounding 행각 including 사정문. PDF contents and identity against the library edition remain unverified. Download was login-blocked; a large-file provision notice is also present. The related ZIP was neither requested nor downloaded."
+    },
+    {
+      "url": "https://dl.nanet.go.kr/detail/MONO1201532060",
+      "checked_on": "2026-09-21",
+      "locator": "목차보기 and 도면목차; 다운로드 button",
+      "method": "agent_read_live_browser_and_attempt_download",
+      "findings": "Download was login-blocked. Selected catalogue leads below identify likely geometry and interior coverage. Numbers are catalogue-listed page labels, not verified printed labels or one-based PDF positions. No drawing or report page was visually inspected.",
+      "page_leads": [
+        {"catalogue_page_labels": "21-33", "subject": "Survey scope, methods and datums", "locator": "I. 실측조사 개요: 과업내용, 조사방법, 기준점 설치", "next_check": "Establish survey dates, measurement basis and documented state before extracting geometry."},
+        {"catalogue_page_labels": "80-84, 95", "subject": "Sajeongjeon plan, column grid and sections", "locator": "도면 3-1 through 3-4; 표 3-1; 도면 3-7 and 3-8", "next_check": "Inspect plan and both sections together; distinguish column centres from clear widths."},
+        {"catalogue_page_labels": "166-174", "subject": "Sajeongjeon enclosure and interior", "locator": "III.7 수장부; III.8.2 어좌 및 편전 내부 가구; 도면 3-38 through 3-42", "next_check": "Locate openings, floor and ceiling assemblies, then separate surveyed fabric from reproduced furnishings."},
+        {"catalogue_page_labels": "178-181, 189", "subject": "Cheonchujeon plan, grid and section", "locator": "IV.1 평면; 도면 4-1, 4-2 and 4-6; 표 4-1", "next_check": "Check room boundaries and their relationship to the column grid and section."},
+        {"catalogue_page_labels": "230-241", "subject": "Cheonchujeon openings, floors, ceilings and heating", "locator": "IV.7 수장부; IV.8.2 함실아궁이 및 굴뚝; 도면 4-30 through 4-35, 4-37 and 4-38", "next_check": "Prioritize 대청/온돌방 interfaces and 들문 operation; catalogue names alone do not establish the arrangement."},
+        {"catalogue_page_labels": "243-286", "subject": "Manchunjeon, gates and surrounding ranges", "locator": "V. 부속건물; 도면 5-1 through 5-34", "next_check": "Locate precinct connections without assuming all buildings received the same survey detail."},
+        {"catalogue_page_labels": "473 onward", "subject": "Measured drawing appendix", "locator": "IX. 부록 > 실측도면", "next_check": "Map actual PDF positions and sheet labels; select larger plan/section sheets for readable inspection."}
+      ]
+    }
+  ],
+  "work": {
+    "next_action": "Prefer a new lawful public download route or a lawfully obtained PDF supplied by the owner; the owner declined the library login process. If KHS requires provision, the owner must submit it or explicitly authorize submission. Verify the acquired PDF in Dropbox, reconcile pagination, and inspect survey scope plus selected plan/section/interior pages from the catalogue leads (at most ten drawing-page previews in the first inspection batch).",
+    "blocker": "Both attempted official download routes require login. KHS additionally flags this PDF for a large-file provision request. No PDF bytes are held, so readability, checksum, actual pagination, drawing states and interior evidence cannot yet be checked.",
+    "retry_when": "A new lawful public route is found, the owner supplies an original, an authorized provision request has delivered the PDF, or the owner explicitly reopens authenticated access. Do not repeat the same signed-out download attempts or push the declined library login route."
+  }
+}

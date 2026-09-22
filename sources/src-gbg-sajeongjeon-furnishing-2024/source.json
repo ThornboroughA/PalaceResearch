@@ -1,0 +1,269 @@
+{
+  "id": "src-gbg-sajeongjeon-furnishing-2024",
+  "title_ko": "임금의 업무공간 ‘경복궁 사정전’ 상참의 재현품 만난다",
+  "title_en": null,
+  "creators": [
+    "문화재청 궁능유적본부 경복궁관리소"
+  ],
+  "publisher": "문화재청 궁능유적본부",
+  "publication_date": "2024-05-08",
+  "evidence_kind": "display_reconstruction_record",
+  "catalog_url": "https://royal.khs.go.kr/ROYAL/contents/R402000000.do?id=20240508144352747159&schBcid=normal1&schM=view",
+  "building_ids": ["gbg-sajeongjeon"],
+  "coverage_names_ko": [
+    "사정전"
+  ],
+  "topics": [
+    "interior-layout",
+    "furnishings",
+    "floor-assembly",
+    "openings"
+  ],
+  "scope": "Official announcement and five photographs of the 2024 Sajeongjeon furnishing display; no measured plans or documented historical reconstruction argument. The original release uses 문화재청, although its present host uses 국가유산청 branding.",
+  "relevance": "Identifies the modern display state when interpreting recent interior photographs. Compare its claims with the 2022 interior studies and dated measured drawings before adopting a historical arrangement.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-21",
+    "note": "Public official page and its attachment downloaded without login. Reacquire the photo PDF through the attachment link ending /afile/fileDownload/avnmn. Listed HWP/HWPX body versions were not acquired because the retained HTML contains the release text."
+  },
+  "rights": {
+    "statement": "The release page footer states all rights reserved; no item-specific KOGL mark was found in the saved article HTML. The site copyright policy directs users to check each work for a KOGL mark and consult the institution for unmarked material. A general site policy has not been assigned as this attachment's licence.",
+    "url": "https://royal.khs.go.kr/ROYAL/contents/R802000000.do",
+    "redistribution": "unknown"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-furnishing-2024/originals/release.html",
+      "original_filename": null,
+      "retrieved_from": "https://royal.khs.go.kr/ROYAL/contents/R402000000.do?id=20240508144352747159&schBcid=normal1&schM=view",
+      "retrieved_on": "2026-09-21",
+      "media_type": "text/html",
+      "bytes": 71411,
+      "sha256": "de61ba4f2824d63521ccb0005330bd611234f0ee73f0addd9e7bca634587fa73",
+      "storage": "dropbox",
+      "verification_note": "HTTP Content-Type text/html;charset=UTF-8; UTF-8 HTML structure, dated release title, full article body and attachment links checked by the agent with native text parsing and live official page. Saved original response bytes. Website counters and other dynamic content may change on reacquisition."
+    },
+    {
+      "id": "original-02",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-furnishing-2024/originals/photo-attachment.pdf",
+      "original_filename": "0508+임금의+업무공간+‘경복궁+사정전’+상참의+재현품+만난다(붙임).pdf",
+      "retrieved_from": "https://royal.khs.go.kr/afile/fileDownload/avnmn",
+      "retrieved_on": "2026-09-21",
+      "media_type": "application/pdf",
+      "bytes": 2103151,
+      "sha256": "3488e580e171efa02c2ec9838db3fec5bfe8ab06bf7908a3059a9ed7a982dd3b",
+      "storage": "dropbox",
+      "pdf_page_count": 3,
+      "verification_note": "HTTP response labelled application/octet-stream; %PDF-1.4 header and pypdf parse establish a readable three-page PDF. Native captions checked against Poppler renders of all three complete pages on 2026-09-21; all five photographs inspected by the agent. No printed page numbers. Original bytes unchanged."
+    },
+    {
+      "id": "preview-01",
+      "role": "derived",
+      "parent_artifact_id": "original-02",
+      "path": "sources/src-gbg-sajeongjeon-furnishing-2024/derived/attachment-page-1.png",
+      "media_type": "image/png",
+      "bytes": 1116634,
+      "sha256": "f300f01c335fd86d60474faa99e1e4b49fbba202980506d4386fffc104b749c4",
+      "storage": "dropbox",
+      "image_pixels": [
+        910,
+        1285
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, -r 110 -png; full uncropped page, no resizing or annotation",
+        "pdf_pages": [
+          1
+        ]
+      },
+      "verification_note": "Agent opened and visually inspected full PDF page 1 preview on 2026-09-21; caption and photograph readability checked."
+    },
+    {
+      "id": "preview-02",
+      "role": "derived",
+      "parent_artifact_id": "original-02",
+      "path": "sources/src-gbg-sajeongjeon-furnishing-2024/derived/attachment-page-2.png",
+      "media_type": "image/png",
+      "bytes": 928927,
+      "sha256": "9fc5249b23d1646f9f3ff8de707d22b9621be7250ae56e019cb508d1d359a9ac",
+      "storage": "dropbox",
+      "image_pixels": [
+        910,
+        1285
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, -r 110 -png; full uncropped page, no resizing or annotation",
+        "pdf_pages": [
+          2
+        ]
+      },
+      "verification_note": "Agent opened and visually inspected full PDF page 2 preview on 2026-09-21; caption and photograph readability checked."
+    },
+    {
+      "id": "preview-03",
+      "role": "derived",
+      "parent_artifact_id": "original-02",
+      "path": "sources/src-gbg-sajeongjeon-furnishing-2024/derived/attachment-page-3.png",
+      "media_type": "image/png",
+      "bytes": 422737,
+      "sha256": "0bb8de3699f1db7f139e6bb136559f5165acdf208679b4b184dde9236cb0518b",
+      "storage": "dropbox",
+      "image_pixels": [
+        910,
+        1285
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, -r 110 -png; full uncropped page, no resizing or annotation",
+        "pdf_pages": [
+          3
+        ]
+      },
+      "verification_note": "Agent opened and visually inspected full PDF page 3 preview on 2026-09-21; caption and photograph readability checked."
+    }
+  ],
+  "sheets": [
+    {
+      "id": "photo-page-001",
+      "artifact_id": "original-02",
+      "pdf_page": 1,
+      "printed_page": null,
+      "sheet_label": null,
+      "title_ko": "사정전 내부 정면 / 사정전 내부 좌측면",
+      "kind": "photo-plate",
+      "building_ids": [],
+      "topics": [
+        "interior-layout",
+        "furnishings",
+        "floor-assembly"
+      ],
+      "has_dimensions": false,
+      "documented_state": "Modern furnishing reconstruction/display associated with the 2024-05-08 release; individual photograph dates not stated.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": "preview-01"
+    },
+    {
+      "id": "photo-page-002",
+      "artifact_id": "original-02",
+      "pdf_page": 2,
+      "printed_page": null,
+      "sheet_label": null,
+      "title_ko": "사정전 내부 우측면 / 사정전 내부 정면(야간)",
+      "kind": "photo-plate",
+      "building_ids": [],
+      "topics": [
+        "interior-layout",
+        "furnishings",
+        "floor-assembly"
+      ],
+      "has_dimensions": false,
+      "documented_state": "Modern furnishing reconstruction/display associated with the 2024-05-08 release; individual photograph dates not stated.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": "preview-02"
+    },
+    {
+      "id": "photo-page-003",
+      "artifact_id": "original-02",
+      "pdf_page": 3,
+      "printed_page": null,
+      "sheet_label": null,
+      "title_ko": "사정전 내부 우측면(야간)",
+      "kind": "photo-plate",
+      "building_ids": [],
+      "topics": [
+        "interior-layout",
+        "furnishings",
+        "floor-assembly"
+      ],
+      "has_dimensions": false,
+      "documented_state": "Modern furnishing reconstruction/display associated with the 2024-05-08 release; individual photograph dates not stated.",
+      "inspection": "visually_inspected",
+      "preview_artifact_id": "preview-03"
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "The release announces display of 14 types / 20 reconstructed furnishings from 2024-05-08. It identifies a 용교의 chair, 용평상 platform and 지의 floor mats; the throne position is described as researched. The supporting research and a specific historical target date are not supplied.",
+      "topics": [
+        "interior-layout",
+        "furnishings",
+        "floor-assembly"
+      ],
+      "scope": "Checked report of the institution's 2024 reconstruction claims, not verification of a nineteenth-century interior.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-furnishing-2024",
+          "artifact_id": "original-01",
+          "webpage_heading": "보도자료",
+          "locator_note": "Dated article header; main release body, first paragraph and fourth paragraph (following the building-history paragraph)."
+        }
+      ],
+      "review_note": "Agent compared the saved HTML body with the live official text and read the complete release on 2026-09-21. The publication date also dates the announced opening, not the exposure date of every attached photograph."
+    },
+    {
+      "id": "note-002",
+      "statement": "The photographs show a chair/platform ensemble before a painted backdrop, with mats extending across the visible floor. Day and night front and oblique views provide spatial context for the display. Photo captions identify viewpoints, not measured positions or historical dates.",
+      "topics": [
+        "interior-layout",
+        "furnishings",
+        "floor-assembly"
+      ],
+      "scope": "Visual reading of the photographed modern display only. No pictorial dimension, compass orientation, full object inventory, or identification of older fabric was inferred.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-furnishing-2024",
+          "artifact_id": "original-02",
+          "pdf_page": 1,
+          "printed_page": null,
+          "locator_note": "Photo-attachment heading; front and left-side interior views."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-furnishing-2024",
+          "artifact_id": "original-02",
+          "pdf_page": 2,
+          "printed_page": null,
+          "locator_note": "Right-side interior and front night views."
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-furnishing-2024",
+          "artifact_id": "original-02",
+          "pdf_page": 3,
+          "printed_page": null,
+          "locator_note": "Right-side interior night view."
+        }
+      ],
+      "review_note": "Agent visually inspected the complete Poppler renders of all three pages and checked native captions on 2026-09-21. Page 3 makes the chair above the platform particularly legible. This checks what the photos show, not the historical validity of the exhibition."
+    },
+    {
+      "id": "note-003",
+      "statement": "The announcement says the exterior openings are opened so visitors can view the display from outside. Opening configuration in exhibition photographs therefore needs a display-use qualifier before it can inform historical operation.",
+      "topics": [
+        "openings",
+        "interior-layout"
+      ],
+      "scope": "The first sentence reports the 2024 visitor arrangement; the second is the analyst's evidence-handling implication.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-furnishing-2024",
+          "artifact_id": "original-01",
+          "webpage_heading": "보도자료",
+          "locator_note": "Main release body, fifth paragraph, on viewing from outside the hall."
+        }
+      ],
+      "review_note": "Agent checked this passage in both the saved HTML and the live official release on 2026-09-21; no opening mechanism was inferred."
+    }
+  ],
+  "work": {
+    "next_action": "Cross-reference these display photos with Park 2022 on the mural/partition and Cho 2022 on throne arrangement. Preserve the modern display as a distinct state; obtain the reconstruction research if its claimed historical position becomes material.",
+    "blocker": null,
+    "retry_when": null
+  }
+}

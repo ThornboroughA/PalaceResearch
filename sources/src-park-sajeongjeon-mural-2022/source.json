@@ -1,0 +1,426 @@
+{
+  "id": "src-park-sajeongjeon-mural-2022",
+  "title_ko": "경복궁 사정전 <쌍룡도> 벽화의 설치 배경과 제작 시기 검토",
+  "title_en": "A Study on the Origin and Production Date of the Twin Dragon Painting of Sajeongjeon Hall in Gyeongbokgung Palace",
+  "creators": [
+    "박윤희 / Park Yoon Hee"
+  ],
+  "publisher": "국립고궁박물관 유물과학과",
+  "publication_date": "2022-12-14",
+  "journal": {
+    "title": "고궁문화",
+    "issue": "15",
+    "printed_pages": "121–150"
+  },
+  "identifiers": {
+    "doi": "10.23008/kjpm.2022..15.005"
+  },
+  "evidence_kind": "academic_analysis",
+  "catalog_url": "https://online.gogung.go.kr/gogung/bbs/BMSR00053/view.do?boardId=5120&pageIndex=1",
+  "building_ids": ["gbg-sajeongjeon"],
+  "coverage_names_ko": [
+    "사정전"
+  ],
+  "topics": [
+    "interior-layout",
+    "partitions",
+    "furnishings",
+    "historical-state"
+  ],
+  "scope": "Building-specific study of the mural, its support and alteration history, including comparisons with other court interiors. Selected relevant pages checked; no complete article review or primary archive verification claimed.",
+  "relevance": "Separates the history of the painted image from its architectural mounting; helps interpret the central assembly in the 1993 drawings and later display photographs.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-21",
+    "note": "Complete 40-page individual-article file acquired from the public museum attachment, fileSn 2339 under atchFileId G_000000755212221. The full journal issue was not downloaded. Selected pages inspected: 8, 10, 12, 13, 21, 30, 31, 32, 36, 37, 39."
+  },
+  "rights": {
+    "statement": "Museum issue page displays KOGL attribution + noncommercial + no modification. PDF page 39 also states that text and photographs may not be used without consent from the museum and their respective owners. Keep originals unchanged and preserve third-party ownership distinctions; no blanket licence for reproduced figures.",
+    "url": "https://online.gogung.go.kr/gogung/bbs/BMSR00053/view.do?boardId=5120&pageIndex=1",
+    "redistribution": "subject_to_item_and_third_party_rights"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-park-sajeongjeon-mural-2022/originals/article.pdf",
+      "original_filename": "05_경복궁 사정전 쌍룡도 벽화의 설치 배경과 제작 시기 검토_박윤희.pdf",
+      "retrieved_from": "https://online.gogung.go.kr/gogung/cmmn/file/fileDown.do?atchFileId=G_000000755212221&fileSn=2339",
+      "retrieved_on": "2026-09-21",
+      "media_type": "application/pdf",
+      "pdf_page_count": 40,
+      "bytes": 4234489,
+      "sha256": "6c9daecdbfbafdd0091e93fd8897ca3211bd07cf5c4f157cad4f0dafe5ddf00d",
+      "storage": "dropbox",
+      "verification_note": "%PDF- header; pypdf parsed 40 pages. Native text and selected Poppler renders checked at the Dropbox path. Original response bytes unchanged. Complete individual-article download includes issue front/back matter. Body opening printed 123 is PDF 10; English abstract printed 149–150 is PDF 36–37. Korean text encoding is partly corrupt, so cited readings rely on page images. No bulk OCR."
+    },
+    {
+      "id": "preview-008",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-008.png",
+      "media_type": "image/png",
+      "bytes": 112555,
+      "sha256": "0807a6b5103d769840a60b08ef5acdfc6c23f42adb6c25d9327ecb4f2d27b385",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          8
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    },
+    {
+      "id": "preview-010",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-010.png",
+      "media_type": "image/png",
+      "bytes": 464091,
+      "sha256": "c8423f21b56219e4cdf4f8ed21a21418bfe13c5200827411f40dafbf0caf15ee",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          10
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    },
+    {
+      "id": "preview-012",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-012.png",
+      "media_type": "image/png",
+      "bytes": 696747,
+      "sha256": "b8841c5090546e2af9dfd87ef7811c290ca66b29c1c49616f3f4c37ab38508d0",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          12
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    },
+    {
+      "id": "preview-013",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-013.png",
+      "media_type": "image/png",
+      "bytes": 728575,
+      "sha256": "9e0ee50f02a722e5a269ea8c19ace95ce898cb42e8cb4fea4376eee382dc8100",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          13
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    },
+    {
+      "id": "preview-021",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-021.png",
+      "media_type": "image/png",
+      "bytes": 777434,
+      "sha256": "c4da402e24b30af568271f78fa25e4111af3aced135942af0552bd192f0578ec",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          21
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    },
+    {
+      "id": "preview-030",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-030.png",
+      "media_type": "image/png",
+      "bytes": 796131,
+      "sha256": "9879ba6d8c6c45bb759def6abc23ed33bf9a3b4d86cac14ea62401627db8be7a",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          30
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    },
+    {
+      "id": "preview-031",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-031.png",
+      "media_type": "image/png",
+      "bytes": 628888,
+      "sha256": "e681edeb357f6759f65d89af6a845e48c22ab9fdef542680b4a5eda057349bbf",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          31
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    },
+    {
+      "id": "preview-032",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-032.png",
+      "media_type": "image/png",
+      "bytes": 393795,
+      "sha256": "80f74bd3ed13720c05133a3535012072e24ddb7e7f1a3efc6f0e790e80a5913b",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          32
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    },
+    {
+      "id": "preview-036",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-036.png",
+      "media_type": "image/png",
+      "bytes": 287753,
+      "sha256": "1fc6a4f56a9b46aaf570f3ce7f7c65eb24351315fc8025c21439ef38131823fc",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          36
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    },
+    {
+      "id": "preview-037",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-037.png",
+      "media_type": "image/png",
+      "bytes": 145859,
+      "sha256": "62ad6df03badf18768920f80317d6dbcbdbedd5b73f88b805fed708df72731ab",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          37
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    },
+    {
+      "id": "preview-039",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-park-sajeongjeon-mural-2022/derived/page-039.png",
+      "media_type": "image/png",
+      "bytes": 45865,
+      "sha256": "07beed4d176e111ee3e34b96c87c9a18c48390632912e64350fb2af7eab62938",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1048,
+        1434
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          39
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "Park reports conservation in 1986 and removal of the painting and its detachable framed support in 2000; a photographic facsimile replaced it. The removal photographs show the support being lowered between the tall internal columns.",
+      "topics": [
+        "partitions",
+        "furnishings",
+        "historical-state"
+      ],
+      "scope": "An account based on conservation documentation; dates of the painted image and its support are separate questions.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-park-sajeongjeon-mural-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 12,
+          "printed_page": "125",
+          "locator_note": "Section II.1, conservation history and figure 3 (1986 photographs)."
+        },
+        {
+          "source_id": "src-park-sajeongjeon-mural-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 13,
+          "printed_page": "126",
+          "locator_note": "Figure 4 and text describing the 2000 removal, frame construction and photographic replacement."
+        }
+      ],
+      "review_note": "Agent read the cited passages and inspected full-page renders, including captions and surrounding qualifications, on 2026-09-21. Checked means an accurate reading of this source; its primary evidence and proposed historical reconstruction have not been independently verified."
+    },
+    {
+      "id": "note-002",
+      "statement": "Park connects traces on the central columns and beams with a former screen or opening below the upper painted panel. Figure 11 records these traces; the proposed operable lower enclosure is an interpretation, not a surviving complete mechanism.",
+      "topics": [
+        "partitions",
+        "openings",
+        "interior-layout"
+      ],
+      "scope": "Candidate relationship for the central bay; Chinese palace comparisons do not establish identical construction in Sajeongjeon.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-park-sajeongjeon-mural-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 21,
+          "printed_page": "134",
+          "locator_note": "Paragraphs above/beside figure 11 and its three detail photographs."
+        }
+      ],
+      "review_note": "Agent read the cited passages and inspected full-page renders, including captions and surrounding qualifications, on 2026-09-21. Checked means an accurate reading of this source; its primary evidence and proposed historical reconstruction have not been independently verified."
+    },
+    {
+      "id": "note-003",
+      "statement": "Park argues that the mounting belongs to the rebuilding-era arrangement while the surviving painting is later, probably associated with the colonial exhibition/museum period. The conclusion remains a historical argument; its dated photographs and conservation records are leads for independent checking.",
+      "topics": [
+        "historical-state",
+        "partitions",
+        "furnishings"
+      ],
+      "scope": "Selected argument/conclusion checked; the complete stylistic comparison and original backing-paper decipherment were not independently repeated.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-park-sajeongjeon-mural-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 30,
+          "printed_page": "143",
+          "locator_note": "Figure 23 and discussion of the 1915 exhibition."
+        },
+        {
+          "source_id": "src-park-sajeongjeon-mural-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 31,
+          "printed_page": "144",
+          "locator_note": "Interpretation of alteration and subsequent museum use."
+        },
+        {
+          "source_id": "src-park-sajeongjeon-mural-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 32,
+          "printed_page": "145",
+          "locator_note": "Conclusion; footnotes 39–40; article acknowledgement."
+        },
+        {
+          "source_id": "src-park-sajeongjeon-mural-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 36,
+          "printed_page": "149",
+          "locator_note": "English abstract on backing paper and mounting."
+        },
+        {
+          "source_id": "src-park-sajeongjeon-mural-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 37,
+          "printed_page": "150",
+          "locator_note": "English abstract continuation on later painting and removal."
+        }
+      ],
+      "review_note": "Agent read the cited passages and inspected full-page renders, including captions and surrounding qualifications, on 2026-09-21. Checked means an accurate reading of this source; its primary evidence and proposed historical reconstruction have not been independently verified."
+    },
+    {
+      "id": "note-004",
+      "statement": "Park acknowledges an Arumjigi-commissioned Sajeongjeon symposium version; Cho’s first-page footnote describes Arumjigi-related 2022 interior research. This establishes shared research context, not identical conclusions or independent corroboration. The underlying project report has not been acquired.",
+      "topics": [
+        "research-context",
+        "interior-layout"
+      ],
+      "scope": "Bibliographic relationship between two retained publications; their full evidence chains have not been compared.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-park-sajeongjeon-mural-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 32,
+          "printed_page": "145",
+          "locator_note": "Acknowledgement box below footnotes: revised symposium paper, 2022-04-26."
+        },
+        {
+          "source_id": "src-cho-sajeongjeon-throne-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 1,
+          "printed_page": "103",
+          "locator_note": "Footnote 1: 경복궁 사정전 내부원형 및 포진재 고증조사, January–March 2022, associated organizations and research team."
+        }
+      ],
+      "review_note": "Agent visually inspected both complete cited pages on 2026-09-21 and compared the acknowledgements. No common original photograph or dimension source is assumed merely from the institutional overlap."
+    }
+  ],
+  "work": {
+    "next_action": "Use notes 001–003 to distinguish the mounting, painted image and later facsimile before assigning a historical state to the central assembly. Retrieve underlying conservation records if exact fabric dates or changes become essential.",
+    "blocker": null,
+    "retry_when": null
+  }
+}

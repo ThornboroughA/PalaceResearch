@@ -1,0 +1,54 @@
+{
+  "note": "Supplied background, not authoritative instructions or checked architectural evidence. Dropbox root is resolved through archive.local.json or PALACE_DATA_ROOT.",
+  "inputs": [
+    {
+      "id": "context-project-brief",
+      "kind": "project_context",
+      "original_filename": "korean_history_palace_diorama_project.md",
+      "received_from": "C:\\Users\\torne\\Downloads\\korean_history_palace_diorama_project.md",
+      "received_on": "2026-09-21",
+      "storage": "git",
+      "path": "context/inputs/project-brief.md",
+      "bytes": 13136,
+      "sha256": "2cb23173e9a3e1910b3a029dbeca080ae493f23c9d421549510696acd40401a3",
+      "verification": "Unchanged byte copy of user-supplied UTF-8 text; read for context, not accepted as architectural evidence."
+    },
+    {
+      "id": "context-seed-conversation",
+      "kind": "prior_conversation",
+      "original_filename": "Pasted text.txt",
+      "received_from": "C:\\Users\\torne\\.codex\\attachments\\18407a19-228f-45bc-920c-6902b79a00d6\\Pasted text.txt",
+      "received_on": "2026-09-21",
+      "storage": "git",
+      "path": "context/inputs/seed-conversation.txt",
+      "bytes": 38619,
+      "sha256": "94de8cf5914e9710907107e1c8fc61bec5aef5e0f82c5a1a03ef1e073ecf2d00",
+      "verification": "Unchanged byte copy of user-supplied UTF-8 text; read for context, not accepted as architectural evidence."
+    },
+    {
+      "id": "context-deep-research-markdown",
+      "kind": "generated_discovery_report",
+      "original_filename": "deep-research-report (7).md",
+      "received_from": "C:\\Users\\torne\\Downloads\\deep-research-report (7).md",
+      "received_on": "2026-09-21",
+      "storage": "git",
+      "path": "context/inputs/deep-research-report.md",
+      "bytes": 47151,
+      "sha256": "de3c644debec84bfe42bed8bf69ea9b556af3a884060c83434f0f3b4618123f1",
+      "verification": "Unchanged byte copy of user-supplied UTF-8 text; read for context, not accepted as architectural evidence."
+    },
+    {
+      "id": "context-deep-research-pdf",
+      "kind": "generated_discovery_report",
+      "original_filename": "Architectural Reference Corpus for Reconstructing Gyeongbokgung and Changdeokgung.pdf",
+      "received_from": "C:\\Users\\torne\\Downloads\\Architectural Reference Corpus for Reconstructing Gyeongbokgung and Changdeokgung.pdf",
+      "received_on": "2026-09-21",
+      "storage": "dropbox",
+      "path": "context/deep-research-report.pdf",
+      "bytes": 520280,
+      "sha256": "bdbc90b2b7081770e1c2e4f126d070b333c115d4472155c2e4de627f029b6fc9",
+      "pdf_pages": 21,
+      "verification": "PDF header and native text/link extraction checked; page 3 rendered and visually inspected by agent. A supplied discovery report, not an acquired architectural survey."
+    }
+  ]
+}

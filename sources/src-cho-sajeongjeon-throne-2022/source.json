@@ -1,0 +1,111 @@
+{
+  "id": "src-cho-sajeongjeon-throne-2022",
+  "title_ko": "고종대 중건 사정전의 활용 양상과 어좌 구성에 관한 연구",
+  "title_en": "The Aspects of Usage and Ritual Settings for the Royal Throne of the Rebuilt Sajeongjeon Pavilion During the Gojong Period of the Joseon Dynasty",
+  "creators": [
+    "조재모 / Cho, Jaemo"
+  ],
+  "publisher": "대한건축학회 / Architectural Institute of Korea",
+  "publication_date": "2022-08",
+  "journal": {
+    "title": "대한건축학회논문집 / Journal of the Architectural Institute of Korea",
+    "volume": "38",
+    "issue": "8",
+    "printed_pages": "103–114"
+  },
+  "identifiers": {
+    "doi": "10.5659/JAIK.2022.38.8.103",
+    "kci": "ART002871758"
+  },
+  "evidence_kind": "academic_analysis",
+  "catalog_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002871758",
+  "building_ids": ["gbg-sajeongjeon"],
+  "coverage_names_ko": [
+    "사정전"
+  ],
+  "topics": [
+    "interior-layout",
+    "furnishings",
+    "spatial-use",
+    "historical-state"
+  ],
+  "scope": "Gojong-period use and throne arrangement. Only the first-page abstract/introduction/footnotes are held and inspected; the full argument, figures and bibliography remain unavailable.",
+  "relevance": "Tests whether throne, canopy and screen assumptions actually fit the Gojong-period evidence; preview explicitly describes an inference from indirect sources.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-21",
+    "note": "PREVIEW ONLY: KCI public preview acquired and inspected (one page). Full article not acquired: DOI/KoreaScience supplied an abstract record; AURIC advertised a point-based full-text route. No purchase or login undertaken. Downloaded status applies only to the retained preview."
+  },
+  "rights": {
+    "statement": "Preview page states Copyright 2022 Architectural Institute of Korea. No redistribution licence identified; KCI describes full-text download as dependent on society permission.",
+    "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002871758",
+    "redistribution": "unknown"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-cho-sajeongjeon-throne-2022/originals/kci-preview.pdf",
+      "original_filename": null,
+      "retrieved_from": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiOrteView.kci?sereArticleSearchBean.artiId=ART002871758",
+      "retrieved_on": "2026-09-21",
+      "media_type": "application/pdf",
+      "pdf_page_count": 1,
+      "bytes": 374758,
+      "sha256": "73bd9ab3ad99d965d4a31630f62e1c9b92d942bf3a2b52ae6d7be571d9540f22",
+      "storage": "dropbox",
+      "verification_note": "%PDF- header; pypdf parsed 1 pages. Native text and selected Poppler renders checked at the Dropbox path. Original response bytes unchanged. Publisher-authorized KCI preview only: one page, printed 103. PDF declares encryption but opens for ordinary reading without a supplied password; unchanged preview retained, no restrictions removed. Full 12-page article not acquired."
+    },
+    {
+      "id": "preview-001",
+      "role": "derived",
+      "parent_artifact_id": "original-01",
+      "path": "sources/src-cho-sajeongjeon-throne-2022/derived/preview-page-001.png",
+      "media_type": "image/png",
+      "bytes": 465484,
+      "sha256": "28175ce3bec6a9e96d857fa630b2c18eee0aaa6e64ecd3b675f97d76a7c32b8a",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        1157,
+        1636
+      ],
+      "processing": {
+        "method": "Poppler pdftoppm 26.07.0, full page at 140 dpi, no crop or annotation; byte-identical reproduction verified during registration",
+        "pdf_pages": [
+          1
+        ]
+      },
+      "verification_note": "Agent visually inspected the complete page on 2026-09-21."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "Cho’s abstract proposes movable throne furnishings without a dangga canopy, inferred from indirect sources and the absence of a canopy entry in the cited rebuilding record. It distinguishes Gojong-period use from early-Joseon ritual expectations.",
+      "topics": [
+        "interior-layout",
+        "furnishings",
+        "spatial-use"
+      ],
+      "scope": "Preview-only reading. Absence of a record is part of the author’s argument, not direct proof that no canopy ever existed; no proposed geometry adopted.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-cho-sajeongjeon-throne-2022",
+          "artifact_id": "original-01",
+          "pdf_page": 1,
+          "printed_page": "103",
+          "locator_note": "English abstract; Korean introduction and footnotes 1–2."
+        }
+      ],
+      "review_note": "Agent read the cited passages and inspected full-page renders, including captions and surrounding qualifications, on 2026-09-21. Checked means an accurate reading of this source; its primary evidence and proposed historical reconstruction have not been independently verified."
+    }
+  ],
+  "work": {
+    "next_action": "Obtain the full article through authorized access before adopting its arrangement or evaluating its source chain. Compare its stated Gojong-period scope with the 2024 display explanation; do not label them contradictory solely from the preview.",
+    "blocker": "Full article not acquired; only the publicly provided first-page preview is held.",
+    "retry_when": "A new legitimate public full-text route, an owner-supplied copy or explicitly authorized institutional access. Do not repeat the unchanged KCI preview/abstract routes."
+  }
+}

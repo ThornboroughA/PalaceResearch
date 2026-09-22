@@ -1,0 +1,75 @@
+{
+  "id": "src-kim-korean-architecture-beauty-2007",
+  "title_ko": null,
+  "title_en": "The Beauty of Traditional Korean Architecture",
+  "creators": ["Kim Sung-Woo"],
+  "publisher": null,
+  "publication_date": "2007",
+  "journal": {"title": "Korea Journal", "volume": "47", "issue": "3", "season": "Autumn", "printed_pages": "35-75"},
+  "bibliographic_note": "Author and English title read on PDF page 1; season appears in the printed running headings. Volume, issue, page range, and DOI were checked against the journal's article record. The publication-time publisher has not been separately established.",
+  "evidence_kind": "academic_analysis",
+  "catalog_url": "https://www.accesson.kr/kj/v.47/3/35/8155",
+  "identifiers": {"doi": "10.25024/kj.2007.47.3.35"},
+  "building_ids": [],
+  "coverage_names_ko": [],
+  "topics": ["spatial-relationships", "courtyards", "architectural-interpretation"],
+  "scope": "Interpretive essay about traditional Korean architectural aesthetics and experience, framed through comparison with Western architecture. It is not a building survey or a settled account of all Korean architecture.",
+  "relevance": "Offers a useful way to consider buildings, walls, courtyards, and bodily experience together when identifying evidence about palace settings and connections.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-21",
+    "note": "Acquired by copying the owner's supplied EastAsia_ArchitectureCorpus file. The journal article record offers a PDF route at https://www.accesson.kr/kj/assets/pdf/8155/journal-47-3-35.pdf and a persistent DOI. No replacement copy was downloaded or byte-compared to that online version. The retained 21-page PDF contains two printed pages on most PDF pages."
+  },
+  "rights": {
+    "statement": "On 2026-09-21 the journal's article landing page linked to Creative Commons Attribution-NonCommercial 4.0 International. This is the statement attached to the article record, not a blanket license for the corpus.",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "redistribution": "conditional"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-kim-korean-architecture-beauty-2007/originals/article.pdf",
+      "original_filename": "The Beauty of Traditional Korean Architecture.pdf",
+      "duplicate_filenames": ["Beauty of Korean Architecture.pdf"],
+      "retrieved_from": "Owner-supplied local folder EastAsia_ArchitectureCorpus",
+      "retrieved_on": "2026-09-21",
+      "media_type": "application/pdf",
+      "pdf_page_count": 21,
+      "bytes": 286195,
+      "sha256": "2403d67b7a1e8eace659c9d9da354588475c4dfe241042794e0f9b5f6064bd5e",
+      "storage": "dropbox",
+      "verification_note": "Checked %PDF- header, 21-page pypdf parse and readable native text; inspected complete Poppler renders of PDF pages 4 and 20. pypdf reported an incorrect startxref pointer but successfully read the original; no repair or rewriting was performed. Both supplied Beauty filenames have identical bytes and SHA-256, so only one original was retained. The Dropbox copy matches that original."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "Kim argues that the relationships among buildings, walls, and courtyards should be considered together in discussing Korean architectural beauty. This makes spaces between structures and the experience of the setting relevant subjects of interpretation. The conclusion acknowledges difficulty in providing a clear-cut account of Korean architectural beauty.",
+      "topics": ["spatial-relationships", "courtyards", "architectural-interpretation"],
+      "scope": "An attributed aesthetic argument, including broad Korean/Western contrasts. It does not establish an arrangement, social practice, or universal trait for any particular palace building.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {"source_id": "src-kim-korean-architecture-beauty-2007", "artifact_id": "original-01", "pdf_page": 4, "printed_page": "40-41", "locator_note": "Continuation of Object: buildings, walls, courtyards, and the total spatial arrangement"},
+        {"source_id": "src-kim-korean-architecture-beauty-2007", "artifact_id": "original-01", "pdf_page": 20, "printed_page": "72-73", "locator_note": "Conclusion, including its closing acknowledgment on printed page 73"}
+      ],
+      "review_note": "Agent read the relevant native text and visually inspected both complete spreads on 2026-09-21, preserving the argument's attribution and the concluding qualification. Checked means the paraphrase matches the inspected essay; it does not mean the aesthetic generalization has been independently established or reviewed by a human."
+    }
+  ],
+  "catalogue_checks": [
+    {
+      "url": "https://www.accesson.kr/kj/v.47/3/35/8155",
+      "checked_on": "2026-09-21",
+      "locator": "Article heading, bibliographic line, DOI, PDF download control, and linked license",
+      "method": "agent_read_catalogue",
+      "findings": "Verified title, 2007 publication, volume 47 issue 3, printed pages 35-75, DOI, and an available PDF link. The page's license link leads to CC BY-NC 4.0. Author identity is taken from the supplied PDF, since the landing page's rendered citation omits it."
+    }
+  ],
+  "work": {
+    "next_action": "Use the selected passage when a specific precinct or courtyard relationship is being studied; pair it with evidence for that place and state. Further essay extraction can wait for a relevant question.",
+    "blocker": null,
+    "retry_when": null
+  }
+}

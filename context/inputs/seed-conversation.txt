@@ -1,0 +1,607 @@
+Hello, I'm interested in making visualizations of the Joseon palaces, particularly Gyeongbokgung and Changdeokgung.
+
+For this angle, I want us to particularly focus on things we'll need for the creation of a modular 3D system for re-creating the buildings themselves -- both their insides and outsides.
+This is to say, things like colors, bracket design, garden layout, symbolic importance are less important.
+
+Whereas floorplans with direct measurements, understandings of how the buildings were laid out and created, etc, are vital.
+
+---
+
+I'll be creating these buildings in a 3D modeling program together with GPT Astra. Astra will lay the 3D foundations, taking precise measurements and creating the shell of the buildings to proper dimensions, with columns, doors etc in correct places.
+We'll build repositories / geometry-node-like setups to be able to modularly create things like the windows, doors, screens, etc, in ways that are reusable across at least sets of buildings and adaptable between them.
+And I'll be doing things like creating procedural shaders to allow easy creation of the 한지-style flooring and wallpaper, exterior panels and so on.
+
+These reconstructions will be more about volume than absolute perfect fidelity. They may be used in parts for VR environments, but far more often will be viewed at a tabletop scale, perhaps 1:10 or 1:20.
+They'll be being used for weekly posts to SNS -- a building a week. And so the priority is a reusable system of construction and assembly. Of course the buildings were all slightly different in their own ways, but there are still enough commonalities I'd like to find out -- and where need be, bend total accuracy to make modular design and construction slightly more feasible.
+
+---
+
+I should emphasize though, it is your job to find me a body of references -- websites, papers, architectural diagrams etc -- that will facilitate the creation of this modular system.
+It is absolutely not your responsibility to design said system. Your focus is on historical research.
+
+Derivation of formulas for modular construction etc is not your priority, although you can let it guide your research.
+
+The result of this will be, I take your research -- websites, sources where we can find the relevant information --
+and I'll pass it to Codex agents to assemble into a data-derived corpus that we'll analyze thoroughly.
+From that, we'll then later on build the actual systems.
+
+---
+
+I have some sources available here: 
+https://drive.google.com/drive/folders/1ptj5lfQdVq7s3tii98QkX5hSXWByGJck?usp=sharing
+
+There are also a great deal of floorplans and such on heritage.go.kr: https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121108160000&pageNo=1_1_2_0
+
+And I'm sure you can find a great many sources I'm unable to uncover on my own.
+
+Deep Research has started working on the Joseon palace architectural-reference corpus. It will begin with a research plan and then continue into the full source investigation and report.
+
+Yes. I’d make the reference corpus itself the first project, rather than immediately starting the palace-generation system.
+
+But I would broaden “collect all the CAD drawings” slightly. The target should be all useful dimensional evidence, with CAD as the highest-value subset: DWG/DXF where obtainable, but also measured-survey PDFs, repair reports, scanned drawing sheets, elevations, sections, detail drawings and restoration plans. Quite a lot of the best Korean architectural documentation is going to be trapped in PDFs rather than conveniently downloadable CAD.
+
+The crucial thing is to build it so that six months from now an agent can answer:
+
+“Give me every trustworthy plan/section/detail we have for Seonjeongjeon, distinguish existing-state survey from reconstruction drawing, and tell me which historical phase each depicts.”
+
+rather than merely finding 선정전_도면_final2.pdf.
+
+I’d separate it into three layers
+joseon-palace-corpus/
+│
+├── sources/
+│   ├── raw/
+│   │   ├── heritage_admin/
+│   │   ├── palace_management/
+│   │   ├── research_institute/
+│   │   ├── academic/
+│   │   └── historical/
+│   │
+│   └── source_metadata/
+│
+├── buildings/
+│   ├── gyeongbokgung/
+│   │   ├── geunjeongjeon/
+│   │   ├── gyeonghoeru/
+│   │   ├── sajeongjeon/
+│   │   └── ...
+│   └── changdeokgung/
+│       ├── injeongjeon/
+│       ├── seonjeongjeon/
+│       └── ...
+│
+├── normalized/
+│   ├── cad/
+│   ├── drawings/
+│   ├── images/
+│   └── text/
+│
+└── corpus/
+    ├── buildings/
+    ├── components/
+    └── source_index/
+
+sources/raw is sacrosanct. Original PDF, DWG, TIFF, whatever came from the institution. Never modify those.
+
+normalized contains things useful to machines: DWG → DXF where necessary, PDF drawing pages extracted separately, standardized PNG previews, text extracted from reports, perhaps later SVGs of plans.
+
+And then corpus contains our description of what the evidence says, rather than the evidence itself.
+
+I would definitely use Git LFS for the large binary material, and initially keep the repository private. Some institutional material may be publicly viewable/downloadable without necessarily granting unrestricted redistribution.
+
+The metadata may actually be more important than the folder structure
+
+Every source should get a permanent ID, something like:
+
+source_id: NRICH-CDG-SEL-001
+
+title_ko: 창덕궁 선정전 실측조사보고서
+title_en: Measured Survey Report of Seonjeongjeon, Changdeokgung
+
+institution: 국립문화유산연구원
+
+building:
+  palace: changdeokgung
+  name_ko: 선정전
+  name_en: Seonjeongjeon
+
+evidence_type:
+  - measured_survey
+  - plan
+  - elevation
+  - section
+  - construction_detail
+
+documented_state: existing
+historical_phase: "surveyed condition, 20xx"
+
+files:
+  original_pdf: ...
+  plan_dxf: ...
+  section_01_png: ...
+
+confidence: primary_measured_documentation
+
+source_url: ...
+download_date: 2026-09-21
+
+Then later a particular measurement can say:
+
+column_grid:
+  longitudinal_bays: 3
+  transverse_bays: 3
+  source: NRICH-CDG-SEL-001
+  drawing: plate_17
+
+That provenance chain is enormously important.
+
+The nightmare scenario would be an agent eventually deciding that “Seonjeongjeon has X spacing” because it has silently combined a twentieth-century repair drawing, a modern survey and an academic reconstruction of an earlier configuration.
+
+For this project, historical phase needs to be treated almost like part of the building's identity.
+
+I wouldn't collect everything indiscriminately at first
+
+I think there is a useful pilot step.
+
+Take perhaps 8–12 deliberately different structures and build the corpus pipeline around them first. Something approximately like:
+
+Geunjeongjeon — large formal 전
+Sajeongjeon — smaller formal hall
+Gangnyeongjeon / Gyotaejeon — residential palace architecture
+Gyeonghoeru — unusual pavilion / raised structure
+a substantial gate and attached corridor
+Injeongjeon
+Seonjeongjeon
+Daejojeon or Huijeongdang
+Nakseonjae
+Yeongyeongdang
+
+Not because those should necessarily be the first buildings you model, but because they will stress-test the corpus.
+
+If your schema successfully describes Geunjeongjeon, a residential 온돌/마루 building, a gate, a corridor and Yeongyeongdang, it will probably survive most of the rest of the palace reasonably well.
+
+After that, let agents ingest at scale.
+
+And I would collect drawings at the sheet level
+
+This becomes important for Codex/Astra.
+
+A 400-page repair report is useful to a historian, but not ideal as a computational architectural reference.
+
+I'd eventually transform:
+
+창덕궁_선정전_실측조사보고서.pdf
+
+into something more like:
+
+SEL-001/
+    original.pdf
+
+    text/
+        report.md
+
+    drawings/
+        A001_site_plan.png
+        A002_floor_plan.png
+        A003_ceiling_plan.png
+        A004_front_elevation.png
+        A005_side_elevation.png
+        A006_section_AA.png
+        A007_section_BB.png
+        ...
+
+with a machine-readable index:
+
+- drawing_id: SEL-001-A002
+  type: floor_plan
+  scale: 1:50
+  contains_dimensions: true
+  building_phase: current
+  page: 273
+
+If the source contains actual CAD, even better:
+
+A002_floor_plan.dxf
+A002_floor_plan.png
+
+That makes the later agent workflow vastly less brittle.
+
+I would resist extracting “rules” for a little while
+
+This is the bit I think is especially relevant to what you're proposing.
+
+It will be incredibly tempting after finding five buildings to conclude:
+
+Joseon palace bays work like this
+palace doors work like this
+these windows are basically one parametric object
+
+Some of those conclusions will probably prove correct. But I would deliberately delay formalizing them.
+
+First get enough buildings into the corpus that you can ask:
+
+Which elements are genuinely invariant?
+
+versus:
+
+Which things merely looked invariant because our first three examples happened to belong to the same architectural class?
+
+Then you can derive component families empirically.
+
+For example, instead of initially inventing PalaceWindowGenerator, the corpus might eventually reveal:
+
+창호 family A
+  found in: 17 examples
+  dimensional variations: ...
+  muntin layouts: ...
+  attachment patterns: ...
+
+창호 family B
+  found in: 9 examples
+  ...
+
+At that point the Geometry Nodes / Blender / Astra abstraction has a historical basis.
+
+So I'd make the project sequence roughly this
+
+1. Acquisition corpus first.
+Download the authoritative material surfaced by the research: CAD, reports, PDFs, archival drawings.
+
+2. Establish provenance and chronology.
+Assign IDs, institutions, building names, survey dates, historical phases, evidence types.
+
+3. Normalize it for machine access.
+DXF, drawing-sheet images, extracted report text, indexes.
+
+4. Fully process a representative pilot set of ~10 buildings.
+
+5. Have agents extract architectural facts from those sources — without yet generating geometry.
+
+This is where you start accumulating:
+
+overall dimensions
+bay counts
+bay widths
+column positions
+platform size/height
+floor level
+partition locations
+door/window type + dimensions
+roof spring/eave/ridge dimensions
+floor construction
+ceiling arrangement
+etc.
+
+Every extracted fact carries its source.
+
+6. Compare across buildings.
+
+Only here would I ask an agent something like:
+
+Identify recurring architectural components and dimensional relationships supported by the corpus.
+
+7. Then design the modular modeling system.
+
+And I'd keep that actual system in a separate repository, something like:
+
+JoseonPalaceCorpus
+JoseonPalaceKit
+
+The former answers “what is the evidence?”
+
+The latter answers “how are we choosing to model it?”
+
+That division seems particularly healthy given your willingness to occasionally bend fidelity for production efficiency. You can make a consciously simplified PalaceKit abstraction without corrupting the historical data underneath it.
+
+The immediate next step, therefore, really is quite mundane: start hoovering up the measured drawings and reports. But do it as a curated architectural dataset rather than as a Downloads folder full of Korean PDFs. That investment will pay off enormously once Astra/Codex begin working across dozens of buildings.
+
+A few questions
+
+read the recent Content strategy planning chat within the 한국어로 한국사 SNS project folder. It gives some background for what we're doing here. These will be digital twins for SNS-focused reconstructions, accompanying a wooden model
+what's your read on the feasibility of recreations of Gyeongbokgung vs the Eastern Palaces (centered on Changdeokgung) for this project
+
+Yes — having read that planning context, I think the distinction becomes much clearer. The wooden model is essentially the persistent spatial map, while the digital twin is where you can zoom in, remove roofs, put people into rooms, animate routes, and make the palace legible at human scale. You are not trying to produce one giant museum-grade virtual reconstruction before you can publish anything; you need an environment that can grow piece by piece and generate good SNS subjects along the way.
+
+On that basis, I would separate ease of production from historical/content potential.
+
+Gyeongbokgung is substantially easier to begin with
+
+For the first 5–10 buildings, I think Gyeongbokgung has a very strong practical advantage.
+
+Its spatial logic is unusually forgiving for what you want to do: large orthogonal courtyards, strong axes, repeated building forms, relatively clear relationships between halls, gates and enclosing corridors. That makes it easier not only to model, but to establish all the ancillary systems you actually care about — physical-model registration, roof removal, room labelling, miniature agents, navigation, zoom-ins, and the transition from “1:250 overview” to human-scale digital scene.
+
+And the documentary situation is unusually friendly. Gyeongbokgung has been the subject of a huge modern reconstruction programme since 1990, and the underlying archaeological/restoration work generated exactly the kind of evidence we were talking about putting into the corpus. The 1995 침전지역 report, for example, is a 551-page archaeological report with plans and sections for Gangnyeongjeon, Gyotaejeon and associated structures; the NRICH database exposes individual drawings as well as the report itself. More recent restoration projects continue the same pattern.
+
+There is also an important production advantage that has nothing to do with history: you already have the physical Gyeongbokgung kit. So you can immediately test the entire proposition rather than solving a second physical-model problem at the same time.
+
+The major historical caveat is significant, though. The Gyeongbokgung you would mostly be reconstructing is fundamentally the palace rebuilt under Gojong in the 1860s and subsequently reconstructed/restored in the modern period. The original palace burned in 1592 and remained largely empty until the 1860s reconstruction.
+
+So it is extremely good for:
+
+“How did a Joseon palace building work?”
+“What was Gyeongbokgung like in late Joseon?”
+“Let's reconstruct this hall and populate it.”
+
+…but it is much less naturally tied to the eighteenth-century court world you're currently steeping yourself in.
+
+The Eastern Palaces are harder — but much richer for your project
+
+Changdeokgung/Changgyeonggung have almost the opposite profile.
+
+They were effectively the living centre of the monarchy for most of the period between the Imjin War and the reconstruction of Gyeongbokgung. Changdeokgung was rebuilt in 1610 and served as the principal royal residence for roughly the next 270 years; Changgyeonggung functioned together with it, particularly as royal-family living space. The two were not historically separated by the kind of conceptual boundary we now tend to impose on them: together they formed the Donggwol.
+
+That means that if your SNS work increasingly revolves around actual eighteenth-century court life — Sukjong, Yeongjo, Sado, Hyegyeong, Jeongjo, court women, bureaucrats, servants, movement through palace space — the Eastern Palaces are vastly more fertile terrain.
+
+And there is an extraordinary asset sitting in the middle of it: Donggwoldo.
+
+It gives you something Gyeongbokgung doesn't really possess in the same way: a coherent, extraordinarily detailed visual snapshot of the palace complex before much of its later destruction. The National Research Institute describes it as showing the layout, rear gardens and surrounding geography of Changdeokgung and Changgyeonggung in late Joseon. Its precise date and circumstances of production remain uncertain, though internal evidence places it in the reign of Sunjo.
+
+That could become an almost ridiculously good long-term visual spine for your channel:
+
+Here is Donggwoldo. Here is this tiny building in it. Here is where it stood. Here is what the surviving evidence tells us it looked like. Here it is reconstructed. Now take the roof off and meet the people inside.
+
+That is much more distinctive than merely digitising the present-day palace.
+
+But it is also materially harder.
+
+Changdeokgung is famously terrain-responsive rather than laid out on Gyeongbokgung's strong formal grid; buildings accreted over centuries, spaces interpenetrate, and relationships are often irregular. The official heritage description explicitly contrasts Changdeokgung's layout with more artificially ordered palace planning and stresses its adaptation to the surrounding terrain.
+
+More importantly for reconstruction, Donggwoldo is evidence, not a measured drawing. You should not take the width of a painted building, scale it against another one, and treat the result as a dimension. It is an architectural painting that has to be cross-referenced against:
+
+surviving buildings,
+measured surveys,
+archaeology,
+repair reports,
+later plans and photographs,
+written palace records,
+and comparative buildings.
+
+And some of the most interesting areas have nasty phase problems. The Changdeokgung inner quarters burned in 1917; Daejojeon and Huijeongdang were rebuilt in 1920 using buildings moved from Gyeongbokgung.
+
+So “recreate Donggwol exactly as shown in Donggwoldo” is a serious historical-reconstruction project in a way that “digitally reconstruct this extant/rebuilt Gyeongbokgung hall from measured drawings” often isn't.
+
+I wouldn't actually choose one and abandon the other
+
+I think the best shape for this project is:
+
+Gyeongbokgung becomes your production laboratory.
+Donggwol becomes the long-term historical project.
+
+That is a particularly good match for the corpus approach we just discussed.
+
+Start making digital twins from the Gyeongbokgung wooden model. Geunjeongjeon, Sajeongjeon, Gangnyeongjeon/Gyotaejeon, Gyeonghoeru, a gate, some haenggak. Those give you enough architectural diversity to discover what your reusable palace system actually needs without immediately wading into speculative reconstruction.
+
+Meanwhile, ingest the Changdeokgung/Changgyeonggung evidence into the same architectural corpus.
+
+Then you can gradually start doing Eastern Palace subjects at different confidence levels:
+
+A. Surviving / extremely well documented
+Model directly from measurements.
+
+B. Lost, but unusually well documented
+Reconstruct from plans + archaeology + Donggwoldo + records.
+
+C. Known primarily through Donggwoldo / fragmentary evidence
+Make an explicitly interpretive reconstruction and show the evidential reasoning.
+
+That last category is not actually a weakness for SNS. It might produce some of the best content, because “how do we know what this vanished palace looked like?” is intrinsically interesting.
+
+And because your physical model is an overview device rather than the final historical object, you don't necessarily need a complete physical Donggwol before doing any of this. A future Donggwol board/model could begin as a much rougher spatial registration surface, while the individual digital buildings carry most of the detail.
+
+If I reduce it to a feasibility read
+	Gyeongbokgung	Eastern Palaces / Donggwol
+Initial modelling difficulty	Low–medium	Medium–high
+Layout reconstruction	Relatively straightforward	Considerably harder
+Quantity of usable restoration evidence	Excellent	Excellent, but more fragmented
+Direct surveying of current structures	Excellent	Excellent for survivors
+Lost-building reconstruction	Moderate	Major part of project
+Historical phase complexity	Moderate	High
+Fit with 18th-c court history	Weak	Exceptional
+Donggwoldo-like visual master source	No real equivalent	Exceptional
+Easy first physical/digital prototype	Excellent	Harder
+Long-term distinctive research project	Good	Exceptional
+
+So I would absolutely begin implementation with Gyeongbokgung, particularly because the wooden model is already sitting there.
+
+But I would design the corpus and modelling system from day one under the assumption that Donggwol is where it eventually has to survive.
+
+That gives you a useful technical test, too: if the system only works on Gyeongbokgung's neat axes and repeated formal halls, we've accidentally made a Gyeongbokgung generator. If it can eventually digest Changdeokgung's crooked terrain, linked compounds, little residential buildings, corridors and centuries of alterations, then we've probably made something genuinely useful for Joseon architecture.
+
+My heart keeps pulling me to Changdeokgung, but I think my brain says Gyeongbokgung really has to be the focus here. The flat terrain, grid-shape, the fact the models I literally have are Gyeongbokgung already.
+To be honest this project has to be like my fourth or maybe even sixth priority right now. I'm taking it on partially to help me reinforce my Hyegyeong studies, but I think the understanding of royal institutions and such is enough for that, and I should really leave it there rather than turning a small hobby channel into a parallel pillar to 기록의 방.
+
+Let's be less ambitious here. Gyeongbokgung it is; it's what I have the time for, it's the maximum reward right now, the material makes it structurally easier in just about every way, and I think even the history mismatch isn't, in practice, going to be such an issue -- Young Modeler after all made a Gyeongbokgung series. I don't think Koreans in general care quite as much that most of high Joseon actually took place in the Eastern Palaces as the historical perspective relates.
+If I get really deep into the weeds of it all perhaps palace 2 can be Anapji or Anhak or something.
+
+I want to double back and think about organization here for a bit. This'll be, by its nature, a long form project. Frankly this can sort of be what my Korean history SNS channel largely is for the next 6 months or year and it's probably okay.
+
+This is to say, I want to build it up a little piece at a time rather than fleshing out every detail right now -- I've found, in practice, comprehensive agentic directory generation and such tends to bite me in the "I don't even remember what this was"-shaped ass of mine most of the time.
+We start small, we go bigger.
+
+When I start out, I don't even need need the twin immediately -- my first 1-2 posts will probably be just the wooden model and some digital elements sitting outside it. I'll build up to this.
+
+And so what I want to do in terms of building up, is to slowly generate this corpus and these experiments. As I said, this project is a slow burn and a lower priority for me.
+I think step 1 -- getting the data -- will itself take a fair chunk of time and a bunch of my usage credits. I like to have a few "I have excess credits lying around this week" or "there's a reset coming, do something expensive" tasks in my repertoire, and seeding our data here reads as a perfect one to me. Something largely automable but that'll just take some thoroughness to get through fully.
+
+And so I want us to set up the minimum seeds for the repo such as to allow this. I'll probably run the seeding trial run today, but I have to move on to other projects so I don't want to spend too long on that either.
+
+Just a basic data organization paradigm.
+We can ignore the actual reconstruction for the moment, just think about acquiring the data to get it.
+
+Our goals
+
+We want two things I would say
+
+Accurate reconstructions of buildings.
+A procedural "palace building" generation system.
+
+For 1, what I mean is actual dimensions, actual data. We should keep both the source materials and also transform it all into a machine-consumable format (e.g. jsons or such) to systemitize.
+By far the majority of my reconstructions will be a building at a time in this way. "This week I made a model of Gyotaejon, let's reconstruct it".
+And so the relationships between buildings data is less immensely useful in this specific regard.
+
+But, 2 is still important.
+I've done a little Astra 3D model generation now, and it can create great results with some careful layered guidance. If you look in my 
+@
+GitHub
+ AgeOfEmpiresMod repo, particularly the recent stuff surrounding the architectural set generation, you can see the process a bit.
+We work through a toolkit in terms of how to make each element. "A window is made this way" "water is done this way" "scale is measured this way" etc etc. I didn't get the whole way through -- I realized my efforts and credits are probably better spent on studio-first stuff than a mod... but I think I worked out a decent process.
+Just telling Astra "make Gyotaejeon, go" means I'll get a. probably a sub-standard model, and also very importantly, b. it'll be wildly inconsistent from building to building each week.
+I want to construct this in such a way so as to ensure a quality consistency, even if it means flattening out some degree of differentiation.
+The final look can be and will be mildly aesthetically stylized.
+And so building up week by week the various modules "on a building like this, the columns should be done like this" "round columns are made this way" "high status bracket sets are done this way" "this style of window is used on residential halls" etc etc etc.
+Obviously the actual floorplans will be received from the data, but the way all those parts fit together will be something we create through some trial and error and iteration over some time.
+
+And so my general plan for this project over the long duree before I actually begin it is
+
+We gather, store, and analyze the data (a bit at a time) in such a way as to allow us precise reconstructions of each building
+We also store the data in such a way that the cross-building relationships are preserved and highlighted, and we can think about actively
+We turn that analyzed data into reconstructions of the various buildings -- inside and out, although I'll actually note the insides are very important parts for me given that I already have the wooden exteriors and these digital twins will largely show the insides (although we'll be 3D printing some, so .. not only).
+We iterate on the process and discover a shared vocabulary of parts and then a toolkit for how to make each of them
+until in the end, boom, we have a process where we can spit out extremely high quality reconstructions with minimal guidance. I think we will get there.
+
+I should add a slightly larger elaboration on stylization.
+
+I think it's a tendency of agents to focus on the wrong things when reading the architectural details. I can understand why; the history books talk up hugely e.g. the bracket sets, slight differences in windows etc etc, and it is important for the buildings. I'm not saying the brackets are irrelevant here!
+
+But we'll be simplifying things a little bit here. Given we're assembling a vast annotated data corpus on the Joseon palaces, I will say I don't want the data to be needlessly brittle -- it will probably be good for a variety of projects in the future too, and I want it to facilitate that even if it's not directly built for that now (e.g. more photorealistic VR reconstructions; analysis of East Asian architecture to allow us to take on client work for reconstructions of Chinese and Japanese buildings; deeper understandings of Korean architecture to allow more culturally appealing reconstructions of buildings from earlier Korean history, etc etc) -- so this is to say, the data shouldn't be a carefully arranged puzzle piece that only fits the current SNS project.
+
+I say that to mean, "well, this isn't visible on these mini reconstructions, so who cares, drop it" isn't what I want. Especially in our source corpus, relationships that aren't immediately useful might be useful later.
+
+But in terms of a priority, especially for our data output (given we can of course make new data outputs later) we still should be focusing on a somewhat stylized reconstruction so as to allow the rapid creation of buildings on a weekly/bi-weekly cadence over strict total adherence to accuracy.
+It will, by its nature, be a little bit of a compromise. But I mean in the sense that if the doors or windows are 10% different on various halls, we can probably compromise and just modify slightly/use the same ones -- one of our goals is to make shared style sets and shared modular components that can be taken out and quickly applied at least as a baseline for a new hall, and that's impossible if we carefully do a 100% strict adherence to accuracy in all circumstances.
+
+Wrapping up
+
+So I hope this clears some things up.
+I want to set up the github repo to allow step 1 of this now -- start gathering the data. We have a litany of sources available to us and know where to get more. We have a good idea of the kind of data we need.
+
+Can you help draft agents files, readme, and our basic folder hierarchy, such that we can sorta hit the ground running when we start? I want to be clear that this should be closer to a minimum viable prototype in terms of its directory layout and expansiveness of folders, rather than carefully accounting for every possibility.
+It'll naturally expand over time as it sees more use.
+I just don't want to set it up from the outset in such a way that it can't be expanded when it needs it, or worst of all, that it's aligned for totally the wrong priorities and we find our reconstructions coming out wrong.
+
+Yes—and I would scale back my earlier proposal quite sharply. One building, one retained source, and a handful of checked observations are enough to test the process. You do not need a ten-building pilot, a comprehensive component taxonomy, or a second repository for the future toolkit.
+
+I’ve prepared the starter files:
+
+Download the repository starter
+
+These are ready to put into a new repository. Nothing has been created or pushed on GitHub.
+
+What I took from your AoE work
+
+I read the building workflow, current checkpoint, shared-library guidance, and door/window construction notes in AgeOfEmpiresMod. The useful distinction is already there: set-level work establishes shared conventions; building-level work applies and extends them. That is the relationship we should support here, without importing all the mod’s production infrastructure.
+
+Your opening-construction notes also distinguish useful, tested construction techniques from historically approved Silla details. That is especially relevant: a successful way of making an opening is not itself evidence that a historical opening had those dimensions or fittings.
+
+The starter therefore keeps this distinction explicit:
+
+What the source documents → what we extract from it → how we eventually choose to model it.
+
+For now, we implement the first two. We preserve useful comparisons for the third, but do not start designing the toolkit.
+
+The actual layout
+
+There are two data folders, with a few small documents around them:
+
+palace-corpus/
+├── README.md
+├── AGENTS.md
+├── DATA.md
+├── NEXT.md
+├── COMPARISONS.md
+├── .gitignore
+├── .gitattributes
+│
+├── sources/
+│
+└── buildings/
+    └── gbg-gyotaejeon.json
+
+There are no pre-created folders for every palace, building, architectural component, or future production stage.
+
+README.md establishes the purpose: Gyeongbokgung first, low-priority and incremental, building-specific reconstruction plus eventual shared construction methods. It explicitly says that neither publishing nor experimenting with the wooden model needs to wait for this corpus.
+
+AGENTS.md establishes the working boundaries. Agents should acquire, inspect, extract, and record—not decide to build a database, generate Blender scaffolding, or spend the entire batch studying ornamental details while the room layout remains unknown.
+
+DATA.md contains the small record conventions and copyable JSON examples. COMPARISONS.md is initially just a place for evidence-backed comparisons, not a catalogue of predetermined module families.
+
+And 
+NEXT.md is the document I expect you to use most often. It contains the current checkpoint, source entry points, and one bounded next task. When you return after several weeks, it should answer “What is actually here, and what should the next agent do?” without making you reconstruct the project from old conversations.
+
+How the evidence will accumulate
+A source is stored once
+
+When the agent identifies a useful report or drawing set, it creates something like:
+
+sources/<source-id>/
+├── source.json
+├── originals/
+│   └── report.pdf
+└── derived/
+    └── selected-plan.png
+
+The derived/ directory appears only when something useful is extracted. There is no requirement to split a report into hundreds of images, convert every available format, or fully transcribe it before proceeding.
+
+source.json records the document’s identity, institution, retrieval information, original-file checksum, access/reuse information, and an index of the useful drawing sheets inspected so far. A report covering multiple buildings stays here once; the relevant building records point to it.
+
+Preserving the whole original and selectively processing it are compatible. That is how we avoid losing potentially valuable bracket details, materials information, or historical relationships without spending today’s entire budget extracting them.
+
+Each building gradually acquires its own evidence
+
+buildings/gbg-gyotaejeon.json is currently an empty target record, not invented research. I used Gyotaejeon because it was your example; it does not commit you to making that wooden model first.
+
+As research proceeds, the record gains identified rooms or elements, documented historical states, and individual observations. Those observations can contain dimensions, arrangements, material descriptions, or relationships—not just numbers.
+
+The important requirements are that an observation says where it came from, what it describes, and how it was obtained. For example, a measurement needs to distinguish a column-centre spacing from a clear room width; a height needs an identifiable datum; and a value transcribed from a dimension annotation must remain distinguishable from an estimate made by scaling a scan.
+
+Likewise, a checked transcription of a proposed restoration drawing remains evidence of that proposal. Checking the transcription does not transform it into proof of an earlier historical condition.
+
+I have not tried to anticipate every possible architectural field. The structure allows additional fields when an actual source needs them. Unknowns remain explicit gaps rather than becoming convenient default dimensions.
+
+Interiors and shared components are both protected
+
+Interiors receive explicit priority throughout the files. The acquisition task looks for room and partition plans, openings and their operation, floor and ceiling levels, and useful sections—not merely a footprint and a roof silhouette. An exterior-only record is not treated as a complete building record.
+
+At the same time, the data remains at full architectural scale. Wooden-kit dimensions, miniature display scale, and artistic exaggeration do not become historical building measurements.
+
+For cross-building work, the initial mechanism is deliberately straightforward: observations share useful topic labels, and COMPARISONS.md links to the relevant evidence. A comparison should state what is shared, what differs, which buildings and historical states were compared, and what remains unresolved.
+
+That lets you eventually discover something like:
+
+These documented openings might be served by one adjustable modeling assembly.
+
+Without quietly rewriting that into:
+
+These historical openings were identical.
+
+Your eventual toolkit can standardize the method of construction without standardizing away the source evidence. That leaves room for the mildly stylized SNS work now and more exacting uses later.
+
+We do not need a machine-readable component-family database today. Once there are enough actual comparisons to justify one, adding it should be a response to useful accumulated material—not an exercise in anticipating every possibility.
+
+The first run is already drafted
+
+NEXT.md contains a reusable prompt and a small initial task. Its default scope is one building, at most three relevant source documents, selected drawing-page extracts, and a small set of checked observations where the evidence supports them.
+
+The objective is to complete one useful acquisition-and-extraction cycle:
+
+Find a genuine source, retain the original, identify useful sheets, extract a few trustworthy observations, and leave the next task obvious.
+
+It is not to finish researching Gyotaejeon in one session.
+
+The source entry points include your Drive folder and the Heritage Portal link. They are explicitly marked as discovery routes, not evidence that particular documents have already been inspected. The agent is also told not to turn illustrative report titles or dimensions from our earlier conversation into supposedly verified records.
+
+For today, the handoff can simply be:
+
+Read README.md, AGENTS.md, DATA.md, and NEXT.md. Run the first bounded acquisition batch described in NEXT.md. Prioritize measured geometry and interiors. Do not generate models or expand the infrastructure. Leave a clear checkpoint and next task.
+
+Later, an “excess credits” session can authorize a larger batch using exactly the same conventions. There is no need to redesign the repository each time.
+
+One storage detail to settle at the start
+
+The starter includes Git LFS attributes for originals and binary drawing previews, while JSON and Markdown remain ordinary Git text files. The actual LFS installation and remote still need checking in your working environment.
+
+The instructions prevent an agent from quietly working around unavailable storage by committing large originals into ordinary Git—or claiming that a file in a disposable workspace has been safely archived. An explicitly authorized external archive is also accommodated through stable file references and checksums.
+
+I checked that the JSON record and documentation examples parse, and that the Git attributes select the intended file paths. No reports have been downloaded, architectural measurements populated, or remote storage tested.
+
+That is the starting point I think fits your project: enough structure that each research session leaves something dependable behind, but no requirement to build the eventual palace-production system before you can enjoy making the first little scene.
