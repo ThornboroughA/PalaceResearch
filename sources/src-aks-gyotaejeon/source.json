@@ -1,0 +1,100 @@
+{
+  "id": "src-aks-gyotaejeon",
+  "title_ko": "교태전(交泰殿)",
+  "title_en": null,
+  "creators": [
+    "조옥연"
+  ],
+  "publisher": "한국학중앙연구원",
+  "publication_date": null,
+  "evidence_kind": "scholarly_encyclopedia_entry",
+  "catalog_url": "https://dh.aks.ac.kr/sillokwiki/index.php/교태전(交泰殿)",
+  "building_ids": [
+    "gbg-gyotaejeon"
+  ],
+  "coverage_names_ko": [
+    "교태전",
+    "건순합"
+  ],
+  "topics": [
+    "interior-layout",
+    "floor-assembly",
+    "roof-structure",
+    "historical-state"
+  ],
+  "scope": "Authored 조선왕조실록사전 account. Its form discussion uses the approximately 1907 Bukgwoldo and photographs for the 1888 building; those underlying room-level details remain independently unchecked.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-22",
+    "note": "Full public HTML response retained unchanged in PalaceData and locally verified. Research agent matched the saved article passages to the live text read on 2026-09-22. These are source readings, not independent architectural surveys."
+  },
+  "rights": {
+    "statement": "No item-specific reuse statement checked.",
+    "url": null,
+    "redistribution": "unknown"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-aks-gyotaejeon/originals/gyotaejeon.html",
+      "original_filename": "gyotaejeon.html",
+      "retrieved_from": "https://dh.aks.ac.kr/sillokwiki/index.php/교태전(交泰殿)",
+      "retrieved_on": "2026-09-22",
+      "media_type": "text/html",
+      "bytes": 34873,
+      "sha256": "109cfdffd5e38dfa8c610ec01976f3cff090cdc18f48dad7b3e16169aa3616c9",
+      "storage": "dropbox",
+      "verification_note": "Unchanged public response retained. Header/type and readable content checked; no remote synchronization check."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "The described arrangement combines central daecheong maru with flanking ondol and end lu bays. The front toe is maru; the rear includes maru and ondol. The article explicitly states there is no woldae.",
+      "topics": [
+        "interior-layout",
+        "floor-assembly"
+      ],
+      "scope": "The article's reading of late-nineteenth-century Gyotaejeon, not a new measurement of the reconstruction.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-aks-gyotaejeon",
+          "artifact_id": "original-01",
+          "webpage_heading": "형태",
+          "locator_note": "Paragraphs 1–2; paragraph 2 begins 북궐도형에 의하면. Distinctive short statement: 월대는 없다."
+        }
+      ],
+      "review_note": "Agent read the complete HTML entry and checked form claims and their stated historical basis on 2026-09-22. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    },
+    {
+      "id": "note-002",
+      "statement": "The source identifies square posts, i-ikgong, double eaves, and a hip-and-gable muryanggak roof without a ridge crest. It dates the Geonsunhap annex to 1888 and distinguishes the 1993/1995 modern reconstruction.",
+      "topics": [
+        "roof-structure",
+        "brackets",
+        "historical-state"
+      ],
+      "scope": "Specific named building and phases; none of these features is an adopted generic default.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-aks-gyotaejeon",
+          "artifact_id": "original-01",
+          "webpage_heading": "형태 / 변천 및 현황",
+          "locator_note": "형태 paragraphs 2–3; 변천 및 현황 final paragraph."
+        }
+      ],
+      "review_note": "Agent checked the authored passages on 2026-09-22; precise reconstruction fidelity and section remain unverified. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    }
+  ],
+  "work": {
+    "next_action": "Locate 문화재청, 경복궁침전지역 중건공사 보고서 (2000), cited in the final bibliography entry; inspect the residential plan and section.",
+    "blocker": "The 2000 restoration report is a bibliographic lead only; its full catalogue/download route was not established in this batch.",
+    "retry_when": "A legitimate public catalogue/download or supplied original is located."
+  }
+}

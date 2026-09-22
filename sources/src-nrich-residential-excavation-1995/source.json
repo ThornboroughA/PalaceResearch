@@ -1,0 +1,249 @@
+{
+  "id": "src-nrich-residential-excavation-1995",
+  "title_ko": "경복궁침전지역발굴조사보고서[본문,도면]",
+  "title_en": null,
+  "creators": [],
+  "publisher": null,
+  "publication_date": "1995",
+  "evidence_kind": "archaeological_report_and_drawings",
+  "catalog_url": "https://portal.nrich.go.kr/kor/originalUsrView.do?bunya_cd=416&info_idx=112&menuIdx=565",
+  "building_ids": [
+    "gbg-gyotaejeon"
+  ],
+  "coverage_names_ko": [
+    "강녕전",
+    "교태전",
+    "경성전",
+    "연생전",
+    "연길당",
+    "응지당",
+    "건순각",
+    "흠경각",
+    "함원전"
+  ],
+  "topics": [
+    "interior-layout",
+    "foundations",
+    "historical-state",
+    "precinct-layout"
+  ],
+  "scope": "Selected catalogue-hosted illustrations from the 1995 report; full report PDF not acquired or read. Modern host/copyright holder is 국립문화유산연구원. Original publisher awaits cover verification.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-22",
+    "note": "Three unchanged public catalogue JPEG illustrations and catalogue HTML retained and verified in PalaceData. Full report PDF NOT acquired or read. Expanded 35-drawing list inspected. Catalogue extent 551 printed pages; full PDF 103.9 MB, download id 637072. Public PDF route: https://portal.nrich.go.kr/file_link/Report/1995_경복궁침전지역발굴조사보고서(본문도면)_고고.pdf ."
+  },
+  "rights": {
+    "statement": "Catalogue states 공공누리 제4유형 (attribution, noncommercial, no changes) for the report. The selected image-list rows instead say use_scope=371 / 출처표시. Keep report/image terms distinct and verify intended image reuse; no blanket licence inferred.",
+    "url": "https://portal.nrich.go.kr/kor/originalUsrView.do?bunya_cd=416&info_idx=112&menuIdx=565",
+    "redistribution": "item-specific terms require confirmation"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-nrich-residential-excavation-1995/originals/gangnyeong-plan3.jpg",
+      "original_filename": "사적117_경복궁_강녕전_추정복원_평면도3_서울_1990-1991_고고.jpg",
+      "retrieved_from": "https://portal.nrich.go.kr/file_link/Image/사적117_경복궁_강녕전_추정복원_평면도3_서울_1990-1991_고고.jpg",
+      "retrieved_on": "2026-09-22",
+      "media_type": "image/jpeg",
+      "bytes": 925211,
+      "sha256": "bb2df526352c03ff40e797af55a4a9c03e132346ac25919f2431acebe3884a34",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        3402,
+        2695
+      ],
+      "verification_note": "Unchanged selected catalogue JPEG, not the complete report. JPEG header, full Pillow decode, byte size and SHA-256 checked at the retained path. Research agent visually inspected caption and whole image for evidence purpose."
+    },
+    {
+      "id": "original-02",
+      "role": "original",
+      "path": "sources/src-nrich-residential-excavation-1995/originals/gyotae-main-remains-plan.jpg",
+      "original_filename": "사적117_경복궁_교태전본체_구조_평면도_서울_1990-1991_고고.jpg",
+      "retrieved_from": "https://portal.nrich.go.kr/file_link/Drawing/사적117_경복궁_교태전본체_구조_평면도_서울_1990-1991_고고.jpg",
+      "retrieved_on": "2026-09-22",
+      "media_type": "image/jpeg",
+      "bytes": 506584,
+      "sha256": "4debbe7724920e630c2565f2b9c9e31c9d27974ed3465298a50f40541eabf24e",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        3890,
+        2715
+      ],
+      "verification_note": "Unchanged selected catalogue JPEG, not the complete report. JPEG header, full Pillow decode, byte size and SHA-256 checked at the retained path. Research agent visually inspected caption and whole image for evidence purpose."
+    },
+    {
+      "id": "original-03",
+      "role": "original",
+      "path": "sources/src-nrich-residential-excavation-1995/originals/bukgwoldo-report-reproduction.jpg",
+      "original_filename": "사적117_경복궁_북궐도형_서울_1990-1991_고고.jpg",
+      "retrieved_from": "https://portal.nrich.go.kr/file_link/Drawing/사적117_경복궁_북궐도형_서울_1990-1991_고고.jpg",
+      "retrieved_on": "2026-09-22",
+      "media_type": "image/jpeg",
+      "bytes": 1667823,
+      "sha256": "9f41cd08e1b6a0bbc61794a09c73da91fd05d89871e836ee2da249affd672dcf",
+      "storage": "dropbox",
+      "pixel_dimensions": [
+        3636,
+        2670
+      ],
+      "verification_note": "Unchanged selected catalogue JPEG, not the complete report. JPEG header, full Pillow decode, byte size and SHA-256 checked at the retained path. Research agent visually inspected caption and whole image for evidence purpose."
+    },
+    {
+      "id": "catalogue-01",
+      "role": "catalogue_snapshot",
+      "path": "sources/src-nrich-residential-excavation-1995/originals/catalogue.html",
+      "original_filename": null,
+      "retrieved_from": "https://portal.nrich.go.kr/kor/originalUsrView.do?bunya_cd=416&info_idx=112&menuIdx=565",
+      "retrieved_on": "2026-09-22",
+      "media_type": "text/html",
+      "bytes": 439473,
+      "sha256": "c349b09793189248814e716650b677db85a50093777ec685c7daf37944f339ab",
+      "storage": "dropbox",
+      "verification_note": "Unchanged catalogue HTML response. Report title, PDF route and public image-list entry points read; this is not the report text."
+    }
+  ],
+  "sheets": [
+    {
+      "id": "sheet-001",
+      "artifact_id": "original-01",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "35",
+      "title_ko": "康寧殿 推定 復元 平面圖 3",
+      "kind": "plan",
+      "building_ids": [],
+      "topics": [
+        "historical-state",
+        "foundations"
+      ],
+      "has_dimensions": null,
+      "documented_state": "Conjectural restoration plan over archaeological remains; specific historical phase unresolved without report text.",
+      "inspection": "visually_inspected",
+      "inspection_note": "Caption and full image checked for evidence purpose; dimensions and room geometry not extracted."
+    },
+    {
+      "id": "sheet-002",
+      "artifact_id": "original-02",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "21",
+      "title_ko": "交泰殿 本體 遺構 平·斷面圖",
+      "kind": "plan_and_sections",
+      "building_ids": [
+        "gbg-gyotaejeon"
+      ],
+      "topics": [
+        "historical-state",
+        "foundations"
+      ],
+      "has_dimensions": null,
+      "documented_state": "Excavated remains; site sections and cement labels are visible. Not an elevation or roof section. Historical phase assignment pending report text.",
+      "inspection": "visually_inspected",
+      "inspection_note": "Caption and full image checked for evidence purpose; dimensions and room geometry not extracted."
+    },
+    {
+      "id": "sheet-003",
+      "artifact_id": "original-03",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "4",
+      "title_ko": "北闕圖形(景福宮)",
+      "kind": "plan",
+      "building_ids": [
+        "gbg-gyotaejeon"
+      ],
+      "topics": [
+        "historical-state",
+        "foundations"
+      ],
+      "has_dimensions": null,
+      "documented_state": "Palace-wide historical-plan reproduction/redrawing; modern scale bar visible. Edition, transformations and relation to museum original unresolved.",
+      "inspection": "visually_inspected",
+      "inspection_note": "Caption and full image checked for evidence purpose; dimensions and room geometry not extracted."
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "Drawing 35 is explicitly a conjectural Gangnyeongjeon restoration plan and visibly overlays reconstruction outlines on archaeological remains. It should not be consumed as a single surveyed-condition floor plan.",
+      "topics": [
+        "historical-state",
+        "foundations"
+      ],
+      "scope": "Caption and visible evidence purpose only; phase identification and room geometry unresolved.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-nrich-residential-excavation-1995",
+          "artifact_id": "original-01",
+          "pdf_page": null,
+          "sheet_label": "35",
+          "locator_note": "Catalogue file 637073; caption 康寧殿 推定 復元 平面圖 3",
+          "sheet_id": "sheet-001"
+        }
+      ],
+      "review_note": "Agent visually inspected the complete 3402x2695 JPEG on 2026-09-22; JPEG signature, byte count and SHA-256 verified. Retained copy independently byte/hash checked by main agent."
+    },
+    {
+      "id": "note-002",
+      "statement": "Drawing 21 shows Gyotaejeon's main-building remains and site sections, including cement labels. It is archaeological site documentation, not a timber-roof section.",
+      "topics": [
+        "historical-state",
+        "foundations"
+      ],
+      "scope": "Visible labels and drawing purpose; no phase, dimensions or former room boundary inferred.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-nrich-residential-excavation-1995",
+          "artifact_id": "original-02",
+          "pdf_page": null,
+          "sheet_label": "21",
+          "locator_note": "Catalogue file 637098; caption 交泰殿 本體 遺構 平·斷面圖",
+          "sheet_id": "sheet-002"
+        }
+      ],
+      "review_note": "Agent visually inspected the complete 3890x2715 JPEG on 2026-09-22; JPEG signature, byte count and SHA-256 verified."
+    },
+    {
+      "id": "note-003",
+      "statement": "Drawing 4 is a palace-wide Bukgwoldo reproduction/redrawing with a modern scale bar. Its relationship to a particular historical original and any redraw/calibration method need the report text.",
+      "topics": [
+        "historical-state",
+        "precinct-layout"
+      ],
+      "scope": "Visual source identification only. Not a calibrated historical plan for geometric extraction.",
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-nrich-residential-excavation-1995",
+          "artifact_id": "original-03",
+          "pdf_page": null,
+          "sheet_label": "4",
+          "locator_note": "Catalogue file 637102; caption 北闕圖形(景福宮)",
+          "sheet_id": "sheet-003"
+        }
+      ],
+      "review_note": "Agent visually inspected the complete 3636x2670 JPEG on 2026-09-22; JPEG signature, byte count and SHA-256 verified. No dimensions transcribed or scaled."
+    }
+  ],
+  "work": {
+    "next_action": "Read surrounding text of drawings 21 and 35 by acquiring the full public report when this residential question is next selected; establish one-based PDF locators and phase interpretation before room geometry extraction.",
+    "blocker": "Selected JPEGs lack full report context and PDF-page mapping.",
+    "retry_when": "A later bounded report-reading batch is selected."
+  },
+  "catalogue_checks": [
+    {
+      "url": "https://portal.nrich.go.kr/kor/imageFileListAjax.do?relmenucd=1046&relkey=112&fileTypeCd=364&fileIdx=&st=3304&sk=&subFileTypeCd=3304",
+      "checked_on": "2026-09-22",
+      "locator": "Expanded drawing list, 35 entries",
+      "method": "Read public catalogue image-list response",
+      "finding": "Selected drawings 35,21,4 distinguish restoration conjecture, remains and historical-plan reproduction. Report and image-list rights wording differ."
+    }
+  ]
+}

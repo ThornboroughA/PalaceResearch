@@ -25,16 +25,16 @@
   ],
   "access": {
     "status": "downloaded",
-    "last_attempt": "2026-09-21",
-    "note": "Ten selected public raster sheets retained: two earlier originals plus eight acquired in the inspection batch. Use the portal drawing list or the recorded file_seq viewer URLs. Similar catalogue entries not selected here remain untested for duplication.",
+    "last_attempt": "2026-09-22",
+    "note": "Twelve unchanged public JPEGs retained: ten initial sheets plus higher-resolution counterparts of repair 045 and 050. Two additional images do not mean two independent surveys.",
     "download_route": "Public drawing viewer > displayed JPEG image / 파일 다운로드; retained the displayed full-resolution JPEG assets.",
-    "coverage_note": "Selected existing plan, two central sections and one side-bay section, ceiling plan, measured bay/level diagrams, south/north opening details, and repair plan/section. All ten inspected; five contain annotated measurements. East/west opening details and general measurement conventions remain outstanding."
+    "coverage_note": "Selected plans, sections, measured bay/level diagrams, ceiling and north/south opening details inspected. Dimensional pass added repair grid, area, vertical chain, eave projection, floor-board thickness, inner-column diameters and two central opening spans. Unit declaration, surveyed measuring heights, east/west openings and execution chronology remain unresolved."
   },
   "rights": {
-    "statement": "Each of the ten retained image viewers identifies 국가유산청 as copyright holder and links its attribution badge to KOGL Type 1. Attribute 국가유산청 / 국가유산원형기록정보시스템 and the drawing author. Retained bytes are unchanged.",
+    "statement": "Each of the ten retained image viewers identifies 국가유산청 as copyright holder and links its attribution badge to KOGL Type 1. Attribute 국가유산청 / 국가유산원형기록정보시스템 and the drawing author. Retained bytes are unchanged. The two higher-resolution repair viewers were also checked on 2026-09-22 and display the same holder and KOGL Type 1 link.",
     "url": "https://www.kogl.or.kr/open/info/license_info/by.do",
     "redistribution": "permitted_under_stated_KOGL_Type_1_conditions",
-    "checked_on": "2026-09-21"
+    "checked_on": "2026-09-22"
   },
   "artifacts": [
     {
@@ -206,6 +206,42 @@
         1655
       ],
       "verification_note": "Unchanged public portal JPEG exported via browser page-assets. JPEG FF D8 FF signature, Pillow verify/full pixel decode, byte count and SHA-256 checked at the recorded Dropbox path against the downloaded file. Agent inspected the full sheet and title block; not native CAD."
+    },
+    {
+      "id": "original-11",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2221033049.jpg",
+      "original_filename": "2221033049.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2221033049.jpg",
+      "retrieved_on": "2026-09-22",
+      "media_type": "image/jpeg",
+      "bytes": 1792761,
+      "sha256": "c85f05d0123a23695ab9a4f6f64f64290b62557f4af22f9085a3ffb90f0eba59",
+      "storage": "dropbox",
+      "verification_note": "JPEG signature and full Pillow pixel decode checked at retained path. Unchanged portal image; this is not native CAD. Main agent visually inspected full sheet, title block and selected dimension/endpoint crops. Higher-resolution counterpart of the already retained same-numbered sheet; not independent corroboration.",
+      "pixel_dimensions": [
+        6315,
+        4582
+      ],
+      "viewer_url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868131"
+    },
+    {
+      "id": "original-12",
+      "role": "original",
+      "path": "sources/src-gbg-sajeongjeon-measured-drawings-1993/originals/2221033054.jpg",
+      "original_filename": "2221033054.jpg",
+      "retrieved_from": "https://www.heritage.go.kr/DATA1/heritage/hub_img/data5/xtd/XTD_2017/IMAGES/0095/2221033054.jpg",
+      "retrieved_on": "2026-09-22",
+      "media_type": "image/jpeg",
+      "bytes": 1563603,
+      "sha256": "deab2df5a14bdb972af52088302084cc5f4ec27f6ddc1841b4a781406515e350",
+      "storage": "dropbox",
+      "verification_note": "JPEG signature and full Pillow pixel decode checked at retained path. Unchanged portal image; this is not native CAD. Main agent visually inspected full sheet, title block and selected dimension/endpoint crops. Higher-resolution counterpart of the already retained same-numbered sheet; not independent corroboration.",
+      "pixel_dimensions": [
+        6339,
+        4617
+      ],
+      "viewer_url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868127"
     }
   ],
   "sheets": [
@@ -440,6 +476,52 @@
       "preview_artifact_id": null,
       "inspection_note": "Agent visual inspection, 2026-09-21. Full repair longitudinal section and title block inspected beside section 006. Dimensions, member sizes and foundation details supplement the broadly corresponding section; the repair label does not establish completion or the precise survey chronology.",
       "catalogue_file_seq": "2868126"
+    },
+    {
+      "id": "sheet-011",
+      "artifact_id": "original-11",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "045",
+      "title_ko": "보수평면도",
+      "kind": "plan",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "column-grid",
+        "floor-assembly",
+        "roof-structure",
+        "measurement-basis"
+      ],
+      "has_dimensions": true,
+      "documented_state": "Repair-labelled drawing, dated 1993.12; execution date/extent unresolved.",
+      "inspection": "visually_inspected",
+      "related_sheet_id": "sheet-009",
+      "relationship": "Higher-resolution public counterpart of same printed sheet, not a separate survey."
+    },
+    {
+      "id": "sheet-012",
+      "artifact_id": "original-12",
+      "pdf_page": null,
+      "printed_page": null,
+      "sheet_label": "050",
+      "title_ko": "보수종단면도",
+      "kind": "section",
+      "building_ids": [
+        "gbg-sajeongjeon"
+      ],
+      "topics": [
+        "column-grid",
+        "floor-assembly",
+        "roof-structure",
+        "measurement-basis"
+      ],
+      "has_dimensions": true,
+      "documented_state": "Repair-labelled drawing, dated 1993.12; execution date/extent unresolved.",
+      "inspection": "visually_inspected",
+      "related_sheet_id": "sheet-010",
+      "relationship": "Higher-resolution public counterpart of same printed sheet, not a separate survey."
     }
   ],
   "notes": [
@@ -574,6 +656,57 @@
         }
       ],
       "review_note": "Agent compared the complete original JPEG sheets, labels and relevant detail crops on 2026-09-21. Checked means the source reading was verified; no numerical building observation or executed-repair conclusion is claimed."
+    },
+    {
+      "id": "note-005",
+      "statement": "Higher-resolution repair sheets 045 and 050 preserve the repair designation and project date. Their plan/section chains agree on the regular depth arrangement 3.090 + 5.520 + 3.090 = 11.700; these regular values must not replace measured sheet 033's unequal perimeter chains.",
+      "topics": [
+        "historical-state",
+        "column-grid"
+      ],
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-11",
+          "sheet_id": "sheet-011",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 045, title block and top/right chains"
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-12",
+          "sheet_id": "sheet-012",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 050, title block and top/bottom depth chains"
+        }
+      ],
+      "review_note": "Main agent visually compared high-resolution original images and calculated sums on 2026-09-22. Repair intent is not evidence of execution; counterpart scans are not independent observations."
+    },
+    {
+      "id": "note-006",
+      "statement": "The repair plan explicitly prints AREA 209,19 M2. Reading its overall chains as 17.880 m and 11.700 m gives 209.196 m², only 0.006 m² above that annotation. This strongly supports that metric interpretation within repair 045. It does not establish whether punctuation denotes decimal metres or grouped millimetres, a set-wide unit declaration, or the measurement heights of survey 033.",
+      "topics": [
+        "measurement-basis",
+        "column-grid"
+      ],
+      "method": "interpretation",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-11",
+          "sheet_id": "sheet-011",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 045, top total 17.880, right total 11.700, lower-right AREA209,19M2"
+        }
+      ],
+      "review_note": "Two agents visually read area and span labels; main agent calculated 17.880 × 11.700 = 209.196. Difference retained, not rounded away. Check is of a dimensional consistency inference; raw linear records remain unit-null/pending.",
+      "assumptions": "Area refers to the rectangle bounded by the outer post-centre grid. Decimal-metre and grouped-millimetre interpretations yield the same physical spans. Transfer to matched repair 050 is a provisional modeling interpretation, not an explicit source unit statement."
     }
   ],
   "catalogue_checks": [
@@ -708,10 +841,17 @@
       "locator": "Targeted attempt to inspect the alternate bay/level sheet and catalogue for measurement conventions",
       "method": "agent_attempted_public_web_access",
       "findings": "Alternate viewer was inaccessible through the web tool; the official catalogue returned HTTP 403 and the delegated browser fallback was unavailable. No new image or unit declaration was inspected. This is a tool-route failure, not proof that public access requires login; retry with a working public browser or another legitimate copy."
+    },
+    {
+      "url": "https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=2868185",
+      "checked_on": "2026-09-22",
+      "locator": "Alternate printed 033, image2220784038.jpg at 2214×1650",
+      "method": "Agent visually inspected browser-displayed image; no additional original retained",
+      "finding": "Bottom parenthesized chain 3080+3060+5510+3090+3090 and total 17855 agree with retainedscan;25-unit difference persists. This is another scan of same sheet, not independent survey confirmation."
     }
   ],
   "work": {
-    "next_action": "Continue from gbg-sajeongjeon obs-001–009. First resolve sheet 033 units, field measuring heights and the obs-007 chain/total discrepancy through general notes, another scan or the primary survey. Then extract one floor/ceiling or opening relationship with an explicit datum/operation basis. Compare the northern interior frame (obs-004) with Park note-001/note-002 before assigning historical fabric.",
+    "next_action": "Use new high-resolution repair originals for the next connected floor/ceiling datum and support check. Obtain general measurement notes or another primary survey to resolve033 units/heights and persistent25-unit conflict; do not repeat unchanged login routes.",
     "blocker": "No blocker to reading the ten local images. Explicit linear-unit and field-height conventions, physical level datum, exact survey/repair chronology and opening operation remain unresolved. Alternate 2868185 was not inspected because the current public web/browser routes failed.",
     "retry_when": null
   },

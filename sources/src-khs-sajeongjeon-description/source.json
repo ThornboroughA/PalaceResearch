@@ -1,0 +1,138 @@
+{
+  "id": "src-khs-sajeongjeon-description",
+  "title_ko": "경복궁 사정전",
+  "title_en": null,
+  "creators": [],
+  "publisher": "국가유산청",
+  "publication_date": null,
+  "evidence_kind": "official_building_description",
+  "catalog_url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859672764200589",
+  "building_ids": [
+    "gbg-sajeongjeon"
+  ],
+  "coverage_names_ko": [
+    "사정전",
+    "만춘전",
+    "천추전",
+    "사정문",
+    "행각"
+  ],
+  "topics": [
+    "interior-layout",
+    "floor-assembly",
+    "roof-structure",
+    "openings",
+    "brackets"
+  ],
+  "scope": "Official descriptive text, accessed 2026-09-22; no specific survey date stated. Broad historical continuity language is not taken as proof that interiors or contents were unchanged since 1867.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-22",
+    "note": "Digital-service HTML contains the inspected description. Also retained the heritage portal HTML shell; that shell alone does not contain the architectural description. Neither is a measured survey."
+  },
+  "rights": {
+    "statement": "Digital-service footer states COPYRIGHT KOREA HERITAGE SERVICE, all rights reserved. No item-specific reuse licence established for this text; do not transfer the drawing viewers' KOGL licence to it.",
+    "url": "https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859672764200589",
+    "redistribution": "unknown"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "catalogue_snapshot",
+      "path": "sources/src-khs-sajeongjeon-description/originals/sajeongjeon.html",
+      "original_filename": "sajeongjeon.html",
+      "retrieved_from": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121117590000&pageNo=1_1_1_1&sngl=Y",
+      "retrieved_on": "2026-09-22",
+      "media_type": "text/html",
+      "bytes": 749737,
+      "sha256": "95eed5d19df2c11167dc3d76a324f1f78ff8c5a77fb15e7f09b24f56b904c63e",
+      "storage": "dropbox",
+      "verification_note": "Unchanged HTML shell, readable title and catalogue links; description loads separately and is absent from this response. Not evidence for the architectural paragraphs."
+    },
+    {
+      "id": "original-02",
+      "role": "original",
+      "path": "sources/src-khs-sajeongjeon-description/originals/sajeongjeon-digital.html",
+      "original_filename": "sajeongjeon-digital.html",
+      "retrieved_from": "https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859672764200589",
+      "retrieved_on": "2026-09-22",
+      "media_type": "text/html",
+      "bytes": 114539,
+      "sha256": "8f294d4306dff85f7e54bdeb28999dfb84cc65460246e5e94b02371214f150d3",
+      "storage": "dropbox",
+      "verification_note": "Unchanged public HTML response; title and full 국가유산 설명 paragraphs present and read. Does not include independent measured-survey verification."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "The description distinguishes Sajeongjeon without ondol from neighbouring Manchunjeon/Cheonchujeon with ondol. Winter use of the latter is explicitly an inference. Ranges beside Sajeongmun served as the named 천자고–월자고 stores.",
+      "topics": [
+        "interior-layout",
+        "floor-assembly",
+        "circulation"
+      ],
+      "scope": "Official description as accessed, with its unstated survey date; claims checked as source statements, not independently dated physical conditions.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-khs-sajeongjeon-description",
+          "artifact_id": "original-02",
+          "webpage_heading": "국가유산 설명",
+          "locator_note": "국가유산 설명 paragraph 2, beginning 사정전은 만춘전"
+        }
+      ],
+      "review_note": "Main agent read the live description and matched the retained digital-service HTML on 2026-09-22. No human review or field survey claimed."
+    },
+    {
+      "id": "note-002",
+      "statement": "The description names a five-by-three-bay plan, three-course stone platform, round foundation stones, 2고주 7량가, 다포, 우물천정 and 겹처마 팔작 roof. These are example-specific terms; two tall posts in a cross-frame description is not a count of all interior posts.",
+      "topics": [
+        "column-grid",
+        "roof-structure",
+        "brackets",
+        "ceilings"
+      ],
+      "scope": "Official description as accessed, with its unstated survey date; claims checked as source statements, not independently dated physical conditions.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-khs-sajeongjeon-description",
+          "artifact_id": "original-02",
+          "webpage_heading": "국가유산 설명",
+          "locator_note": "국가유산 설명 paragraphs 6–7, beginning 평면은 and 기단은"
+        }
+      ],
+      "review_note": "Main agent read the live description and matched the retained digital-service HTML on 2026-09-22. No human review or field survey claimed."
+    },
+    {
+      "id": "note-003",
+      "statement": "The description gives four-leaf lattice openings with upper transoms on all sides, an 우물마루 floor and no internal room partitions, while distinguishing the tall-post-supported wall above the throne position. It does not document individual leaf operation.",
+      "topics": [
+        "openings",
+        "interior-layout",
+        "floor-assembly"
+      ],
+      "scope": "Official description as accessed, with its unstated survey date; claims checked as source statements, not independently dated physical conditions.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-khs-sajeongjeon-description",
+          "artifact_id": "original-02",
+          "webpage_heading": "국가유산 설명",
+          "locator_note": "국가유산 설명 paragraph 8, beginning 창호는"
+        }
+      ],
+      "review_note": "Main agent read the live description and matched the retained digital-service HTML on 2026-09-22. No human review or field survey claimed."
+    }
+  ],
+  "work": {
+    "next_action": "Compare the source terminology with retained sections and east/west opening details. Keep its description of two tall posts supporting the mural wall distinct from the drawing's total of four interior posts.",
+    "blocker": null,
+    "retry_when": null
+  }
+}

@@ -10,9 +10,11 @@
     "src-park-sajeongjeon-mural-2022",
     "src-cho-sajeongjeon-throne-2022",
     "src-gbg-sajeongjeon-furnishing-2024",
-    "src-gbg-sajeongjeon-survey-2014"
+    "src-gbg-sajeongjeon-survey-2014",
+    "src-khs-sajeongjeon-description",
+    "src-aks-sajeongjeon"
   ],
-  "scope_note": "First bounded extraction, 2026-09-22. Observations describe the retained 1993 drawing set. Other source_ids provide historical context or acquisition leads, not corroboration of these measurements. Numerical chains remain in unspecified source units and are not ready for full-scale geometry.",
+  "scope_note": "Two bounded extractions, through 2026-09-22: surveyed 1993 drawing topology/unequal chains and separately labelled repair dimensions. Raw linear annotations remain unit-null/pending; repair 045 area supports a separately recorded metric interpretation. Context sources are not blanket corroboration of dimensions. See gbg-sajeongjeon-dimensions.md for the concise reading guide.",
   "states": [
     {
       "id": "state-1993-drawings-existing",
@@ -54,6 +56,31 @@
           "locator_note": "Printed sheet 017, south opening details and title block."
         }
       ]
+    },
+    {
+      "id": "state-1993-drawings-repair",
+      "description": "Drawings explicitly labelled 보수평면도/보수종단면도, printed 045/050, title blocks1993.12. Repair/design intent with possible retained existing details; not as-built execution evidence.",
+      "date": null,
+      "drawing_date_as_recorded": "1993.12",
+      "notes": "Do not merge regular repair grid into state-1993-drawings-existing. Exact repair scope and completion dates unresolved.",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-11",
+          "sheet_id": "sheet-011",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 045 repair title block"
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-12",
+          "sheet_id": "sheet-012",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 050 repair title block"
+        }
+      ]
     }
   ],
   "elements": [
@@ -68,6 +95,12 @@
       "label": "Central south opening",
       "source_label": "③",
       "notes": "Analyst-assigned ID preserving source detail number 3 on printed sheet 017."
+    },
+    {
+      "id": "opening-north-11",
+      "label": "Central north opening",
+      "source_label": "⑪",
+      "notes": "Analyst-assigned ID, numbered detail11 on printed 019; building orientation follows the previously checked key/detail titles."
     }
   ],
   "observations": [
@@ -394,7 +427,7 @@
           "locator_note": "Printed sheet 033, upper-left 평면 주칸 실측치 diagram, page_bottom chain and its outer total line; original-pixel inspection region x=620–2450, y=450–2150. Caption below diagram."
         }
       ],
-      "review_note": "Two agents independently read the original sheet and its upper-left crop on 2026-09-22. The main agent checked the saved numbers and calculated both chain sums. Transcription and arithmetic are checked; the dimensional observation remains pending because the linear unit and exact measurement heights are unconfirmed. The parenthesized total is legibly 17,855, while the five legible components sum to 17,830. Neither has been corrected.",
+      "review_note": "Two agents independently read the original sheet and its upper-left crop on 2026-09-22. The main agent checked the saved numbers and calculated both chain sums. Transcription and arithmetic are checked; the dimensional observation remains pending because the linear unit and exact measurement heights are unconfirmed. The parenthesized total is legibly 17,855, while the five legible components sum to 17,830. Neither has been corrected. On2026-09-22 another agent inspected alternate public scan2220784038.jpg(viewer 2868185); the same digits and printed 17855 persist. No new independent survey or corrected total.",
       "notes": "No conversion or geometry measured from pixels. Parentheses explicitly indicate upper bay readings; the plain readings are not labelled as base, floor-level or lower measurements. The discrepancy is 25 in unspecified source units. Resolve against another scan or the underlying survey before using a reconciled total; arithmetic alone does not establish which printed value is wrong."
     },
     {
@@ -498,14 +531,339 @@
       ],
       "review_note": "Two agents independently read the original sheet and its upper-left crop on 2026-09-22. The main agent checked the saved numbers and calculated both chain sums. Transcription and arithmetic are checked; the dimensional observation remains pending because the linear unit and exact measurement heights are unconfirmed.",
       "notes": "No conversion or geometry measured from pixels. Parentheses explicitly indicate upper bay readings; the plain readings are not labelled as base, floor-level or lower measurements."
+    },
+    {
+      "id": "obs-010",
+      "subject": "building",
+      "topics": [
+        "column-grid",
+        "measurement-basis"
+      ],
+      "property": "repair_plan_bay_chains",
+      "value": {
+        "page_horizontal_left_to_right": {
+          "components": [
+            3090,
+            3090,
+            5520,
+            3090,
+            3090
+          ],
+          "printed_total": 17880,
+          "calculated_sum": 17880,
+          "printed_total_minus_sum": 0
+        },
+        "page_vertical_top_to_bottom": {
+          "components": [
+            3090,
+            5520,
+            3090
+          ],
+          "printed_total": 11700,
+          "calculated_sum": 11700,
+          "printed_total_minus_sum": 0
+        },
+        "platform_edge_offset_each_side": 1830
+      },
+      "unit": null,
+      "as_recorded": "Horizontal:3.090;3.090;5.520;3.090;3.090;total17.880. Vertical:3.090;5.520;3.090;total11.700. Outer offsets1.830.",
+      "state_id": "state-1993-drawings-repair",
+      "measurement_basis": "Dimension witnesses align with post centres. Offsets run from outer post-centre lines to platform edges, not roof eaves. Page directions retained; no surveyed azimuth asserted. Punctuation preserved in as_recorded; integer value encodes raw digits, not verified millimetres.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-11",
+          "sheet_id": "sheet-011",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 045 top horizontal and right vertical chains; outside offsets to drawn platform edge."
+        }
+      ],
+      "review_note": "Main agent visually checked full original and selected native-pixel crops on 2026-09-22. Transcription checked; unit convention remains inferred rather than explicitly declared. See source note-006. No geometry scaled from pixels.",
+      "notes": "Repair drawing does not prove executed condition."
+    },
+    {
+      "id": "obs-011",
+      "subject": "building",
+      "topics": [
+        "column-grid",
+        "measurement-basis"
+      ],
+      "property": "repair_plan_annotated_area",
+      "value": 209.19,
+      "unit": "m2",
+      "as_recorded": "AREA209,19M2 (63,28PY)",
+      "state_id": "state-1993-drawings-repair",
+      "measurement_basis": "Explicit printed area annotation. Exact area boundary not separately labelled; correspondence to outer post-centre rectangle is an inference in source note-006. PY value preserved without conversion.",
+      "method": "transcribed_dimension",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-11",
+          "sheet_id": "sheet-011",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 045, lower-right area box"
+        }
+      ],
+      "review_note": "Main agent visually checked full original and selected native-pixel crops on 2026-09-22. Explicit area unit and digits checked.",
+      "notes": "Repair drawing does not prove executed condition."
+    },
+    {
+      "id": "obs-012",
+      "subject": "building",
+      "topics": [
+        "roof-structure",
+        "floor-assembly",
+        "measurement-basis"
+      ],
+      "property": "repair_section_vertical_chain",
+      "value": {
+        "reading_order": "top_to_bottom",
+        "components": [
+          2100,
+          1120,
+          1160,
+          900,
+          720,
+          1110,
+          240,
+          4600,
+          150,
+          30,
+          1120
+        ],
+        "printed_total": 13250,
+        "calculated_sum": 13250,
+        "printed_total_minus_sum": 0,
+        "stair_subchain_top_to_bottom": [
+          200,
+          230,
+          240,
+          240,
+          210
+        ],
+        "stair_subchain_total": 1120,
+        "below_paving_chain_top_to_bottom": [
+          200,
+          250,
+          150
+        ],
+        "below_paving_total": 600
+      },
+      "unit": null,
+      "as_recorded": "13.250; chain2.100,1.120,1.160,900,720,1.110,240,4.600,150,30,1.120; separate600belowpaving.",
+      "state_id": "state-1993-drawings-repair",
+      "measurement_basis": "Overall from top of small semicircular cap above ridge assembly to top surface of exterior paving beyond lowest right stair. Separate600 continues to lowest footing bottom and is excluded. Intermediate labels are consecutive drawn stations; do not call4600clear room height or13250ridge-timber height. Datum is this drawn paving, not a surveyed elevation.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-12",
+          "sheet_id": "sheet-012",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 050, right vertical chain and associated horizontal witness lines, including stair/paving and ridge-cap endpoints."
+        }
+      ],
+      "review_note": "Main agent visually checked full original and selected native-pixel crops on 2026-09-22. Transcription checked; unit convention remains inferred rather than explicitly declared. See source note-006. No geometry scaled from pixels. Second agent independently confirmed overall endpoints, all main labels and both lower subchains.",
+      "notes": "Repair drawing does not prove executed condition."
+    },
+    {
+      "id": "obs-013",
+      "subject": "building",
+      "topics": [
+        "roof-structure",
+        "column-grid",
+        "measurement-basis"
+      ],
+      "property": "repair_section_horizontal_roof_projection",
+      "value": {
+        "post_centre_depth": 11700,
+        "bay_components": [
+          3090,
+          5520,
+          3090
+        ],
+        "eave_projection_each_end": 3000,
+        "projection_subchain_each_end": [
+          2370,
+          630
+        ]
+      },
+      "unit": null,
+      "as_recorded": "3.000 |11.700|3.000; endsubchains2.370+630",
+      "state_id": "state-1993-drawings-repair",
+      "measurement_basis": "Horizontal projection beyond each outer post-centre line to drawn roof edge in this central section. Not sloping rafter length and not hip-corner projection. Depth agrees withrepair045.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-12",
+          "sheet_id": "sheet-012",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 050, topmost depth/projection chains and their vertical witnesses to outer roof edges."
+        }
+      ],
+      "review_note": "Main agent visually checked full original and selected native-pixel crops on 2026-09-22. Transcription checked; unit convention remains inferred rather than explicitly declared. See source note-006. No geometry scaled from pixels.",
+      "notes": "Repair drawing does not prove executed condition."
+    },
+    {
+      "id": "obs-014",
+      "subject": "opening-south-03",
+      "topics": [
+        "openings",
+        "measurement-basis"
+      ],
+      "property": "annotated_opening_spans",
+      "value": {
+        "horizontal_witness_span": 4623,
+        "vertical_top_to_bottom": [
+          487,
+          335,
+          2740
+        ],
+        "vertical_calculated_sum": 3562,
+        "vertical_printed_total": null
+      },
+      "unit": null,
+      "as_recorded": "4.623;487;335;2.740",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Horizontal witnesses span the four-leaf assembly near inner side-frame positions, not outer frame limits or post centres. Right-hand stations bound upper lattice band, separating member/band and lower tall-leaf span. Exact clear-operable opening and individual leaf sizes not established. Do not equate raw width4623/4624 with bay width5530/5520.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-07",
+          "sheet_id": "sheet-007",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 017 central south detail③; top horizontal dimension and right-side three-part vertical chain"
+        }
+      ],
+      "review_note": "Main agent visually checked full original and selected native-pixel crops on 2026-09-22. Transcription checked; unit convention remains inferred rather than explicitly declared. See source note-006. No geometry scaled from pixels.",
+      "notes": "Existing-condition detail; annotated span does not establish clear opening after operation."
+    },
+    {
+      "id": "obs-015",
+      "subject": "opening-north-11",
+      "topics": [
+        "openings",
+        "measurement-basis"
+      ],
+      "property": "annotated_opening_spans",
+      "value": {
+        "horizontal_witness_span": 4624,
+        "vertical_top_to_bottom": [
+          495,
+          330,
+          2742
+        ],
+        "vertical_calculated_sum": 3567,
+        "vertical_printed_total": null
+      },
+      "unit": null,
+      "as_recorded": "4.624;495;330;2.742",
+      "state_id": "state-1993-drawings-existing",
+      "measurement_basis": "Horizontal witnesses span the four-leaf assembly near inner side-frame positions, not outer frame limits or post centres. Right-hand stations bound upper lattice band, separating member/band and lower tall-leaf span. Exact clear-operable opening and individual leaf sizes not established. Do not equate raw width4623/4624 with bay width5530/5520.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-08",
+          "sheet_id": "sheet-008",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 019 central north detail⑪; top horizontal dimension and right-side three-part vertical chain"
+        }
+      ],
+      "review_note": "Main agent visually checked full original and selected native-pixel crops on 2026-09-22. Transcription checked; unit convention remains inferred rather than explicitly declared. See source note-006. No geometry scaled from pixels.",
+      "notes": "Existing-condition detail; annotated span does not establish clear opening after operation."
+    },
+    {
+      "id": "obs-016",
+      "subject": "building",
+      "topics": [
+        "floor-assembly",
+        "measurement-basis"
+      ],
+      "property": "repair_floor_board_thickness_annotation",
+      "value": 42,
+      "unit": null,
+      "as_recorded": "T.42",
+      "state_id": "state-1993-drawings-repair",
+      "measurement_basis": "Thickness callout points to boarding; not total floor assembly depth or room floor height.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-11",
+          "sheet_id": "sheet-011",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 045 near lower central floorboards; crosschecked against 050 central floor T.42"
+        },
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-12",
+          "sheet_id": "sheet-012",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 050, central floor line labelledT.42"
+        }
+      ],
+      "review_note": "Main agent visually checked full original and selected native-pixel crops on 2026-09-22. Transcription checked; unit convention remains inferred rather than explicitly declared. See source note-006. No geometry scaled from pixels.",
+      "notes": "Repair drawing does not prove executed condition."
+    },
+    {
+      "id": "obs-017",
+      "subject": "building",
+      "topics": [
+        "column-grid",
+        "measurement-basis"
+      ],
+      "property": "repair_inner_column_diameter_annotations",
+      "value": {
+        "page_top_left": 540,
+        "page_top_right": 540,
+        "page_bottom_left": 540,
+        "page_bottom_right": 540
+      },
+      "unit": null,
+      "as_recorded": "Ø540 at four interior column symbols",
+      "state_id": "state-1993-drawings-repair",
+      "measurement_basis": "Diameter leaders at four internal posts in plan; measuring height/taper and whether sizes retain existing or prescribe repair remain unstated. Not a diameter default for perimeter posts.",
+      "method": "transcribed_dimension",
+      "verification": "pending",
+      "evidence": [
+        {
+          "source_id": "src-gbg-sajeongjeon-measured-drawings-1993",
+          "artifact_id": "original-11",
+          "sheet_id": "sheet-011",
+          "pdf_page": null,
+          "printed_page": null,
+          "locator_note": "Printed 045, four interior column circles and adjacent diameter leaders"
+        }
+      ],
+      "review_note": "Main agent visually checked full original and selected native-pixel crops on 2026-09-22. Transcription checked; unit convention remains inferred rather than explicitly declared. See source note-006. No geometry scaled from pixels.",
+      "notes": "Repair drawing does not prove executed condition."
     }
   ],
   "gaps": [
     "Confirm the modern linear unit and actual field endpoints/heights for sheet 033. Parentheses identify upper bay readings; plain height is unspecified. The lower-left level diagram also needs its physical horizontal reference line before any floor/ceiling height is inferred.",
-    "Resolve the page-bottom upper-chain conflict in obs-007 against another scan or primary survey record. Do not replace the printed total with the computed sum.",
+    "Resolve obs-007 against general notes or another primary survey: a second public scan reproduces the25-unit conflict, so repeating scan retrieval will not resolve it.",
     "Establish exact survey dates and repair chronology. The 1993.12 title blocks and repair labels do not prove when work was measured or executed.",
     "Inspect east/west opening details and verify operation, clear openings, thresholds and enclosure boundaries. The panel counts in obs-005 do not establish a movement mechanism.",
-    "Extract floor/ceiling assemblies and levels in a later connected set. Identify the north interior frame against Park note-001/note-002 and dated conservation evidence before assigning painting, support or movable-furnishing states.",
+    "Relate floor/ceiling datums and total assembly build-ups across surveyed and repair sections; obs-016 supplies boarding thickness only. Identify the north interior frame against dated conservation evidence before assigning painting/support/furnishing states.",
     "Primary measured/repair report and native CAD remain unacquired; the 2014 report is access-blocked and Cho 2022 remains preview-only. Follow existing source retry conditions."
   ]
 }

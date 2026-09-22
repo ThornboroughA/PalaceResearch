@@ -1,14 +1,14 @@
-# Complete Korean palace halls: working ideas
+# Complete Korean palace buildings: working ideas
 
 **Status: non-canonical brainstorming, begun 2026-09-22.** These are prompts for the owner's separate modeling-workflow discussion. The firm requirement and research priorities are recorded in [PROJECT.md](../PROJECT.md); the proposals below do not approve a component library, numeric defaults or a construction system.
 
-The owner requires a complete, sensibly assembled Korean palace timber hall whenever a building is commissioned. Missing evidence must lead to explicit assumptions and suitable fallback construction. Leaving necessary parts absent is a failed result, even if the surviving modeled parts are highly accurate. Research can remain incomplete while the model is complete at its intended level of detail.
+The owner requires a complete, sensibly assembled Korean palace timber building appropriate to the commissioned type. Missing evidence must lead to explicit assumptions and suitable fallback construction. Leaving necessary parts absent is a failed result, even if the surviving modeled parts are highly accurate. Research can remain incomplete while the model is complete at its intended level of detail.
 
 ## Two complementary bodies of knowledge
 
 First, extract Sajeongjeon's dimensional attributes into its [building record](../buildings/gbg-sajeongjeon.json). The useful target is a connected account of its plan, heights, supports, floor, openings and roof. The existing bay transcriptions are a start; the next measurements should establish how these parts meet. Preserve measured condition and repair intent separately, and distinguish dimensions still awaiting confirmation from usable architectural measurements.
 
-Second, develop the owner's working “platonic ideal”: a complete reference configuration for a generic Korean palace timber hall, with assumptions that can be refined over time. It could begin with one coherent example and acquire carefully scoped alternatives as evidence grows. Its value would be the ability to assemble a whole building reliably, with understandable relationships and adjustable dimensions. Different building uses and structural arrangements may eventually need different configurations.
+Second, develop several complete reference configurations with shared vocabulary: halls, residences, covered walkways, and enclosed/mixed ranges. The owner clarified that these need distinct arrangements from the outset. Initial [living research briefs](../typologies/README.md) now collect scoped evidence and provisional proposals; they will be refined as data accumulates. Their purpose is to help assemble whole buildings reliably without flattening meaningful differences.
 
 These two efforts should inform each other. Sajeongjeon can reveal which attributes a complete hall needs and supply documented examples. Each proposed generic relationship should retain the scope of the examples behind it. One building's measurements alone cannot establish a universal standard.
 
@@ -35,7 +35,7 @@ Keep new source-backed findings in source/building records and actual comparison
 ## Questions for the modeling discussion
 
 - Should the first complete model use a simple whole-building pass before close work on one interior assembly?
-- What is the minimum convincing hall at overview and close interior scales, and which hidden members can use simplified representations?
+- What is the minimum convincing building of each type at overview and close interior scales, and which hidden members can use simplified representations?
 - How should an authored fallback be chosen and revised when no comparable documented example is available?
 - Which changes must propagate together to preserve sensible connections, and which can remain local artistic adjustments?
 

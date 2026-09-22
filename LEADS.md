@@ -6,19 +6,19 @@ Search the existing `sources/` records and the relevant supplied collection befo
 
 ## Sajeongjeon: broader source pass, 2026-09-21
 
-Discovery was followed by a bounded acquisition and inspection pass. Ten 1993 sheets, Park's complete article, Cho's one-page preview, and the 2024 display release/photo attachment are now retained. Linked source records own their exact inspection notes, files and blockers. The [first building extraction](buildings/gbg-sajeongjeon.json), dated 2026-09-22, records five checked layout/opening observations and four pending numerical chains; units and measuring heights remain unresolved. The unacquired alternatives below remain leads.
+Discovery was followed by acquisition and inspection. Twelve 1993 JPEGs (including two higher-resolution counterparts), Park's complete article, Cho's one-page preview, and the 2024 display release/photo attachment are retained. Linked source records own their exact inspection notes, files and blockers. The [dimensional reading guide](buildings/gbg-sajeongjeon-dimensions.md), updated 2026-09-22, covers the surveyed chains and separate repair dimensions. The unacquired alternatives below remain leads.
 
 ### Geometry and repair records
 
-The [official Sajeongjeon portal entry](https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121117590000&pageNo=1_1_1_1&sngl=Y), under **도면 → 더보기**, exposed **110 drawing links**. That is a count of catalogue entries, not unique sheets: similar titles occur in pairs, and their bytes, title blocks and dates have not been compared. The [drawing source record](sources/src-gbg-sajeongjeon-measured-drawings-1993/source.json) indexes ten retained sheets and four checked reading notes.
+The [official Sajeongjeon portal entry](https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121117590000&pageNo=1_1_1_1&sngl=Y), under **도면 → 더보기**, exposed **110 drawing links**. That is a count of catalogue entries, not unique sheets. Selected pairs have now been compared; the rest remain unchecked. The [drawing source record](sources/src-gbg-sajeongjeon-measured-drawings-1993/source.json) indexes twelve retained JPEGs and six checked reading notes.
 
 | Useful group | Exact portal `file_seq` leads | What to establish next |
 | --- | --- | --- |
-| Column/bay spacing, column levels and inclination | 2868184, 2868185 — 평면주칸／포간격／기둥레벨／안쏠림 실측도 and the similarly named entry | 2868184 retained: bay chains transcribed in building obs-006–009, with units/heights pending and one chain-total conflict. 2868185 remains uninspected: targeted web access failed on 2026-09-22; catalogue returned 403 and delegated browser was unavailable. Retry with a working public route or supplied copy. |
+| Column/bay spacing, column levels and inclination | 2868184, 2868185 — 평면주칸／포간격／기둥레벨／안쏠림 실측도 and the similarly named entry | 2868184 retained: obs-006–009 preserve the chains. 2868185 was visually inspected through a working browser route on 2026-09-22; the same 25-unit conflict persists. Alternate image not retained. General notes or a different primary survey are now more useful than another scan. |
 | Central sections | 2868152 — 어칸 종단면도; 2868153 — 어칸 횡단면도 | Both acquired and inspected (sheets 006/008); relate cut keys, supports and central assembly to the other evidence. |
 | Ceiling plans | 2868148, 2868149 — 앙시도(반자) | 2868148 acquired and inspected (sheet 010); 2868149 remains an untested alternate. |
 | Openings | 2868174–2868176 — 창호 상세도 for south, east/west and north; similarly named entries 2868171–2868173 | 2868174/2868176 acquired and inspected (south/north, sheets 017/019). East/west details and operation remain open; alternate scans untested. |
-| Repair drawings | 2868130, 2868131 — 보수 평면도; 2868126, 2868127 — 보수 종단면도 | 2868130/2868126 acquired and compared (sheets 045/050) with existing plan/section and measured diagram. Execution unverified; alternate scans untested. |
+| Repair drawings | 2868130, 2868131 — 보수 평면도; 2868126, 2868127 — 보수 종단면도 | Both public counterparts of 045/050 are now retained and visually compared. Higher-resolution 2868131/2868127 support the new dimensional pass; execution remains unverified and neither pair is independent survey evidence. |
 
 Use `https://www.heritage.go.kr/heri/cul/chartImgHeritage.do?file_seq=<ID>` or select the corresponding title from the expanded list. The table distinguishes inspected sheets from unacquired alternatives; file identity and sheet labels belong to the source record. The National Archives also [lists **CB0005576**, 경복궁 사정전 실측설계, 1993](https://www.archives.go.kr/next/newsearch/viewDescClassContents.do?businessFunctionId=S00000015407&descClassDiv=S&descFullId=T00000000090%2FT00000000094%2FG00000000343%2FS00000015407&page=230&sitePage=&viewSel=archive). Its item-detail route did not load through the web tool. Identity with the portal scans remains unconfirmed; another holding is not automatically independent evidence.
 
@@ -88,3 +88,20 @@ These entries preserve candidates spotted in that review. They have not been rea
 | [hanok characteristics.pdf](https://drive.google.com/file/d/1mE7tuKgzr7Z0NN56DnTxIjGpz1P1kPZR/view) | Filename only; establish author, date, and scope before relying on it |
 
 Gyeongbokgung remains the starting focus. A wider lead can answer a focused comparison without starting another palace project. Record newly supplied collection entry points here, and add individual candidates when there is enough information to make them findable. This map can grow without requiring every item to be downloaded, summarized, or added to the active queue.
+
+
+## Building-type references: initial pass, 2026-09-22
+
+The [living briefs](typologies/README.md) now use a bounded set of complementary sources. Their records own exact locators, acquisition status and scope; these descriptions are not independent measured surveys.
+
+| Source route | Retained or inspected result | Next useful use |
+| --- | --- | --- |
+| Official Sajeongjeon description; AKS authored Sajeongjeon and Geunjeongjeon entries | [Official record](sources/src-khs-sajeongjeon-description/source.json), [Sajeongjeon](sources/src-aks-sajeongjeon/source.json), [Geunjeongjeon](sources/src-aks-geunjeongjeon/source.json): full HTML retained; floor/use, enclosure and access-side passages checked | Compare the named arrangements against dated plans, preserving shared underlying evidence and historical changes |
+| AKS Gangnyeongjeon and Gyotaejeon entries | [Gangnyeongjeon](sources/src-aks-gangnyeongjeon/source.json), [Gyotaejeon](sources/src-aks-gyotaejeon/source.json): full HTML retained; central maru/ondol, toe boundaries and platform variants checked | Follow the Gyotaejeon bibliography's **문화재청, 경복궁침전지역 중건공사 보고서 (2000)**; catalogue/full text still unverified |
+| NRICH 1995 residential excavation report | [Source record](sources/src-nrich-residential-excavation-1995/source.json): catalogue, all 35 drawing-list entries and three selected illustrations inspected; three JPEGs and catalogue HTML retained. **103.9 MB full PDF not acquired** | Acquire/report-read when selected; establish context and PDF locators for drawings 21/35 before dimensional extraction. Drawing 4 is a reproduction/redrawing, not a calibrated original historical plan |
+| AKS Geunjeongmun/ranges | [Source record](sources/src-aks-geunjeongmun-ranges/source.json): authored text retained; range frame/ceiling vocabulary checked, photographs not visually checked | Find a measured open-range section and gate/corner junction; do not infer one standard width |
+| Taejo Sillok, 1395 completion account | [Source record](sources/src-sillok-palace-completion-1395/source.json): Korean translation and Chinese transcription retained/read; facsimile not checked | Use the explicit range/connector endpoints only for the early described state |
+
+For repair dimensions, the new high-resolution **045 viewer 2868131** and **050 viewer 2868127** are now retained in the existing drawing source. The [National Archives CB0005576 holding](https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=201003358750) exposes 58 catalogue items including a drawing list; the checked index item offers a login-gated copy request, not an online scan. No request submitted.
+
+A possible later roof-junction comparison is **국립문화재연구소·경주시, 황룡사 중문과 남회랑 증강현실 콘텐츠 개발 연구 (2020)**, 황룡사연구총서 20, ISBN 978-89-299-2011-1. Its [NRICH catalogue](https://portal.nrich.go.kr/kor/originalUsrView.do?info_idx=8666&menuIdx=1050&report_cd=3077&totalYn=N) lists a 6.418 MB PDF and KOGL Type 4. Search indexing suggests a Geunjeongmun/range comparison, but the PDF was not read or acquired. It is temple-reconstruction research with a potential palace comparison; reopen only for that specific question through a working public download or supplied copy.

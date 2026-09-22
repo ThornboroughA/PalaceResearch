@@ -1,0 +1,115 @@
+{
+  "id": "src-aks-geunjeongmun-ranges",
+  "title_ko": "경복궁 근정문 및 행각",
+  "title_en": null,
+  "creators": [
+    "김동욱"
+  ],
+  "publisher": "한국학중앙연구원",
+  "publication_date": null,
+  "evidence_kind": "academic_reference",
+  "catalog_url": "https://encykorea.aks.ac.kr/Article/E0002441",
+  "building_ids": [],
+  "coverage_names_ko": [
+    "근정문",
+    "근정전",
+    "행각",
+    "일화문",
+    "월화문",
+    "융문루",
+    "융무루"
+  ],
+  "topics": [
+    "roof-structure",
+    "brackets",
+    "ceilings",
+    "openings",
+    "historical-state"
+  ],
+  "scope": "Authored encyclopedia description of Geunjeongmun and its ranges, distinguishing initial and rebuilt arrangements. It is not an independently inspected measured survey.",
+  "relevance": "Provides a scoped vocabulary for a lower-status timber range and its relation to gates, walls and exposed roof structure.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-22",
+    "note": "Full public HTML response retained unchanged in PalaceData and locally verified. Research agent matched the saved article passages to the live text read on 2026-09-22. These are source readings, not independent architectural surveys."
+  },
+  "rights": {
+    "statement": "The page asks for article attribution and states that reuse follows KOGL; the specific article licence subtype was not established here. Individual media have different rights. AKS-owned images 34f1d8df and a5cf8843 were labelled KOGL Type 1, whereas museum-supplied images were marked unavailable for free reuse. No image was acquired or visually inspected.",
+    "url": "https://encykorea.aks.ac.kr/Article/E0002441",
+    "redistribution": "unknown"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-aks-geunjeongmun-ranges/originals/geunjeongmun-ranges.html",
+      "original_filename": "geunjeongmun-ranges.html",
+      "retrieved_from": "https://encykorea.aks.ac.kr/Article/E0002441",
+      "retrieved_on": "2026-09-22",
+      "media_type": "text/html",
+      "bytes": 186054,
+      "sha256": "adbbf3b8a312db6ca9a7d1202cd8f0e39325720a28cf5419dd3969901c62472b",
+      "storage": "dropbox",
+      "verification_note": "Unchanged public response retained. Header/type and readable content checked; no remote synchronization check."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "Kim describes a change from 단랑 to 복랑 at rebuilding and the relocation of Ilhwamun/Wolhwamun beside Geunjeongmun. The range description names a low platform, round foundation stones/posts, 초익공, 5량 and an exposed-rafter 연등천장. Its outer wall combines a stone lower part, plaster and windows.",
+      "topics": [
+        "roof-structure",
+        "brackets",
+        "ceilings",
+        "openings",
+        "historical-state"
+      ],
+      "scope": "Source terminology and described arrangement only. No exact spans, sections, roof junctions or general palace-wide default were verified.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-aks-geunjeongmun-ranges",
+          "artifact_id": "original-01",
+          "url": "https://encykorea.aks.ac.kr/Article/E0002441",
+          "webpage_heading": "내용",
+          "locator_note": "Penultimate paragraph beginning '행각은 창건 때는 단랑', followed by the final paragraph beginning '내부의 가구'."
+        }
+      ],
+      "review_note": "Agent read both complete paragraphs in the live institutional HTML on 2026-09-22 and separated the range description from the preceding larger gate's 다포 description. No measured drawing or photograph was visually inspected. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    },
+    {
+      "id": "note-002",
+      "statement": "The evaluation describes 복랑 as a distinguishing feature. This broad comparison is not adopted as a universal contrast with all other palace ranges.",
+      "topics": [
+        "historical-state"
+      ],
+      "scope": "Scope caution about the author's evaluation, not a new historical assertion. The same encyclopedia's 명정문 및 행각 entry also describes 복랑; that comparison remains a lead for a separately dated review.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-aks-geunjeongmun-ranges",
+          "artifact_id": "original-01",
+          "url": "https://encykorea.aks.ac.kr/Article/E0002441",
+          "webpage_heading": "의의와 평가",
+          "locator_note": "Paragraph beginning '조선시대 궁궐 정전의 남문 중'."
+        }
+      ],
+      "review_note": "Agent checked the evaluation against the immediately preceding description on 2026-09-22. The other entry's descriptive text appeared in institutional search results, but no independent survey comparison was undertaken. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    }
+  ],
+  "work": {
+    "next_action": "For geometry, inspect one dated range cross-section and a gate/range junction drawing; establish the scope of 단랑/복랑 and avoid inferring a shared width or universal structural module.",
+    "blocker": "Two linked AKS photograph routes returned cache misses through the web tool; text remained readable. No visual image findings were recorded.",
+    "retry_when": "Retry the photographs through a working public viewer or supplied copy when a specific visual question requires them."
+  },
+  "authorship_year": "1995",
+  "publication_date_note": "The page labels 1995 as 집필 (authorship year), not first online publication. The displayed final revision is 2026-09-02.",
+  "revision_date": "2026-09-02",
+  "identifiers": {
+    "encyclopedia_article": "E0002441",
+    "collection": "한국민족문화대백과사전"
+  }
+}

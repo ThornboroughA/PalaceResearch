@@ -172,3 +172,7 @@ Reuse topic labels where they fit: for example `column-grid`, `interior-layout`,
 Keep comparative findings in `COMPARISONS.md`. Link to source observations, identify the buildings/states and dimensions actually compared, and retain differences and exceptions. Prose with stable references is sufficient for v0. A later machine-readable comparison file can be added when a real analysis needs it; do not duplicate authoritative measurements in an unsynchronized second table now.
 
 Stylistic compromises and accepted modeling recipes belong in the sibling `PalaceModeling` repository. Its asset briefs cite building/state/observation IDs and a research commit; if consuming uncommitted research, record the commit plus hashes of the exact changed records. A source correction does not silently revise an already reviewed model. Record the new evidence here and let modeling deliberately update its interpretation and dependencies.
+
+## 4. Living type briefs
+
+`typologies/` holds short, source-linked syntheses for distinct building uses and arrangements, with explicitly labelled fallback proposals. Facts and precise locators remain in source/building records; comparisons remain in `COMPARISONS.md`. A brief is not a third factual database or an adopted modeling recipe. Revise the relevant relationship or variant as evidence improves, preserving example/period scope. Numerical values remain linked to their authoritative records rather than becoming unsourced type defaults.

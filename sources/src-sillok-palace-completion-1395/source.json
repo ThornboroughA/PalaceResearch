@@ -1,0 +1,90 @@
+{
+  "id": "src-sillok-palace-completion-1395",
+  "title_ko": "대묘와 새 궁궐이 준공되다. 그 규모와 구성 및 배치 상황",
+  "title_en": null,
+  "creators": [
+    "세종대왕기념사업회 (국역 credit displayed)"
+  ],
+  "publisher": "국사편찬위원회 (온라인 제공)",
+  "publication_date": null,
+  "evidence_kind": "historical_text",
+  "catalog_url": "https://sillok.history.go.kr/id/kaa_10409029_006",
+  "building_ids": [],
+  "coverage_names_ko": [
+    "경복궁",
+    "정전",
+    "보평청",
+    "연침",
+    "행랑",
+    "천랑"
+  ],
+  "topics": [
+    "circulation",
+    "historical-state",
+    "interior-layout"
+  ],
+  "scope": "Primary annals account of the 1395 palace completion, consulted through an institutional Chinese transcription and Korean translation. The reign/calendar date is not converted to a Gregorian date; modern online publication date is unknown.",
+  "relevance": "Direct textual evidence that perimeter ranges and connecting passages have distinct spatial relationships. It does not establish a present-day or 1867 connector or timber dimensions.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-22",
+    "note": "Full public HTML response retained unchanged in PalaceData and locally verified. Research agent matched the saved article passages to the live text read on 2026-09-22. These are source readings, not independent architectural surveys."
+  },
+  "rights": {
+    "statement": "The page displays a KOGL notice; the specific licence subtype was not established. Korean translation credit is 세종대왕기념사업회. No facsimile or image was acquired.",
+    "url": "https://sillok.history.go.kr/id/kaa_10409029_006",
+    "redistribution": "unknown"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-sillok-palace-completion-1395/originals/palace-completion.html",
+      "original_filename": "palace-completion.html",
+      "retrieved_from": "https://sillok.history.go.kr/id/kaa_10409029_006",
+      "retrieved_on": "2026-09-22",
+      "media_type": "text/html",
+      "bytes": 212173,
+      "sha256": "ab622d264b35f5cbeff8cc9898605479086f93e20193137db250c31e82f1056b",
+      "storage": "dropbox",
+      "verification_note": "Unchanged public response retained. Header/type and readable content checked; no remote synchronization check."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "The account distinguishes 行廊 from 穿廊 and explicitly states where connecting passages meet ranges or halls. In the principal-hall description, a 穿廊 links the north range to the north of the principal hall.",
+      "topics": [
+        "circulation",
+        "historical-state"
+      ],
+      "scope": "The 1395 described arrangement only. The original calls the hall 正殿; identification in later terminology must remain linked to the historical context. No roof junction, extant structure or modern dimension is inferred.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-sillok-palace-completion-1395",
+          "artifact_id": "original-01",
+          "url": "https://sillok.history.go.kr/id/kaa_10409029_006",
+          "webpage_heading": "국역 / 원문",
+          "locator_note": "Korean palace-description paragraphs beginning '새 궁궐은 연침', '또 통하는 행랑', and '정전(正殿)은 5간'; Chinese sequence beginning '新宮燕寢七間', especially '北行廊二十九間, 穿廊五間, 起自北行廊, 接于正殿之北'. Physical locator: 태백산사고본 2책 8권 6장 A면; 국편영인본 1책 83면."
+        }
+      ],
+      "review_note": "Agent read and compared the institutional Korean translation and Chinese transcription on 2026-09-22, specifically checking the terms and the north-range-to-hall relationship in the Chinese text. No facsimile was visually checked, no historical units converted, and no numerical building observation created. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    }
+  ],
+  "work": {
+    "next_action": "If the early palace becomes a modeling target, compare this passage with the original facsimile and explicitly dated scholarship/plans before reconstructing its topology or interpreting historical units.",
+    "blocker": null,
+    "retry_when": null
+  },
+  "identifiers": {
+    "article_id": "kaa_10409029_006",
+    "work": "태조실록",
+    "volume": "8",
+    "record_date_ko": "태조 4년 9월 29일 경신, 6번째 기사",
+    "record_year": "1395",
+    "physical_locator": "태백산사고본 2책 8권 6장 A면; 국편영인본 1책 83면"
+  }
+}

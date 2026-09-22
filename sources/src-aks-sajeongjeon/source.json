@@ -1,0 +1,113 @@
+{
+  "id": "src-aks-sajeongjeon",
+  "title_ko": "사정전(思政殿)",
+  "title_en": null,
+  "creators": [
+    "이혜원"
+  ],
+  "publisher": "한국학중앙연구원",
+  "publication_date": null,
+  "evidence_kind": "academic_reference",
+  "catalog_url": "https://dh.aks.ac.kr/sillokwiki/index.php/사정전(思政殿)",
+  "building_ids": [
+    "gbg-sajeongjeon"
+  ],
+  "coverage_names_ko": [
+    "사정전",
+    "사정문",
+    "향오문",
+    "강녕전",
+    "동행각",
+    "서행각",
+    "남행각",
+    "북행각"
+  ],
+  "topics": [
+    "interior-layout",
+    "openings",
+    "circulation",
+    "historical-state"
+  ],
+  "scope": "Authored scholarly reference describing the Sajeongjeon precinct, its functions and changes. Room-use statements and dates remain the author's synthesis unless separately checked against primary evidence.",
+  "relevance": "Shows that 행각 can contain rooms, halls, kitchens and storage, and that access direction and rebuilding date can differ among the sides of one precinct.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-22",
+    "note": "Full public HTML response retained unchanged in PalaceData and locally verified. Research agent matched the saved article passages to the live text read on 2026-09-22. These are source readings, not independent architectural surveys."
+  },
+  "rights": {
+    "statement": "No item-specific reuse licence verified for this page during the reading pass.",
+    "url": null,
+    "redistribution": "unknown"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-aks-sajeongjeon/originals/sajeongjeon.html",
+      "original_filename": "sajeongjeon.html",
+      "retrieved_from": "https://dh.aks.ac.kr/sillokwiki/index.php/사정전(思政殿)",
+      "retrieved_on": "2026-09-22",
+      "media_type": "text/html",
+      "bytes": 33402,
+      "sha256": "d06e5a5e4fc86a9d15cc8899602b29eae342fee0ccf35909dab27db2b00e222a",
+      "storage": "dropbox",
+      "verification_note": "Unchanged public response retained. Header/type and readable content checked; no remote synchronization check."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "Lee describes the south range as storage, the east/west ranges as 방, 청 and 주, and the northern range as maru used from Gangnyeongjeon's side. Gates interrupt these ranges. The suggestion that the southern stores contained royal records and books is expressed as an interpretation.",
+      "topics": [
+        "interior-layout",
+        "openings",
+        "circulation"
+      ],
+      "scope": "Reading of the stated Gojong-period precinct arrangement; exact boundaries, floor levels and opening mechanisms remain unverified. The specific stored contents are less certain than the storage function.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-aks-sajeongjeon",
+          "artifact_id": "original-01",
+          "url": "https://dh.aks.ac.kr/sillokwiki/index.php/사정전(思政殿)",
+          "webpage_heading": "개설",
+          "locator_note": "Second and third paragraphs, beginning '고종대에 중건한 사정전 일곽은' and '동·서 행각은'."
+        }
+      ],
+      "review_note": "Agent read both complete 개설 paragraphs on 2026-09-22, preserving the author's tentative wording about stored documents. No bay-by-bay plan or visual condition was checked. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    },
+    {
+      "id": "note-002",
+      "statement": "The entry distinguishes early connecting passages from later separated precincts. It reports that the east/west ranges burned in 1876 and were rebuilt in 1888, while Sajeongmun and the south range date to 1867.",
+      "topics": [
+        "historical-state",
+        "circulation"
+      ],
+      "scope": "Reported dates and spatial sequence, not independent verification of surviving fabric or a complete chronology.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-aks-sajeongjeon",
+          "artifact_id": "original-01",
+          "url": "https://dh.aks.ac.kr/sillokwiki/index.php/사정전(思政殿)",
+          "webpage_heading": "변천 및 현황",
+          "locator_note": "Both paragraphs, beginning '경복궁 창건 기록에는' and '임진왜란 이전에는'."
+        }
+      ],
+      "review_note": "Agent read both full paragraphs on 2026-09-22 and kept their early and late states separate. Referenced primary building/repair records were not inspected for the 1876/1888 claims. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    }
+  ],
+  "work": {
+    "next_action": "compare its distinct range uses and rebuilding dates with a legible 북궐도형 precinct extract and the 2014 survey when a new legitimate route is available. Preserve the known survey access blocker instead of repeating it.",
+    "blocker": null,
+    "retry_when": null
+  },
+  "identifiers": {
+    "displayed_revision": "1413",
+    "collection": "조선왕조실록사전"
+  }
+}

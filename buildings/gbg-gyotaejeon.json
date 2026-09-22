@@ -4,8 +4,11 @@
   "name_en": "Gyotaejeon",
   "palace": "gyeongbokgung",
   "aliases": [],
-  "status": "unresearched",
-  "source_ids": [],
+  "status": "sources_linked",
+  "source_ids": [
+    "src-aks-gyotaejeon",
+    "src-nrich-residential-excavation-1995"
+  ],
   "states": [],
   "elements": [],
   "observations": [],
@@ -13,5 +16,6 @@
     "Find and retain a primary measured/restoration source; verify its actual contents.",
     "Identify the documented state of each relevant plan/section before combining observations.",
     "Locate dimensioned room/partition plans, openings, floor and ceiling levels, and useful sections."
-  ]
+  ],
+  "scope_note": "Initial 2026-09-22 type research links a scholarly description and selected excavation-report images. Findings remain source notes; no room geometry or dimensional observations extracted."
 }

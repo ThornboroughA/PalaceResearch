@@ -28,9 +28,15 @@ The Sajeongjeon sources show why a room needs more than one date. Park describes
 
 Our practical lesson is to track the structural opening, inserted support, painted surface and movable furnishings separately when their histories differ. A recent photograph may help locate an assembly while showing replacement contents or a visitor-viewing configuration. The [1993 drawing comparison, note-002](sources/src-gbg-sajeongjeon-measured-drawings-1993/source.json) adds a related distinction: measured and repair drawings can share a project date while serving different purposes. Keep their evidence separate before deciding which state to reconstruct.
 
+## A repeated roofline can enclose different kinds of space
+
+A palace range is not automatically an open cloister. Inspected Sajeongjeon and Geunjeongjeon descriptions distinguish storage, rooms, kitchens, maru and open circulation, sometimes with access from the opposite precinct. The dated 1395 account also distinguishes perimeter ranges from connecting passages. Record enclosure and connection endpoints, not only repeated bays; see [comparison C-003](COMPARISONS.md#c-003-ranges-and-connectors-are-spatially-different).
+
+Residential descriptions likewise connect maru and ondol while preserving different peripheral spaces and platforms. Gyotaejeon's absence of a projecting 월대 does not imply absence of its building base. Shared vocabulary should help compare relationships without erasing such variants; see [comparison C-002](COMPARISONS.md#c-002-residential-similarity-does-not-erase-variants) and the [living briefs](typologies/README.md).
+
 ## What the next evidence should add
 
-The [first Sajeongjeon observations](buildings/gbg-sajeongjeon.json) connect its column arrangement, numbered openings and northern interior frame across the plan and sections. The transcribed bay chains still need confirmed units and measuring heights, and one chain conflicts with its printed total. Korean terminology should grow from inspected labels, with a short explanation and a source example. Residential floor assemblies, partitions, door and window operation, and changes between documented states remain major gaps; the retained sources do not supply a completed residential example.
+The [first Sajeongjeon observations](buildings/gbg-sajeongjeon.json) connect its column arrangement, numbered openings and northern interior frame across the plan and sections. The transcribed bay chains still need confirmed units and measuring heights, and one chain conflicts with its printed total. Korean terminology should grow from inspected labels, with a short explanation and a source example. Initial residential source notes now establish useful floor/room relationships, but floor assemblies, precise partitions, door operation and changes between documented states still need drawing-level checks. The retained sources do not supply a completed residential reconstruction.
 
 For the Korean SNS audience, the project aims to make particular buildings and spaces recognizable and worth understanding. Specific evidence about their form, use, materials, and setting will strengthen that presentation. The visual guide is deferred while this base develops; art direction remains a later responsibility of [PalaceModeling](../PalaceModeling/README.md).
 

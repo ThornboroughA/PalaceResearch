@@ -10,6 +10,7 @@ The collection supports a small Korean-history study and making project. The own
 - **Finding potential sources:** consult [LEADS.md](LEADS.md) for the supplied report, local corpus, both Drive collections, and candidates already spotted. Check this map and existing source records before searching or acquiring anew.
 - **Doing research:** read [AGENTS.md](AGENTS.md), then [DATA.md](DATA.md) and the records affected by the task.
 - **Interpreting architecture:** read the [architectural baseline](ARCHITECTURAL_BASELINE.md), a short, evolving guide tied to inspected sources. Update it when evidence changes a useful explanation; acquiring another book does not require expanding it.
+- **Choosing a building-type reference:** read [typologies/README.md](typologies/README.md) for living briefs, shared terms and the distinction between evidence and proposed fallbacks.
 - **Finding a building's evidence:** open its record in `buildings/` and follow the source and observation IDs.
 - **Exploring future workflow choices:** [brainstorming/complete-halls-and-fallbacks.md](brainstorming/complete-halls-and-fallbacks.md) holds non-canonical ideas for complete models and gradually researched fallbacks. Confirmed priorities remain in `PROJECT.md` and `NEXT.md`.
 - **Finding the original background:** use [context/README.md](context/README.md). Supplied chats and research reports are context and discovery leads, not verified architectural observations.
@@ -39,6 +40,7 @@ NEXT.md                  Checkpoint and small prioritized queue
 LEADS.md                 Wider source possibilities and supplied collections
 COMPARISONS.md            Evidence-backed comparisons
 ARCHITECTURAL_BASELINE.md Revisable understanding drawn from inspected sources
+typologies/              Living source-linked building-type briefs and proposals
 brainstorming/           Working proposals, separate from evidence and decisions
 archive.example.json     Portable example of the local archive setting
 context/                 Supplied background and recovered discovery links

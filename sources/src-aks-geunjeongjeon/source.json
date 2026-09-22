@@ -1,0 +1,110 @@
+{
+  "id": "src-aks-geunjeongjeon",
+  "title_ko": "근정전(勤政殿)",
+  "title_en": null,
+  "creators": [
+    "조재모"
+  ],
+  "publisher": "한국학중앙연구원",
+  "publication_date": null,
+  "evidence_kind": "academic_reference",
+  "catalog_url": "https://dh.aks.ac.kr/sillokwiki/index.php/근정전(勤政殿)",
+  "building_ids": [
+    "gbg-sajeongjeon"
+  ],
+  "coverage_names_ko": [
+    "근정전",
+    "근정문",
+    "사정문",
+    "사정전",
+    "행각"
+  ],
+  "topics": [
+    "interior-layout",
+    "openings",
+    "circulation",
+    "historical-state"
+  ],
+  "scope": "Authored scholarly reference covering the hall and precinct across early Joseon and Gojong-period states. Not a measured survey. Each enclosure's individual date is not established in the inspected paragraph.",
+  "relevance": "Distinguishes the courtyard-facing open south range from enclosed rooms/stores and the access direction of the northern boundary shared with Sajeongjeon.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-22",
+    "note": "Full public HTML response retained unchanged in PalaceData and locally verified. Research agent matched the saved article passages to the live text read on 2026-09-22. These are source readings, not independent architectural surveys."
+  },
+  "rights": {
+    "statement": "No item-specific reuse licence verified for this page during the reading pass.",
+    "url": null,
+    "redistribution": "unknown"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-aks-geunjeongjeon/originals/geunjeongjeon.html",
+      "original_filename": "geunjeongjeon.html",
+      "retrieved_from": "https://dh.aks.ac.kr/sillokwiki/index.php/근정전(勤政殿)",
+      "retrieved_on": "2026-09-22",
+      "media_type": "text/html",
+      "bytes": 33006,
+      "sha256": "4945e62e4d1ce6d45422077c788843e33b69596c03b1ae7e2d93532a2c9acfa6",
+      "storage": "dropbox",
+      "verification_note": "Unchanged public response retained. Header/type and readable content checked; no remote synchronization check."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "Cho describes the south range as 월랑 without a courtyard-facing wall. The north range has openings toward Sajeongjeon and a 화방벽 toward Geunjeongjeon. The east/west ranges contained offices and stores, with 방, 마루 or storage according to use; lateral gates and 융문루/융무루 are also named.",
+      "topics": [
+        "interior-layout",
+        "openings",
+        "circulation"
+      ],
+      "scope": "Checked reading of the author's precinct description. This does not establish every present-day bay's enclosure, exact room dimensions or an independently dated plan.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-aks-geunjeongjeon",
+          "artifact_id": "original-01",
+          "url": "https://dh.aks.ac.kr/sillokwiki/index.php/근정전(勤政殿)",
+          "webpage_heading": "형태",
+          "locator_note": "Final precinct-description paragraph beginning '전체 권역은 중심 건물인 근정전과 근정문'."
+        }
+      ],
+      "review_note": "Agent read the complete relevant HTML paragraph and its surrounding 형태 section on 2026-09-22, checking each directional and functional distinction. No drawing, photograph, field condition or human review was checked. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    },
+    {
+      "id": "note-002",
+      "statement": "The article distinguishes an early arrangement with a connector from the north range to the rear of the principal hall from the later building arrangement.",
+      "topics": [
+        "circulation",
+        "historical-state"
+      ],
+      "scope": "Author's comparison of historical states; the related 1395 primary text was separately inspected as src-sillok-palace-completion-1395. This does not place the early connector in a modern model.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-aks-geunjeongjeon",
+          "artifact_id": "original-01",
+          "url": "https://dh.aks.ac.kr/sillokwiki/index.php/근정전(勤政殿)",
+          "webpage_heading": "변천 및 현황",
+          "locator_note": "First paragraph beginning '근정전은 1395년 경복궁 창건 당시에'."
+        }
+      ],
+      "review_note": "Agent read the first 변천 및 현황 paragraph on 2026-09-22 and followed its Taejo Sillok citation to the primary text. No historical plan geometry was reconstructed. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    }
+  ],
+  "work": {
+    "next_action": "Compare the south, east/west and shared north ranges in a dated historical plan and a corresponding measured plan/section before assigning individual bays.",
+    "blocker": null,
+    "retry_when": null
+  },
+  "identifiers": {
+    "displayed_revision": "1364",
+    "collection": "조선왕조실록사전"
+  }
+}

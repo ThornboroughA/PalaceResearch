@@ -1,0 +1,99 @@
+{
+  "id": "src-aks-gangnyeongjeon",
+  "title_ko": "강녕전(康寧殿)",
+  "title_en": null,
+  "creators": [
+    "조재모"
+  ],
+  "publisher": "한국학중앙연구원",
+  "publication_date": null,
+  "evidence_kind": "scholarly_encyclopedia_entry",
+  "catalog_url": "https://dh.aks.ac.kr/sillokwiki/index.php/강녕전(康寧殿)",
+  "building_ids": [],
+  "coverage_names_ko": [
+    "강녕전"
+  ],
+  "topics": [
+    "interior-layout",
+    "floor-assembly",
+    "openings",
+    "roof-structure",
+    "historical-state"
+  ],
+  "scope": "Authored 조선왕조실록사전 account, hosted in the AKS sillokwiki. Complete entry read; cited primary drawings and texts not independently checked.",
+  "access": {
+    "status": "downloaded",
+    "last_attempt": "2026-09-22",
+    "note": "Full public HTML response retained unchanged in PalaceData and locally verified. Research agent matched the saved article passages to the live text read on 2026-09-22. These are source readings, not independent architectural surveys."
+  },
+  "rights": {
+    "statement": "No item-specific reuse statement checked.",
+    "url": null,
+    "redistribution": "unknown"
+  },
+  "artifacts": [
+    {
+      "id": "original-01",
+      "role": "original",
+      "path": "sources/src-aks-gangnyeongjeon/originals/gangnyeongjeon.html",
+      "original_filename": "gangnyeongjeon.html",
+      "retrieved_from": "https://dh.aks.ac.kr/sillokwiki/index.php/강녕전(康寧殿)",
+      "retrieved_on": "2026-09-22",
+      "media_type": "text/html",
+      "bytes": 28712,
+      "sha256": "fb1cadf4ab1678a92587d9aa94f4599960417f036c3662d07baa4f7300a49eb8",
+      "storage": "dropbox",
+      "verification_note": "Unchanged public response retained. Header/type and readable content checked; no remote synchronization check."
+    }
+  ],
+  "sheets": [],
+  "notes": [
+    {
+      "id": "note-001",
+      "statement": "The entry describes central maru, flanking ondol rooms, surrounding toe floors, and bunhap doors permitting connection or separation between the central hall and toe space. End doors are related to former corridors.",
+      "topics": [
+        "interior-layout",
+        "floor-assembly",
+        "openings"
+      ],
+      "scope": "Article's account of Gojong-period/current Gangnyeongjeon; no dimension or independent drawing confirmation.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-aks-gangnyeongjeon",
+          "artifact_id": "original-01",
+          "webpage_heading": "형태",
+          "locator_note": "Paragraphs 1 and 3; anchor phrase 툇간과 대청 사이에 분합문."
+        }
+      ],
+      "review_note": "Agent read complete live HTML and checked the connected passages on 2026-09-22; checking establishes the author's statement. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    },
+    {
+      "id": "note-002",
+      "statement": "The article describes formal events joining the central hall and front woldae while side rooms supported preparation. Its single-storey muryanggak roof has no ridge crest; the present building is reconstructed.",
+      "topics": [
+        "interior-layout",
+        "roof-structure",
+        "historical-state"
+      ],
+      "scope": "Gangnyeongjeon only; ritual use is compatible with residential function. Roof characteristic is not a universal residential rule.",
+      "method": "source_statement",
+      "verification": "checked",
+      "evidence": [
+        {
+          "source_id": "src-aks-gangnyeongjeon",
+          "artifact_id": "original-01",
+          "webpage_heading": "위치 및 용도 / 형태 / 개설",
+          "locator_note": "위치 및 용도 paragraph 2; 형태 paragraph 2; 개설 paragraph 2 (1995 reconstruction)."
+        }
+      ],
+      "review_note": "Agent checked these statements in the full article on 2026-09-22. Separate chronology details elsewhere in the entry should be resolved before building-state records are created. Saved HTML passages subsequently matched to the inspected live text; retained bytes and SHA-256 checked."
+    }
+  ],
+  "work": {
+    "next_action": "Check one restoration plan/section and opening detail against the article before selecting geometry or mechanisms.",
+    "blocker": null,
+    "retry_when": null
+  }
+}
