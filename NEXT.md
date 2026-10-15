@@ -1,5 +1,7 @@
 # Research checkpoint and next work
 
+> **Status: dormant (2026-10-15).** The queue and reusable prompt below are retired. Active palace research now happens in [koreanpalacenotes](https://github.com/ThornboroughA/koreanpalacenotes). Do not resume this queue unless the owner asks.
+
 ## Current checkpoint — 2026-09-22
 
 The two requested tracks now have a useful first pass. The owner's completeness requirement applies to **the appropriate building type**, with missing evidence handled through explicit modeling assumptions. [Living briefs](typologies/README.md) distinguish working/ceremonial halls, residences, covered walkways/connectors and enclosed/mixed ranges. They share vocabulary and will be refined as evidence accumulates; their fallback proposals are not adopted modeling defaults.

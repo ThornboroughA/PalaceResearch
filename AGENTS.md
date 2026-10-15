@@ -1,5 +1,7 @@
 # Agent instructions
 
+> **Status: dormant (2026-10-15).** This repository was an experiment in agent-led source harvesting and measurement extraction. Active palace research now happens in [koreanpalacenotes](https://github.com/ThornboroughA/koreanpalacenotes); follow that vault's rules instead. Existing records here remain valid references. Do not resume work from this repository unless the owner asks.
+
 ## Mission and scope
 
 Build a small, reliable, incrementally useful **architectural evidence corpus**. Start with Gyeongbokgung. Passive accumulation between modeling sessions is a primary purpose: a useful source can be acquired or indexed without completing a building or extracting dimensions that day. The owner has limited time and must be able to understand the repository after weeks away.

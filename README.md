@@ -1,5 +1,7 @@
 # PalaceResearch
 
+> **Status: dormant (2026-10-15).** This repository was an experiment in agent-led source harvesting and measurement extraction for the palace diorama project. Active palace research now happens in [koreanpalacenotes](https://github.com/ThornboroughA/koreanpalacenotes), where the owner writes the notes and agents gather sources and assist with extraction. Existing source records here remain valid references; this repository is kept for reference.
+
 A gradually growing architectural evidence collection, starting with **Gyeongbokgung**. Its main job is to find, retain, describe, and progressively inspect useful sources. Collection can continue between modeling sessions and does not have to finish one building before moving to another.
 
 The collection supports a small Korean-history study and making project. The owner should be able to return after several weeks, understand what exists, and ask an agent to complete another useful batch. Read the [project context](PROJECT.md) for the relationship to physical miniatures and the sibling [PalaceModeling repository](../PalaceModeling/README.md).
